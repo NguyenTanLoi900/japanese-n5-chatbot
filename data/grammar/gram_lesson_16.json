@@ -1,0 +1,128 @@
+[
+  {
+    "grammar_id": "grammar-16-1",
+    "lesson": 16,
+    "title": "V1て、V2て、～",
+    "pattern": "V1て、V2て、～",
+    "jpn": "V1て、V2て、～",
+    "explanation": "Để nối các câu động từ với nhau, ta có thể sử dụng thể て. Khi có nhiều hơn hoặc bằng 2 hành động liên tiếp xảy ra, ta sử dụng thể て để sắp xếp chúng theo thứ tự xảy ra hành động. Thì của các câu phức dạng này được quy định bởi thì của động từ ở cuối câu. 例1： おおさかで でんしゃに のります。 しんおおさかで しんかんせんに のりかえます。とうきょうで おります。 => おおさかで でんしゃに のって、しんおおさかで しんかんせんに のりかえ て、とうきょうで おります Tôi lên tàu điện ở Osaka, chuyển sang Shinkansen ở Shin Osaka rồi xuống ở ga Tokyo 例2： けさ 6時 に おきました。さんぽしました。それから、あさごはんを たべました。 => けさ 6時に おきて、さんぽして、それから あさごはんを たべました。 Sáng nay tôi dạy lúc 6h, đi dạo và sau đó ăn sáng. 例3： ここに キャッシュカードを いれてください。それから、あんしょうばん ごうを おしてください。 => ここに キャッシュカードを いれて、あんしょうばんごうを おしてください。 Hãy cho thẻ rút tiền vào đây và ấn mã số - Mẫu này chỉ dùng được với các hành động của cùng 1 chủ thể. Tức là chủ thể của hành động V1 và V2, V3,... phải là một. à かれは 6時におきて、わたしは さんぽします（X）。à không dùng. - Các động từ được sắp xếp theo trình tự thời gian xảy ra hành động.",
+    "meaning_vi": "V1て、V2て、～",
+    "usage_vi": "Để nối các câu động từ với nhau, ta có thể sử dụng thể て. Khi có nhiều hơn hoặc bằng 2 hành động liên tiếp xảy ra, ta sử dụng thể て để sắp xếp chúng theo thứ tự xảy ra hành động. Thì của các câu phức dạng này được quy định bởi thì của động từ ở cuối câu. 例1： おおさかで でんしゃに のります。 しんおおさかで しんかんせんに のりかえます。とうきょうで おります。 => おおさかで でんしゃに のって、しんおおさかで しんかんせんに のりかえ て、とうきょうで おります Tôi lên tàu điện ở Osaka, chuyển sang Shinkansen ở Shin Osaka rồi xuống ở ga Tokyo 例2： けさ 6時 に おきました。さんぽしました。それから、あさごはんを たべました。 => けさ 6時に おきて、さんぽして、それから あさごはんを たべました。 Sáng nay tôi dạy lúc 6h, đi dạo và sau đó ăn sáng. 例3： ここに キャッシュカードを いれてください。それから、あんしょうばん ごうを おしてください。 => ここに キャッシュカードを いれて、あんしょうばんごうを おしてください。 Hãy cho thẻ rút tiền vào đây và ấn mã số - Mẫu này chỉ dùng được với các hành động của cùng 1 chủ thể. Tức là chủ thể của hành động V1 và V2, V3,... phải là một. à かれは 6時におきて、わたしは さんぽします（X）。à không dùng. - Các động từ được sắp xếp theo trình tự thời gian xảy ra hành động.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "=> ここに キャッシュカードを いれて、あんしょうばんごうを おしてください。",
+        "vi": "Hãy cho thẻ rút tiền vào đây và ấn mã số"
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-16-2",
+    "lesson": 16,
+    "title": "V1て + から, V2.",
+    "pattern": "V1て + から, V2.",
+    "jpn": "V1て + から, V2.",
+    "explanation": "Ta dùng mẫu này để nói về quan hệ trước sau về mặt thời gian của 2 hành động. Ở đây người nói muốn nhấn mạnh rằng hành động V2 được tiến hành sau khi hành động V1 đã kết thúc. Thì của câu dạng này được quy định bởi thì của động từ ở cuối câu. 例1： でんきを けします。それから、きょうしつを でます。 ―＞ でんきを けしてから、きょうしつを でます。す。 Tôi tắt điện, sau đó ra khỏi phòng học. 例2： でんしゃを おりました。それから、たなかさんの うちまで あるいていき ました。 à でんしゃを おりてから、たなかさんの うちまで あるいていきました。 Tôi xuống tàu và đi bộ đến nhà anh Tanaka. 例3： おっとは かえります。わたしは りょうりを します。 à おっとが かえってから、わたしは りょうりを します。 Tôi nấu ăn sau khi chồng tôi về đến nhà. Lưu ý: ü Chủ ngữ của mệnh đề phụ được biểu thị bằng trợ từ がnhư trong ví dụ 1. ü Khác với mẫu V1て、V2て、～, chủ thể của động từ V1 và V2 có thể khác nhau. ü Trong một câu chỉ dùng Vてから một lần: 例： まどを しめてから、でんきをしてから、きょうしつを でます。（X）à Không dùng. ―＞ まどを しめて、でんきを してから、きょうしつを でます。（O）",
+    "meaning_vi": "V1て + から, V2.",
+    "usage_vi": "Ta dùng mẫu này để nói về quan hệ trước sau về mặt thời gian của 2 hành động. Ở đây người nói muốn nhấn mạnh rằng hành động V2 được tiến hành sau khi hành động V1 đã kết thúc. Thì của câu dạng này được quy định bởi thì của động từ ở cuối câu. 例1： でんきを けします。それから、きょうしつを でます。 ―＞ でんきを けしてから、きょうしつを でます。す。 Tôi tắt điện, sau đó ra khỏi phòng học. 例2： でんしゃを おりました。それから、たなかさんの うちまで あるいていき ました。 à でんしゃを おりてから、たなかさんの うちまで あるいていきました。 Tôi xuống tàu và đi bộ đến nhà anh Tanaka. 例3： おっとは かえります。わたしは りょうりを します。 à おっとが かえってから、わたしは りょうりを します。 Tôi nấu ăn sau khi chồng tôi về đến nhà. Lưu ý: ü Chủ ngữ của mệnh đề phụ được biểu thị bằng trợ từ がnhư trong ví dụ 1. ü Khác với mẫu V1て、V2て、～, chủ thể của động từ V1 và V2 có thể khác nhau. ü Trong một câu chỉ dùng Vてから một lần: 例： まどを しめてから、でんきをしてから、きょうしつを でます。（X）à Không dùng. ―＞ まどを しめて、でんきを してから、きょうしつを でます。（O）",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "à おっとが かえってから、わたしは りょうりを します。",
+        "vi": "Tôi nấu ăn sau khi chồng tôi về đến nhà."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-16-3",
+    "lesson": 16,
+    "title": "い - adj ( ～い ) => ～くて、～",
+    "pattern": "い -",
+    "jpn": "い -",
+    "explanation": "Khi muốn nối 1 câu tính từ đuôi い và một câu tính từ khác, ta bỏ 「いです」của tính từ đuôi い đi và thêm vào sau nó phần 「～くて」 rồi nối với câu còn lại. Thì của câu phức dạng này được quy định bởi thì của tính từ ở cuối câu. おおきーいです －＞ おおきーくて ちいさーいです －＞ ちいさーくて いーいです －＞ よくて 例1： ベトナムりょうりは おいしいです。そして やすいです。 ―＞ ベトナムりょうりは おいしくて、やすいです。 Đồ‌ ‌ăn‌ ‌Việt‌ ‌Nam‌ ‌ngon‌ ‌và‌ ‌rẻ‌. 例2： このへやは あかるいです。このへやは ひろいです。そして、やすいです。 ―＞ このへやは あかるくて、ひろくて、やすいです。 Căn phòng này sáng, rộng và rẻ. Lưu ý: Cách này chỉ dùng để nối những câu tính từ có ý nghĩa tương đồng nhau. 例： にほんりょうりは おいしくて、たかいです（X）à ko dùng. ―＞ にほんりょうりは おいしいですが、たかいです。（O）",
+    "meaning_vi": "adj ( ～い ) => ～くて、～",
+    "usage_vi": "Khi muốn nối 1 câu tính từ đuôi い và một câu tính từ khác, ta bỏ 「いです」của tính từ đuôi い đi và thêm vào sau nó phần 「～くて」 rồi nối với câu còn lại. Thì của câu phức dạng này được quy định bởi thì của tính từ ở cuối câu. おおきーいです －＞ おおきーくて ちいさーいです －＞ ちいさーくて いーいです －＞ よくて 例1： ベトナムりょうりは おいしいです。そして やすいです。 ―＞ ベトナムりょうりは おいしくて、やすいです。 Đồ‌ ‌ăn‌ ‌Việt‌ ‌Nam‌ ‌ngon‌ ‌và‌ ‌rẻ‌. 例2： このへやは あかるいです。このへやは ひろいです。そして、やすいです。 ―＞ このへやは あかるくて、ひろくて、やすいです。 Căn phòng này sáng, rộng và rẻ. Lưu ý: Cách này chỉ dùng để nối những câu tính từ có ý nghĩa tương đồng nhau. 例： にほんりょうりは おいしくて、たかいです（X）à ko dùng. ―＞ にほんりょうりは おいしいですが、たかいです。（O）",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "―＞ このへやは あかるくて、ひろくて、やすいです。",
+        "vi": "Căn phòng này sáng, rộng và rẻ."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-16-4",
+    "lesson": 16,
+    "title": "[N/な- adj] + で、～",
+    "pattern": "[",
+    "jpn": "[",
+    "explanation": "Khi muốn nối 1 câu tính từ đuôi な hoặc một câu danh từ với một câu tính từ hoặc danh từ khác, ta thay「です」của tính từ đuôi な hoặc danh từ bằng「で」rồi nối với câu còn lại. Thì của câu phức dạng này được quy định bởi thì của tính từ hoặc danh từ ở cuối câu. 例1： カリナさんは インドネシア人です。カリナさんは なごやだいがくの りゅうがくせいです。 ―＞ カリナさんは インドネシア人で、なごやだいがくの りゅう がくせいです。 Chị‌ ‌Karina‌ ‌là‌ ‌người‌ ‌Indonesia‌ ‌và‌ ‌là‌ ‌sinh‌ ‌viên‌ ‌đại‌ ‌học‌ ‌Nagoya‌. 例2： やまださんは ハンサムです。そして しんせつです。 ―＞ やまださんは ハンサムで、しんせつです。 Anh Yamada vừa đẹp trai vừa thân thiện.( đẹp trai và thân thiện). 例3： ならは しずかです。ならは きれいなまちです。 ―＞ ならは しずかで、きれいなまちです。 Nara là một thành phố yên tĩnh và đẹp. 例4： カリナさんは がくせいです。なりたさんは いしゃです。 ―＞ カリナさんは がくせいで、なりたんさんは いしゃです。 Chị Carina là sinh viên, còn chị Naria là bác sĩ. Lưu ý: ü Cấu trúc trên không những được sử dụng để nối những câu có cùng chủ đề mà có thể dùng để nối cả những câu khác chủ đề với nhau( Như ví dụ 4) ü Tương tự như mẫu 3, mẫu này cũng không được sử dụng để nối những tính từ có ý nghĩa trái ngược nhau( khi đó sẽ nối bằng liên từ が như đã học).",
+    "meaning_vi": "N/な- adj] + で、～",
+    "usage_vi": "Khi muốn nối 1 câu tính từ đuôi な hoặc một câu danh từ với một câu tính từ hoặc danh từ khác, ta thay「です」của tính từ đuôi な hoặc danh từ bằng「で」rồi nối với câu còn lại. Thì của câu phức dạng này được quy định bởi thì của tính từ hoặc danh từ ở cuối câu. 例1： カリナさんは インドネシア人です。カリナさんは なごやだいがくの りゅうがくせいです。 ―＞ カリナさんは インドネシア人で、なごやだいがくの りゅう がくせいです。 Chị‌ ‌Karina‌ ‌là‌ ‌người‌ ‌Indonesia‌ ‌và‌ ‌là‌ ‌sinh‌ ‌viên‌ ‌đại‌ ‌học‌ ‌Nagoya‌. 例2： やまださんは ハンサムです。そして しんせつです。 ―＞ やまださんは ハンサムで、しんせつです。 Anh Yamada vừa đẹp trai vừa thân thiện.( đẹp trai và thân thiện). 例3： ならは しずかです。ならは きれいなまちです。 ―＞ ならは しずかで、きれいなまちです。 Nara là một thành phố yên tĩnh và đẹp. 例4： カリナさんは がくせいです。なりたさんは いしゃです。 ―＞ カリナさんは がくせいで、なりたんさんは いしゃです。 Chị Carina là sinh viên, còn chị Naria là bác sĩ. Lưu ý: ü Cấu trúc trên không những được sử dụng để nối những câu có cùng chủ đề mà có thể dùng để nối cả những câu khác chủ đề với nhau( Như ví dụ 4) ü Tương tự như mẫu 3, mẫu này cũng không được sử dụng để nối những tính từ có ý nghĩa trái ngược nhau( khi đó sẽ nối bằng liên từ が như đã học).",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "―＞ カリナさんは がくせいで、なりたんさんは いしゃです。",
+        "vi": "Chị Carina là sinh viên, còn chị Naria là bác sĩ."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-16-5",
+    "lesson": 16,
+    "title": "N1 は N2が “ Tính từ”",
+    "pattern": "N1 は N2が “",
+    "jpn": "N1 は N2が “",
+    "explanation": "Mẫu này được sử dụng để nói về thuộc tính, đặc điểm của một vật hoặc một người nào đó. Trong mẫu này, N2 là chủ đề của câu và được biểu thị bằng trợ từ は, còn N2 là chủ thể của tính từ ( tức chủ thể của thuộc tính, đặc điểm được đề cập đến) và được biểu thị bằng trợ từ が. N2 là một bộ phận của N1. 例1： マリアさんは かみが ながいです。 Chị Maria tóc dài. 例2： このみせは コーヒーが おいしいです。 Cửa hàng này cà phê ngon.",
+    "meaning_vi": "Tính từ”",
+    "usage_vi": "Mẫu này được sử dụng để nói về thuộc tính, đặc điểm của một vật hoặc một người nào đó. Trong mẫu này, N2 là chủ đề của câu và được biểu thị bằng trợ từ は, còn N2 là chủ thể của tính từ ( tức chủ thể của thuộc tính, đặc điểm được đề cập đến) và được biểu thị bằng trợ từ が. N2 là một bộ phận của N1. 例1： マリアさんは かみが ながいです。 Chị Maria tóc dài. 例2： このみせは コーヒーが おいしいです。 Cửa hàng này cà phê ngon.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "Mẫu này được sử dụng để nói về thuộc tính, đặc điểm của một vật hoặc một người nào đó. Trong mẫu này, N2 là chủ đề của câu và được biểu thị bằng trợ từ は, còn N2 là chủ thể của tính từ ( tức chủ thể của thuộc tính, đặc điểm được đề cập đến) và được biểu thị bằng trợ từ が. N2 là một bộ phận của N1.",
+        "vi": "Chị Maria tóc dài."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-16-6",
+    "lesson": 16,
+    "title": "どうやって",
+    "pattern": "どうやって",
+    "jpn": "どうやって",
+    "explanation": "どうやって được sử dụng để hỏi về cách, phương pháp để làm một việc gì đó. Để trả lời cho câu hỏi này, ta có thể sử dụng mẫu câu thứ 1 đã học ở bài này. 例2： A：おおさかから とうきょうまで どうやって いきますか。 Đi từ Osaka đến Tokyo bằng cách nào? B：おおさかで でんしゃに のって、しんおおさかで しんかんせんに のりか えて、とうきょうで おります。 Lên tàu điện ở Osaka, chuyển sang Shinkansen ở Shin Osaka rồi xuống ở Tokyo.",
+    "meaning_vi": "どうやって",
+    "usage_vi": "どうやって được sử dụng để hỏi về cách, phương pháp để làm một việc gì đó. Để trả lời cho câu hỏi này, ta có thể sử dụng mẫu câu thứ 1 đã học ở bài này. 例2： A：おおさかから とうきょうまで どうやって いきますか。 Đi từ Osaka đến Tokyo bằng cách nào? B：おおさかで でんしゃに のって、しんおおさかで しんかんせんに のりか えて、とうきょうで おります。 Lên tàu điện ở Osaka, chuyển sang Shinkansen ở Shin Osaka rồi xuống ở Tokyo.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "えて、とうきょうで おります。",
+        "vi": "Lên tàu điện ở Osaka, chuyển sang Shinkansen ở Shin Osaka rồi xuống ở Tokyo."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-16-7",
+    "lesson": 16,
+    "title": "どの N",
+    "pattern": "どの",
+    "jpn": "どの",
+    "explanation": "Ở bài 2, chúng ta đã học các từ この、その、あの. Từ để hỏi của các từ này là どの. Nó được dùng để đề nghị người nghe chỉ định ra một thứ ( hoặc 1 người) từ những vật mà người nghe đưa ra. 例1： A：なりたさんは どの ひとですか。 Chị Narita là người nào? B：あの せが たかくて、かみが くろい ひとです。 Là người cao và tóc đen kia.",
+    "meaning_vi": "N",
+    "usage_vi": "Ở bài 2, chúng ta đã học các từ この、その、あの. Từ để hỏi của các từ này là どの. Nó được dùng để đề nghị người nghe chỉ định ra một thứ ( hoặc 1 người) từ những vật mà người nghe đưa ra. 例1： A：なりたさんは どの ひとですか。 Chị Narita là người nào? B：あの せが たかくて、かみが くろい ひとです。 Là người cao và tóc đen kia.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B：あの せが たかくて、かみが くろい ひとです。",
+        "vi": "Là người cao và tóc đen kia."
+      }
+    ]
+  }
+]

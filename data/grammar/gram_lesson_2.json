@@ -1,0 +1,114 @@
+[
+  {
+    "grammar_id": "grammar-2-1",
+    "lesson": 2,
+    "title": "これ/ それ/ あれ",
+    "pattern": "これ/ それ/ あれ",
+    "jpn": "これ/ それ/ あれ",
+    "explanation": "これ、それ、あれ là những từ chỉ vật và có chức năng như 1 danh từ. - これ được dùng để chỉ những vật ở gần người nói - それ được dùng để chỉ những vật ở gần người nghe - あれ được dùng để chỉ những vật ở cách xa cả người nói và người nghe. 例1： A : これは じしょですか。 Đây là quyển từ điển phải không? (Trong câu này, A là người nói, B là người nghe. A đang cầm vật đó trong tay hoặc đang ở gần vật đó hơn B) B : いいえ、じしょじゃ ありません。 それは ノートです。 Không phải. Đó là quyển vở. ( Trong câu này, B là người nói, A là người nghe. Quyển vở lúc này ở gần A) 例2： A: あれは 何（なん）ですか。 Kia là cái gì? B: あれは かばんです。 Kia là cái cặp. Trong trường hợp này, cả A và B đều ở cách xa cái cặp.",
+    "meaning_vi": "これ/ それ/ あれ",
+    "usage_vi": "これ、それ、あれ là những từ chỉ vật và có chức năng như 1 danh từ. - これ được dùng để chỉ những vật ở gần người nói - それ được dùng để chỉ những vật ở gần người nghe - あれ được dùng để chỉ những vật ở cách xa cả người nói và người nghe. 例1： A : これは じしょですか。 Đây là quyển từ điển phải không? (Trong câu này, A là người nói, B là người nghe. A đang cầm vật đó trong tay hoặc đang ở gần vật đó hơn B) B : いいえ、じしょじゃ ありません。 それは ノートです。 Không phải. Đó là quyển vở. ( Trong câu này, B là người nói, A là người nghe. Quyển vở lúc này ở gần A) 例2： A: あれは 何（なん）ですか。 Kia là cái gì? B: あれは かばんです。 Kia là cái cặp. Trong trường hợp này, cả A và B đều ở cách xa cái cặp.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: あれは かばんです。",
+        "vi": "Trong trường hợp này, cả A và B đều ở cách xa cái cặp."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-2-2",
+    "lesson": 2,
+    "title": "このN/ そのN/ あのN",
+    "pattern": "この",
+    "jpn": "この",
+    "explanation": "この」、「その」、「あの」là những từ dùng để bổ nghĩa cho danh từ đứng đằng sau nó. Tương tự như これ、それ、あれ, ta có : - この dùng để bổ nghĩa cho những danh từ chỉ những vật ở gần người nói. - その dùng để bổ nghĩa cho những danh từ chỉ những vật ở gần người. - あの dùng để bổ nghĩa cho những danh từ chỉ những vật ở xa cả người nói và người nghe. 例1： A:このほんは 何（なん）の ほんですか。 Quyển sách này là sách gì ? (Trong câu này, A là người nói, B là người nghe. Quyển sách đó đang ở gần A hơn B) B:そのほんは えいごの ほんです。 Quyển sách đó là sách tiếng Anh. (Trong câu này, B là người nói, A là người nghe. Quyển sách đó đang ở gần A hơn B) 例2： A:あの方 は どなたですか。 Vị đó là ai ? B: あの方は なごやだいがくの せんせいです。 Vị đó là giáo viên của trường đại học Nagoya. Trong trường hợp này, giáo viên của trường ĐH Nagoya đứng cách xa cả A và B.",
+    "meaning_vi": "N/ そのN/ あのN",
+    "usage_vi": "この」、「その」、「あの」là những từ dùng để bổ nghĩa cho danh từ đứng đằng sau nó. Tương tự như これ、それ、あれ, ta có : - この dùng để bổ nghĩa cho những danh từ chỉ những vật ở gần người nói. - その dùng để bổ nghĩa cho những danh từ chỉ những vật ở gần người. - あの dùng để bổ nghĩa cho những danh từ chỉ những vật ở xa cả người nói và người nghe. 例1： A:このほんは 何（なん）の ほんですか。 Quyển sách này là sách gì ? (Trong câu này, A là người nói, B là người nghe. Quyển sách đó đang ở gần A hơn B) B:そのほんは えいごの ほんです。 Quyển sách đó là sách tiếng Anh. (Trong câu này, B là người nói, A là người nghe. Quyển sách đó đang ở gần A hơn B) 例2： A:あの方 は どなたですか。 Vị đó là ai ? B: あの方は なごやだいがくの せんせいです。 Vị đó là giáo viên của trường đại học Nagoya. Trong trường hợp này, giáo viên của trường ĐH Nagoya đứng cách xa cả A và B.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: あの方は なごやだいがくの せんせいです。",
+        "vi": "Trong trường hợp này, giáo viên của trường ĐH Nagoya đứng cách xa cả A và B."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-2-3",
+    "lesson": 2,
+    "title": "そうです/ そうじゃ ありません",
+    "pattern": "そうです/ そうじゃ ありません",
+    "jpn": "そうです/ そうじゃ ありません",
+    "explanation": "-「そう」được sử dụng để trả lời vắn tắt cho một câu nghi vấn danh từ ( câu nghi vấn mà tận cùng bằng những danh từ).「はい、そうです」 là câu trả lời khẳng định và「いいえ、そうじゃ ありません」 là câu trả lời phủ định. - Trong câu trả lời, ta nên tránh lặp lại những từ giống với câu hỏi mà nên sử dụng 「そう」 để trả lời sẽ tự nhiên hơn. Lưu ý: Chỉ được sử dụng 「そう」để trả lời khi câu nghi vấn có tận cùng là danh từ. Với câu nghi vấn tận cùng là động từ hoặc tính từ ( sẽ học trong các bài 4 ) thì không được sử dụng cách trả lời này. 例1： A：それは テレホンカード ですか。 Đây là thẻ điện thoại phải không? B1：はい、テレホンカードです。(Cách 1) Vâng, đây là thẻ điện thoại. B2：はい、そうです。 (Cách 2) Vâng, đúng rồi. 例2： A：それは ラジカセ ですか。 Đây là đài catset phải không? B1：いいえ、ラジカセではありません。(Cách 1) Vâng, đây là thẻ điện thoại. B2 :いいえ、そう じゃ ありません。(Cách 2) Không, không phải.",
+    "meaning_vi": "そうです/ そうじゃ ありません",
+    "usage_vi": "-「そう」được sử dụng để trả lời vắn tắt cho một câu nghi vấn danh từ ( câu nghi vấn mà tận cùng bằng những danh từ).「はい、そうです」 là câu trả lời khẳng định và「いいえ、そうじゃ ありません」 là câu trả lời phủ định. - Trong câu trả lời, ta nên tránh lặp lại những từ giống với câu hỏi mà nên sử dụng 「そう」 để trả lời sẽ tự nhiên hơn. Lưu ý: Chỉ được sử dụng 「そう」để trả lời khi câu nghi vấn có tận cùng là danh từ. Với câu nghi vấn tận cùng là động từ hoặc tính từ ( sẽ học trong các bài 4 ) thì không được sử dụng cách trả lời này. 例1： A：それは テレホンカード ですか。 Đây là thẻ điện thoại phải không? B1：はい、テレホンカードです。(Cách 1) Vâng, đây là thẻ điện thoại. B2：はい、そうです。 (Cách 2) Vâng, đúng rồi. 例2： A：それは ラジカセ ですか。 Đây là đài catset phải không? B1：いいえ、ラジカセではありません。(Cách 1) Vâng, đây là thẻ điện thoại. B2 :いいえ、そう じゃ ありません。(Cách 2) Không, không phải.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B2 :いいえ、そう じゃ ありません。(Cách 2)",
+        "vi": "Không, không phải."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-2-4",
+    "lesson": 2,
+    "title": "～は S1 ですか 、S2 ですか",
+    "pattern": "～は S1 ですか 、S2 ですか",
+    "jpn": "～は S1 ですか 、S2 ですか",
+    "explanation": "Dạng câu 「S1ですか、S2ですか」 là dạng câu hỏi lựa chọn, trong đó người hỏi đưa ra 2 phương án trả lời để người nghe chọn 1 phương án đúng. Khi trả lời cho dạng câu hỏi này, ta không sử dụng các từ 「はい」hoặc「いいえ」 mà chỉ cần nói ra phương án mình lựa chọn. 例1： A: これは ポールペンですか、シャープペンシルですか。 Đây là bút bi hay bút chì máy ? B: シャープペンシルです。 Bút chì máy.",
+    "meaning_vi": "～は S1 ですか 、S2 ですか",
+    "usage_vi": "Dạng câu 「S1ですか、S2ですか」 là dạng câu hỏi lựa chọn, trong đó người hỏi đưa ra 2 phương án trả lời để người nghe chọn 1 phương án đúng. Khi trả lời cho dạng câu hỏi này, ta không sử dụng các từ 「はい」hoặc「いいえ」 mà chỉ cần nói ra phương án mình lựa chọn. 例1： A: これは ポールペンですか、シャープペンシルですか。 Đây là bút bi hay bút chì máy ? B: シャープペンシルです。 Bút chì máy.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: シャープペンシルです。",
+        "vi": "Bút chì máy."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-2-5",
+    "lesson": 2,
+    "title": "N1のN2",
+    "pattern": "N1のN2",
+    "jpn": "N1のN2",
+    "explanation": "Trong bài 1 chúng ta đã học 1 ý nghĩa của trợ từ 「の」, đó là dùng để chỉ việc N2 là một bộ phận của N1. Trong bài 2 này, chúng ta sẽ học 2 ý nghĩa khác của trợ từ này. 1.N1 dùng để giải thích, bổ nghĩa cho N2: 例1： これは コンピューターの ほんです。 Đây là sách về máy tính. 例2： A: これは 何の ざっしですか。 Đây là tạp chí gì ? B: それは じどうしゃの ざっしです。 Đó là tạp chí về xe hơi. 2. Chỉ sự sở hữu, N2 thuộc sở hữu của N1. Trong trường hợp này, danh từ đứng sau thường được giản lược khi đã rõ nghĩa. 例1： このほんは わたしの ほんです。 Quyển sách này là quyển sách của tôi. 例2： A：あれは だれの かばんですか。 Kia là cặp của ai ? B ：マイさんの です。 Của Mai . (Trong trường hợp này không cần thêm 「かばん」 vào đằng sau trợ từ「の」 vì cả người nói và người nghe đều biết danh từ muốn nói đến sau đó là gì nhờ câu hỏi trước đó). 例3： A : このかばんは Bさん のですか。 Cái cặp này là của B phải không? B : いいえ、 わたし の じゃ ありません。 Không, không phải của tôi. ＊Tuy nhiên, nếu là danh từ chỉ người thì không được giản lược. 例4： A:ミラーさんは IMCの しゃいんですか。 Anh Miller là nhân viên công ty IMC phải không? B：はい、 IMCの しゃいんです。 Đúng rồi. (Trong trường hợp này mặc dù cả 2 đều biết danh từ đứng sau trợ từ 「の」 là gì nhưng không được giản lược vì đó là từ chỉ người). Lưu ý: - Cách dùng thứ 2 này cũng bao hàm ý nghĩa của cách dùng đầu tiên mà ta đã học trong bài 1. Tuy nhiên, phải lưu ý rằng, sở hữu ở đây không đơn thuần là sở hữu trong tiếng Việt, mà có ý nghĩa rất rộng, nó ám chỉ cả việc N2 là một bộ phận của N1 ( Ví dụ: Sinh viên đại học Luật, nhân viên công ty FPT,...Rõ ràng là trong trường hợp này, sinh viên và nhân viên chỉ là 1 bộ phận của công ty và trường ĐH chứ không thuộc sở hữu của công ty, trường đại học). Vì thế, cần nhận thức được rằng trợ từ「の」 trong tiếng Nhật không có nghĩa là “ của” 、mà từ “ của” trong tiếng Việt chỉ là một trong những ý nghĩa của trợ từ này khi dịch sang tiếng Việt.",
+    "meaning_vi": "N1のN2",
+    "usage_vi": "Trong bài 1 chúng ta đã học 1 ý nghĩa của trợ từ 「の」, đó là dùng để chỉ việc N2 là một bộ phận của N1. Trong bài 2 này, chúng ta sẽ học 2 ý nghĩa khác của trợ từ này. 1.N1 dùng để giải thích, bổ nghĩa cho N2: 例1： これは コンピューターの ほんです。 Đây là sách về máy tính. 例2： A: これは 何の ざっしですか。 Đây là tạp chí gì ? B: それは じどうしゃの ざっしです。 Đó là tạp chí về xe hơi. 2. Chỉ sự sở hữu, N2 thuộc sở hữu của N1. Trong trường hợp này, danh từ đứng sau thường được giản lược khi đã rõ nghĩa. 例1： このほんは わたしの ほんです。 Quyển sách này là quyển sách của tôi. 例2： A：あれは だれの かばんですか。 Kia là cặp của ai ? B ：マイさんの です。 Của Mai . (Trong trường hợp này không cần thêm 「かばん」 vào đằng sau trợ từ「の」 vì cả người nói và người nghe đều biết danh từ muốn nói đến sau đó là gì nhờ câu hỏi trước đó). 例3： A : このかばんは Bさん のですか。 Cái cặp này là của B phải không? B : いいえ、 わたし の じゃ ありません。 Không, không phải của tôi. ＊Tuy nhiên, nếu là danh từ chỉ người thì không được giản lược. 例4： A:ミラーさんは IMCの しゃいんですか。 Anh Miller là nhân viên công ty IMC phải không? B：はい、 IMCの しゃいんです。 Đúng rồi. (Trong trường hợp này mặc dù cả 2 đều biết danh từ đứng sau trợ từ 「の」 là gì nhưng không được giản lược vì đó là từ chỉ người). Lưu ý: - Cách dùng thứ 2 này cũng bao hàm ý nghĩa của cách dùng đầu tiên mà ta đã học trong bài 1. Tuy nhiên, phải lưu ý rằng, sở hữu ở đây không đơn thuần là sở hữu trong tiếng Việt, mà có ý nghĩa rất rộng, nó ám chỉ cả việc N2 là một bộ phận của N1 ( Ví dụ: Sinh viên đại học Luật, nhân viên công ty FPT,...Rõ ràng là trong trường hợp này, sinh viên và nhân viên chỉ là 1 bộ phận của công ty và trường ĐH chứ không thuộc sở hữu của công ty, trường đại học). Vì thế, cần nhận thức được rằng trợ từ「の」 trong tiếng Nhật không có nghĩa là “ của” 、mà từ “ của” trong tiếng Việt chỉ là một trong những ý nghĩa của trợ từ này khi dịch sang tiếng Việt.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: それは じどうしゃの ざっしです。",
+        "vi": "Đó là tạp chí về xe hơi."
+      },
+      {
+        "jp": "(Trong trường hợp này mặc dù cả 2 đều biết danh từ đứng sau trợ từ 「の」 là gì nhưng không được giản lược vì đó là từ chỉ người).",
+        "vi": "Đúng rồi."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-2-6",
+    "lesson": 2,
+    "title": "そうですか",
+    "pattern": "そうですか",
+    "jpn": "そうですか",
+    "explanation": "Dùng khi người nói nhận được một thông tin gì đó mới (và muốn thế hiện họ đã hiểu thông tin đó.) Khi nói, chữ か ở cuối câu phải hạ thấp giọng xuống. 例1： A : この かさは あなたの ですか。 Đây là ô của bạn phải không? B :いいえ、ちがいます。 ハイさんの です。 Không phải. Ô của Hải. A : そうですか。 Thế à",
+    "meaning_vi": "そうですか",
+    "usage_vi": "Dùng khi người nói nhận được một thông tin gì đó mới (và muốn thế hiện họ đã hiểu thông tin đó.) Khi nói, chữ か ở cuối câu phải hạ thấp giọng xuống. 例1： A : この かさは あなたの ですか。 Đây là ô của bạn phải không? B :いいえ、ちがいます。 ハイさんの です。 Không phải. Ô của Hải. A : そうですか。 Thế à",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "A : そうですか。",
+        "vi": "Thế à"
+      }
+    ]
+  }
+]

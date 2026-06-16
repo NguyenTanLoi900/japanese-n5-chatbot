@@ -1,0 +1,135 @@
+[
+  {
+    "grammar_id": "grammar-10-1",
+    "lesson": 10,
+    "title": "N が あります/います",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Các động từあります/います ở trên được dùng chỉ sự tồn tại hay hiện hữu của sự vật hay của con người. Khi đó, những danh từ chỉ sự vật hay con người đó trở thành chủ thể của câu và được biểu thị bằng trợ từ が. あります được dùng để chỉ sự hiện hữu của một sự vật, đồ vật vô tri hoặc tự nó không thể chuyển động được. Đồ vật và cây cối, địa điểm thuộc nhóm này. 例1： コンピューターが あります。 Có máy vi tính. 例2： さくらが あります。 Có cây hoa anh đào 例3： こうえんが あります。 Có công viên. います được dùng để chỉ sự hiện hữu của những sự vật sống và tự nó có thể chuyển động được. Con người và động vật thuộc nhóm này. 例4： おとこの ひとが います。 Có người đàn ông. 例5： いぬが います。 Có con chó",
+    "meaning_vi": "N が あります/います",
+    "usage_vi": "Các động từあります/います ở trên được dùng chỉ sự tồn tại hay hiện hữu của sự vật hay của con người. Khi đó, những danh từ chỉ sự vật hay con người đó trở thành chủ thể của câu và được biểu thị bằng trợ từ が. あります được dùng để chỉ sự hiện hữu của một sự vật, đồ vật vô tri hoặc tự nó không thể chuyển động được. Đồ vật và cây cối, địa điểm thuộc nhóm này. 例1： コンピューターが あります。 Có máy vi tính. 例2： さくらが あります。 Có cây hoa anh đào 例3： こうえんが あります。 Có công viên. います được dùng để chỉ sự hiện hữu của những sự vật sống và tự nó có thể chuyển động được. Con người và động vật thuộc nhóm này. 例4： おとこの ひとが います。 Có người đàn ông. 例5： いぬが います。 Có con chó",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "こうえんが あります。",
+        "vi": "Có công viên."
+      },
+      {
+        "jp": "いぬが います。",
+        "vi": "Có con chó"
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-10-2",
+    "lesson": 10,
+    "title": "N1 ( địa điểm) に N2 が あります/います",
+    "pattern": "N1 ( đị",
+    "jpn": "N1 ( đị",
+    "explanation": "Địa điểm nơi N2 hiện hữu được biểu thị bằng trợ từ に. Cần phân biệt với trợ từ で dùng để chỉ địa điểm nơi xảy ra hành động. 例1： わたしの へやに つくえが あります。 Trong phòng tôi có 1 cái bàn. 例2： じむしょに かなむらせんせいが います。 Ở trong văn phòng có cô Kanamura Bạn cũng có thể hỏi ai hoặc cái gì đang hiện hữu ở một địa điểm nào đo bằng cách sử dụng mẫu này. Khi đó bạn sẽ thay N2 bằng từ để hỏi nếu muốn hỏi cho một sự vật hoặc một con vật và dùng từ để hỏiれ nếu muốn hỏi cho người. 例3： A：ちかに なにが ありますか。 Có cái gì ở dưới tầng hầm? B：レストランが あります。 Có các nhà hàng ( quán ăn). 例4： A：うけつけに だれが いますか。 Ai đang ở quầy lễ tân? B：ロンさんが います。 Anh Long.",
+    "meaning_vi": "a điểm) に N2 が あります/います",
+    "usage_vi": "Địa điểm nơi N2 hiện hữu được biểu thị bằng trợ từ に. Cần phân biệt với trợ từ で dùng để chỉ địa điểm nơi xảy ra hành động. 例1： わたしの へやに つくえが あります。 Trong phòng tôi có 1 cái bàn. 例2： じむしょに かなむらせんせいが います。 Ở trong văn phòng có cô Kanamura Bạn cũng có thể hỏi ai hoặc cái gì đang hiện hữu ở một địa điểm nào đo bằng cách sử dụng mẫu này. Khi đó bạn sẽ thay N2 bằng từ để hỏi nếu muốn hỏi cho một sự vật hoặc một con vật và dùng từ để hỏiれ nếu muốn hỏi cho người. 例3： A：ちかに なにが ありますか。 Có cái gì ở dưới tầng hầm? B：レストランが あります。 Có các nhà hàng ( quán ăn). 例4： A：うけつけに だれが いますか。 Ai đang ở quầy lễ tân? B：ロンさんが います。 Anh Long.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "じむしょに かなむらせんせいが います。",
+        "vi": "Ở trong văn phòng có cô Kanamura"
+      },
+      {
+        "jp": "B：ロンさんが います。",
+        "vi": "Anh Long."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-10-3",
+    "lesson": 10,
+    "title": "．N1 は N2 (địa điểm ) に あります/います",
+    "pattern": "．N1 は N2 (đị",
+    "jpn": "．N1 は N2 (đị",
+    "explanation": "Trong mẫu này, người nói đưa N1 ( sự vật, con người) lên làm chủ đề của câu và nói về nơi nó hiện hữu. Khi đó, chủ đề của câu thường phải là sự vật hay con người nào mà cả người nói và người nghe đều biết hoặc đã từng được nói đến. Trợ từ đi kèm với N1 không phải là が-dùng đẻ biểu thị chủ thể nữa mà là trợ từ は- dùng để biểu thị chủ đề. 例1： A：ホアン・キエムこに 何がいますか。 Hồ Hoàn Kiếm có gì? B：かめが います。 Có rùa. A：そうですか！！ Thế à. ( Ngạc nhiên) 例2： A đang đi tìm anh Long: A：ロンさんは どこですか。 Cô Kanamura ở đâu? B：じむしょに いますよ。 Ở văn phòng. Lưu ý: ですđôi lúc có thể được sử dụng để thay thế cho một động từ vị ngữ khi vị ngữ đó đã rất rõ ràng. Bạn có thể sử dụng mẫu 「N1はN2(place)です 」thay cho mẫu「 N1は N2(place)に あります/います 」để nói về việc một vật gì đó/ hoặc một ai đó đang ở đâu như đã học trong bài 3.v 例3： A：とうきょうディズニーランドは どこにありますか。 Tokyo Disneyland ở đâu? B1：ちばけんにあります。 Ở tỉnh Chiba. B2：ちばけんです。 Tỉnh Chiba.",
+    "meaning_vi": "a điểm ) に あります/います",
+    "usage_vi": "Trong mẫu này, người nói đưa N1 ( sự vật, con người) lên làm chủ đề của câu và nói về nơi nó hiện hữu. Khi đó, chủ đề của câu thường phải là sự vật hay con người nào mà cả người nói và người nghe đều biết hoặc đã từng được nói đến. Trợ từ đi kèm với N1 không phải là が-dùng đẻ biểu thị chủ thể nữa mà là trợ từ は- dùng để biểu thị chủ đề. 例1： A：ホアン・キエムこに 何がいますか。 Hồ Hoàn Kiếm có gì? B：かめが います。 Có rùa. A：そうですか！！ Thế à. ( Ngạc nhiên) 例2： A đang đi tìm anh Long: A：ロンさんは どこですか。 Cô Kanamura ở đâu? B：じむしょに いますよ。 Ở văn phòng. Lưu ý: ですđôi lúc có thể được sử dụng để thay thế cho một động từ vị ngữ khi vị ngữ đó đã rất rõ ràng. Bạn có thể sử dụng mẫu 「N1はN2(place)です 」thay cho mẫu「 N1は N2(place)に あります/います 」để nói về việc một vật gì đó/ hoặc một ai đó đang ở đâu như đã học trong bài 3.v 例3： A：とうきょうディズニーランドは どこにありますか。 Tokyo Disneyland ở đâu? B1：ちばけんにあります。 Ở tỉnh Chiba. B2：ちばけんです。 Tỉnh Chiba.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B：じむしょに いますよ。",
+        "vi": "Ở văn phòng."
+      },
+      {
+        "jp": "B2：ちばけんです。",
+        "vi": "Tỉnh Chiba."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-10-4",
+    "lesson": 10,
+    "title": "．N1 ( đồ vật/ con người/ địa điểm) の N2( vị trí) = N",
+    "pattern": "．N1 ( đồ",
+    "jpn": "．N1 ( đồ",
+    "explanation": "うえ、した、まえ、うしろ、みぎ、ひだり、なか、そと、となり、ちかく và あいだ là những danh từ biểu thị vị trí. Khi đó N trở thành một danh từ chỉ vị trí mới được biểu thị dựa trên vị trí gốc là vị trí của N1 và sử dụng như các danh từ chỉ vị trí thông thương khác mà ta đã học. Ở đây cần lưu ý về vị trí của N1 và N2 trong câu bị ngược so với tiếng Việt. 例1： つくえの うえに しゃしんが あります。 Có tấm ảnh ở trên bàn. 例2： ゆうびんきょくは ぎんこうの となりに あります。 Bưu điện ở cạnh ngân hàng. 例3： えきの ちかくで キエムさんに あいました。 Tôi gặp anh Kiên ở gần ga.",
+    "meaning_vi": "vật/ con người/ địa điểm) の N2( vị trí) = N",
+    "usage_vi": "うえ、した、まえ、うしろ、みぎ、ひだり、なか、そと、となり、ちかく và あいだ là những danh từ biểu thị vị trí. Khi đó N trở thành một danh từ chỉ vị trí mới được biểu thị dựa trên vị trí gốc là vị trí của N1 và sử dụng như các danh từ chỉ vị trí thông thương khác mà ta đã học. Ở đây cần lưu ý về vị trí của N1 và N2 trong câu bị ngược so với tiếng Việt. 例1： つくえの うえに しゃしんが あります。 Có tấm ảnh ở trên bàn. 例2： ゆうびんきょくは ぎんこうの となりに あります。 Bưu điện ở cạnh ngân hàng. 例3： えきの ちかくで キエムさんに あいました。 Tôi gặp anh Kiên ở gần ga.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "えきの ちかくで キエムさんに あいました。",
+        "vi": "Tôi gặp anh Kiên ở gần ga."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-10-5",
+    "lesson": 10,
+    "title": "．N1 や N2",
+    "pattern": "．N1 や N2",
+    "jpn": "．N1 や N2",
+    "explanation": "Trợ từ とđược sử dụng khi ta liệt kê tất cả các sự vật,con người,..trong khi đó trợ từ や mà ta học trong bài này được sử dụng để liệt kê vài vật tượng trưng trong số các sự vật hiện hữu. Đôi lúc người ta cho thêm など vào sau danh từ cuối cùng trong số các sự vật được nêu ra để nêu rõ rằng còn có nhiều sự vật, con người khác nữa cũng nằm trong nhóm đó. 例1： つくえの うえに ほんと ペンが あります。 Có sách và bút ở trên bàn. つくえの うえに ほんや ペンが あります。 Có sách, bút v.v.. ở trên bàn. ( tức là ngoài sách và bút ra còn nhiều vật khác nữa trên bàn). 例2： はこの なかに てがみや しゃしんが あります。 Có bức thư và tấm ảnh v.v... ở trong hộp. はこの なかに てがみや しゃしんなどが あります。 Có bức thứ, tấm ảnh và mấy thứ nữa ở trong hộp.",
+    "meaning_vi": "．N1 や N2",
+    "usage_vi": "Trợ từ とđược sử dụng khi ta liệt kê tất cả các sự vật,con người,..trong khi đó trợ từ や mà ta học trong bài này được sử dụng để liệt kê vài vật tượng trưng trong số các sự vật hiện hữu. Đôi lúc người ta cho thêm など vào sau danh từ cuối cùng trong số các sự vật được nêu ra để nêu rõ rằng còn có nhiều sự vật, con người khác nữa cũng nằm trong nhóm đó. 例1： つくえの うえに ほんと ペンが あります。 Có sách và bút ở trên bàn. つくえの うえに ほんや ペンが あります。 Có sách, bút v.v.. ở trên bàn. ( tức là ngoài sách và bút ra còn nhiều vật khác nữa trên bàn). 例2： はこの なかに てがみや しゃしんが あります。 Có bức thư và tấm ảnh v.v... ở trong hộp. はこの なかに てがみや しゃしんなどが あります。 Có bức thứ, tấm ảnh và mấy thứ nữa ở trong hộp.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "はこの なかに てがみや しゃしんなどが あります。",
+        "vi": "Có bức thứ, tấm ảnh và mấy thứ nữa ở trong hộp."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-10-6",
+    "lesson": 10,
+    "title": "「Từ hoặc cụm từ 」ですか。",
+    "pattern": "「",
+    "jpn": "「",
+    "explanation": "Trợ từ か trong mẫu trên có chức năng dùng để xác nhận. Người nói đặt ですか vào sau từ hoặc cụm từ mà họ muốn xác nhận để xác nhận lại chúng. 例1： A：すみません。ヴィン・コム タワーは どこですか。 Xin lỗi. Tháp Vincom ở đâu? B：ウィン・コム タワーですか。あのビルです。 Tháp Vincom à.? Ở tòa nhà kia.",
+    "meaning_vi": "Từ hoặc cụm từ 」ですか。",
+    "usage_vi": "Trợ từ か trong mẫu trên có chức năng dùng để xác nhận. Người nói đặt ですか vào sau từ hoặc cụm từ mà họ muốn xác nhận để xác nhận lại chúng. 例1： A：すみません。ヴィン・コム タワーは どこですか。 Xin lỗi. Tháp Vincom ở đâu? B：ウィン・コム タワーですか。あのビルです。 Tháp Vincom à.? Ở tòa nhà kia.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B：ウィン・コム タワーですか。あのビルです。",
+        "vi": "Tháp Vincom à.? Ở tòa nhà kia."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-10-7",
+    "lesson": 10,
+    "title": "N は ありませんか。",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Cách diễn đạt 「Nは ありませんか。」ta sẽ gặp trong hội thoại của bài này. Bằng cách sử dụng dạng phủ định ありませんか thay cho động từ あります, bạn có thể hỏi một cách lịch sự về sự tồn tại, hiện hữu của N và thể hiện cho người nghe biết một cách gián tiếp rằng bạn đã chuẩn bị tinh thần để nhận câu trả lời phủ định của họ.",
+    "meaning_vi": "N は ありませんか。",
+    "usage_vi": "Cách diễn đạt 「Nは ありませんか。」ta sẽ gặp trong hội thoại của bài này. Bằng cách sử dụng dạng phủ định ありませんか thay cho động từ あります, bạn có thể hỏi một cách lịch sự về sự tồn tại, hiện hữu của N và thể hiện cho người nghe biết một cách gián tiếp rằng bạn đã chuẩn bị tinh thần để nhận câu trả lời phủ định của họ.",
+    "keywords": [],
+    "level": "N5",
+    "example": []
+  }
+]

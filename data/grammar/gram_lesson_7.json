@@ -1,0 +1,91 @@
+[
+  {
+    "grammar_id": "grammar-7-1",
+    "lesson": 7,
+    "title": "Dụng cụ/ phương tiện で V",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Trong 2 bài trước, chúng ta đã học trợ từ で với ý nghĩa để chỉ phương tiện giao thông và chỉ nơi chốn, địa điểm diễn ra hành động. Trong bài này, chúng ta học thêm một ý nghĩa nữa của trợ từ で, dùng để chỉ phương tiện, phương pháp dùng để tiến hành một hành động, động tác nào đó. Điều cần lưu ý ở đây là trợ từ でcó rất nhiều cách dùng và mỗi cách dùng lại mang một chức năng, một ý nghĩa khác nhau. Trợ từ で ta học trong bài này cũng là chỉ phương tiện và phương pháp, nên nó có chức năng giống với trợ từ で khi dùng để chỉ cách thức di chuyển ( bằng phương tiện giao thông nào), chứ hoàn toàn khác với chức năng chỉ địa điểm nơi xảy ra hành động mà ta đã học trong bài 6. 例１ : はしで たべます。 Ăn bằng đũa. 例２ : にほんごで レポートを かきます。 Viết báo cáo bằng tiếng Nhật.",
+    "meaning_vi": "Dụng cụ/ phương tiện で V",
+    "usage_vi": "Trong 2 bài trước, chúng ta đã học trợ từ で với ý nghĩa để chỉ phương tiện giao thông và chỉ nơi chốn, địa điểm diễn ra hành động. Trong bài này, chúng ta học thêm một ý nghĩa nữa của trợ từ で, dùng để chỉ phương tiện, phương pháp dùng để tiến hành một hành động, động tác nào đó. Điều cần lưu ý ở đây là trợ từ でcó rất nhiều cách dùng và mỗi cách dùng lại mang một chức năng, một ý nghĩa khác nhau. Trợ từ で ta học trong bài này cũng là chỉ phương tiện và phương pháp, nên nó có chức năng giống với trợ từ で khi dùng để chỉ cách thức di chuyển ( bằng phương tiện giao thông nào), chứ hoàn toàn khác với chức năng chỉ địa điểm nơi xảy ra hành động mà ta đã học trong bài 6. 例１ : はしで たべます。 Ăn bằng đũa. 例２ : にほんごで レポートを かきます。 Viết báo cáo bằng tiếng Nhật.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "にほんごで レポートを かきます。",
+        "vi": "Viết báo cáo bằng tiếng Nhật."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-7-2",
+    "lesson": 7,
+    "title": "“ Từ/ câu” は ～ごで 何(なん)ですか。",
+    "pattern": "“",
+    "jpn": "“",
+    "explanation": "Mẫu trên dùng để hỏi cách nói một câu/ một từ bằng thứ tiếng khác. *)Lưu ý: Khi nói bằng một thứ tiếng nào đó, thì ngôn ngữ đó được coi như phương tiện để ta truyền đạt, vì thế mà nó cũng đi kèm với trợ từ で( xem ví dụ 2 ở mẫu trên). 例1 : A:「ありがとう」は ベトナムごで なんですか。 “ありがとう” tiếng Việt là gì? B: 「カム・オン」です。 Là “ cảm ơn” 例2 : A:「Chuc ngu ngon」は にほんごで なんですか。 “ Chúc ngủ ngon” tiếng Nhật là gì? B:「おやすみなさい」です。 Là “おやすみなさい”.",
+    "meaning_vi": "Từ/ câu” は ～ごで 何(なん)ですか。",
+    "usage_vi": "Mẫu trên dùng để hỏi cách nói một câu/ một từ bằng thứ tiếng khác. *)Lưu ý: Khi nói bằng một thứ tiếng nào đó, thì ngôn ngữ đó được coi như phương tiện để ta truyền đạt, vì thế mà nó cũng đi kèm với trợ từ で( xem ví dụ 2 ở mẫu trên). 例1 : A:「ありがとう」は ベトナムごで なんですか。 “ありがとう” tiếng Việt là gì? B: 「カム・オン」です。 Là “ cảm ơn” 例2 : A:「Chuc ngu ngon」は にほんごで なんですか。 “ Chúc ngủ ngon” tiếng Nhật là gì? B:「おやすみなさい」です。 Là “おやすみなさい”.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "Là “おやすみなさい”.",
+        "vi": "“ Chúc ngủ ngon” tiếng Nhật là gì?"
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-7-3",
+    "lesson": 7,
+    "title": "N( người) に あげます、かします、おしえます、かけます、..",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Những động từ như あげます、かします、おしえます、かけます、.. phải đi kèm với một danh từ chỉ người là đối tượng của hành động cho, cho mượn, dạy, gọi,... của chủ thể. Trợ từ に được đặt sau danh từ chỉ người để chỉ đối tượng đó. Như vậy khác với các động từ chúng ta đã học từ đầu tới gìờ thường chỉ đi kèm một trợ từ, các động từ như あげます、かします、おしえます、かけます、..cần phải đi kèm với 2 trợ từ là を(chỉ đối tượng của hành động- thường là đồ vật) に ( hoặcから- chỉ hướng của hành động- thường là người) . Thứ tự trong câu thường là （～は）～に～を 例1： やまださんは きむらさんに はなを あげました。 Anh Yamada tặng hoa cho chị Kimura 例2： キエンさんに ほんを かしました。 Tôi cho bạn Kiên mượn sách 例3： たかひろくんに ベトナムごを おしえます。 Tôi dạy tiếng Việt cho anh Takahiro. *) Lưu ý: Những động từ như おくります、でんわをかけます、...trong một số trường hợp, danh từ chỉ nơi chốn có thể được dùng thay cho danh tử chỉ người. Trong trường hợp này, đôi lúc người ta sử dụng trợ từ へ thay cho trợ từ に.",
+    "meaning_vi": "N( người) に あげます、かします、おしえます、かけます、..",
+    "usage_vi": "Những động từ như あげます、かします、おしえます、かけます、.. phải đi kèm với một danh từ chỉ người là đối tượng của hành động cho, cho mượn, dạy, gọi,... của chủ thể. Trợ từ に được đặt sau danh từ chỉ người để chỉ đối tượng đó. Như vậy khác với các động từ chúng ta đã học từ đầu tới gìờ thường chỉ đi kèm một trợ từ, các động từ như あげます、かします、おしえます、かけます、..cần phải đi kèm với 2 trợ từ là を(chỉ đối tượng của hành động- thường là đồ vật) に ( hoặcから- chỉ hướng của hành động- thường là người) . Thứ tự trong câu thường là （～は）～に～を 例1： やまださんは きむらさんに はなを あげました。 Anh Yamada tặng hoa cho chị Kimura 例2： キエンさんに ほんを かしました。 Tôi cho bạn Kiên mượn sách 例3： たかひろくんに ベトナムごを おしえます。 Tôi dạy tiếng Việt cho anh Takahiro. *) Lưu ý: Những động từ như おくります、でんわをかけます、...trong một số trường hợp, danh từ chỉ nơi chốn có thể được dùng thay cho danh tử chỉ người. Trong trường hợp này, đôi lúc người ta sử dụng trợ từ へ thay cho trợ từ に.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "たかひろくんに ベトナムごを おしえます。",
+        "vi": "Tôi dạy tiếng Việt cho anh Takahiro."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-7-4",
+    "lesson": 7,
+    "title": "N( người) に もらいます、ならいます、かります、...",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Cũng như trong tiếng Việt, tiếng Nhật cũng có những cặp động từ tương ứng. Ví dụ : あげます＜――＞もらいます ( cho >< nhận) おしえます＜――＞ならいます( dạy >< học) かします＜――＞かります ( cho mượn>< mượn) Ngược lại với các động từ あげます、かします、おしえますcó chủ thể là bên cho đi, chủ thể của các động từ tương ứng もらいます、ならいます、かります là bên nhận . Trợ từ に ở đây được dùng để chỉ nơi xuất xứ của vật, tin tức... mà người nhận nhận được. 例1： きむらさんは やまださんに はなを もらいました。 Chị Kimura nhận được hoa từ anh Yamada. 例2： キエンさんは アンさんに CDを かりました。 Bạn Kiên mượn CD của bạn An 例3： かなむらせんせいに にほんごを ならいます。 Tôi học tiếng Nhật cô Kanamura. Đôi lúc から được sử dụng thay cho trợ từ に. Nhưng trong trường hợp bạn nhận được hoặc vay cái gì đó từ một tổ chức như trường học hoặc công ty thì chỉ được phép dùng から. 例4： きむらさんは やまださんから はなを もらいました。 Chị Kimura nhận được hoa từ anh Yamada. 例5： ぎんこうから おかねを かりました。（O） Tôi vay tiền từ ngân hàng. ぎんこうに おかねを かりました。（X）--à không dùng.",
+    "meaning_vi": "N( người) に もらいます、ならいます、かります、...",
+    "usage_vi": "Cũng như trong tiếng Việt, tiếng Nhật cũng có những cặp động từ tương ứng. Ví dụ : あげます＜――＞もらいます ( cho >< nhận) おしえます＜――＞ならいます( dạy >< học) かします＜――＞かります ( cho mượn>< mượn) Ngược lại với các động từ あげます、かします、おしえますcó chủ thể là bên cho đi, chủ thể của các động từ tương ứng もらいます、ならいます、かります là bên nhận . Trợ từ に ở đây được dùng để chỉ nơi xuất xứ của vật, tin tức... mà người nhận nhận được. 例1： きむらさんは やまださんに はなを もらいました。 Chị Kimura nhận được hoa từ anh Yamada. 例2： キエンさんは アンさんに CDを かりました。 Bạn Kiên mượn CD của bạn An 例3： かなむらせんせいに にほんごを ならいます。 Tôi học tiếng Nhật cô Kanamura. Đôi lúc から được sử dụng thay cho trợ từ に. Nhưng trong trường hợp bạn nhận được hoặc vay cái gì đó từ một tổ chức như trường học hoặc công ty thì chỉ được phép dùng から. 例4： きむらさんは やまださんから はなを もらいました。 Chị Kimura nhận được hoa từ anh Yamada. 例5： ぎんこうから おかねを かりました。（O） Tôi vay tiền từ ngân hàng. ぎんこうに おかねを かりました。（X）--à không dùng.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "かなむらせんせいに にほんごを ならいます。",
+        "vi": "Tôi học tiếng Nhật cô Kanamura."
+      },
+      {
+        "jp": "ぎんこうに おかねを かりました。（X）--à không dùng.",
+        "vi": "Tôi vay tiền từ ngân hàng."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-7-5",
+    "lesson": 7,
+    "title": "もう Vました",
+    "pattern": "もう",
+    "jpn": "もう",
+    "explanation": "もう có nghĩa là “ rồi” và được sử dụng với động từ ở dạng Vました. Trong trường hợp này, Vました không phải có ý nghĩa là hành động xảy ra ở quá khứ mà có nghĩa là hành động đó đã kết thúc rồi. Câu trả lời cho câu hỏi もう Vました là はい、もうVました hoặc いいえ、まだです 例1 : A:もう にもつを おくりましたか。 B: はい、[もう] おくりました。 例2： A: もう あさごはんをたべましたか。 B: いいえ、まだです（O） いいえ、まだたべませんでした（X）à không dùng Trong trường hợp muốn đưa ra câu trả lời phủ định cho dạng câu hỏi này, không dùng Vませんでした. Vì まだ có nghĩa là chưa, chỉ một động tác hay một trạng thái chưa xảy ra hoặc chưa hoàn thành ở thời điểm hiện tại ( nhưng trong tương lai có thể nó sẽ xảy ra) nên không thể sử dụng cùng với một động từ chỉ một sự thực ở quá khứ là Vませんでした được",
+    "meaning_vi": "Vました",
+    "usage_vi": "もう có nghĩa là “ rồi” và được sử dụng với động từ ở dạng Vました. Trong trường hợp này, Vました không phải có ý nghĩa là hành động xảy ra ở quá khứ mà có nghĩa là hành động đó đã kết thúc rồi. Câu trả lời cho câu hỏi もう Vました là はい、もうVました hoặc いいえ、まだです 例1 : A:もう にもつを おくりましたか。 B: はい、[もう] おくりました。 例2： A: もう あさごはんをたべましたか。 B: いいえ、まだです（O） いいえ、まだたべませんでした（X）à không dùng Trong trường hợp muốn đưa ra câu trả lời phủ định cho dạng câu hỏi này, không dùng Vませんでした. Vì まだ có nghĩa là chưa, chỉ một động tác hay một trạng thái chưa xảy ra hoặc chưa hoàn thành ở thời điểm hiện tại ( nhưng trong tương lai có thể nó sẽ xảy ra) nên không thể sử dụng cùng với một động từ chỉ một sự thực ở quá khứ là Vませんでした được",
+    "keywords": [],
+    "level": "N5",
+    "example": []
+  }
+]

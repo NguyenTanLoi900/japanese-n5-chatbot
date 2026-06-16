@@ -1,0 +1,90 @@
+[
+  {
+    "grammar_id": "grammar-1-1",
+    "lesson": 1,
+    "title": "Trợ từ trong tiếng Nhật : は、も、の、か、.",
+    "pattern": "Trợ từ trong tiếng Nhật",
+    "jpn": "Trợ từ trong tiếng Nhật",
+    "explanation": "Khác với tiếng Viêt, tiếng Nhật là thứ ngôn ngữ chắp dính. Các từ hoặc ngữ có thể tách rời và được nối với nhau bởi những trợ từ. Có nhiều loại trợ từ và cách sử dụng của chúng rất đa dạng. Chính nhờ các trợ từ này mà thứ tự của các thành phần trong một câu của tiếng Nhật có thể được thay đổi dễ dàng mà không làm thay đổi ngữ nghĩa của câu. Trong bài 1, chúng ta sẽ gặp 4 trợ từ là は、も、の、か…",
+    "meaning_vi": "は、も、の、か、.",
+    "usage_vi": "Khác với tiếng Viêt, tiếng Nhật là thứ ngôn ngữ chắp dính. Các từ hoặc ngữ có thể tách rời và được nối với nhau bởi những trợ từ. Có nhiều loại trợ từ và cách sử dụng của chúng rất đa dạng. Chính nhờ các trợ từ này mà thứ tự của các thành phần trong một câu của tiếng Nhật có thể được thay đổi dễ dàng mà không làm thay đổi ngữ nghĩa của câu. Trong bài 1, chúng ta sẽ gặp 4 trợ từ là は、も、の、か…",
+    "keywords": [],
+    "level": "N5",
+    "example": []
+  },
+  {
+    "grammar_id": "grammar-1-2",
+    "lesson": 1,
+    "title": "N1 は N2 です N1 là N2.",
+    "pattern": "N1 は N2 です N1",
+    "jpn": "N1 は N2 です N1",
+    "explanation": "Trợ từ は được dùng sau N1 để biểu thị N1 là chủ đề của câu. です được dùng ở cuối câu khẳng định thì hiện tại dạng “ N1 là N2” và thể hiện sự tôn trọng, lịch sự đối với người nghe. 例1： 私(わたし) は 学生(がくせい) です。 Tôi là sinh viên ( Lưu ý: Trợ từ は không có nghĩa là “ là”",
+    "meaning_vi": "là N2.",
+    "usage_vi": "Trợ từ は được dùng sau N1 để biểu thị N1 là chủ đề của câu. です được dùng ở cuối câu khẳng định thì hiện tại dạng “ N1 là N2” và thể hiện sự tôn trọng, lịch sự đối với người nghe. 例1： 私(わたし) は 学生(がくせい) です。 Tôi là sinh viên ( Lưu ý: Trợ từ は không có nghĩa là “ là”",
+    "keywords": [],
+    "level": "N5",
+    "example": []
+  },
+  {
+    "grammar_id": "grammar-1-3",
+    "lesson": 1,
+    "title": "N1 は N2 じゃ ありません",
+    "pattern": "N1 は N2 じゃ ありません",
+    "jpn": "N1 は N2 じゃ ありません",
+    "explanation": "じゃ ありません là dạng phủ định của です.Đây là cách nói được sử dụng trong giao tiếp hội thoại hàng ngày. Khi viết, người ta sử dụng dạng chính thống của nó là では ありません. 例1： 私わたし は ぎんこういん じゃ （では）ありません。 Tôi không phải là nhân viên ngân hàng. ～は～ ですか ==> ~ là ~ phải không. Trợ từ か được đặt ở cuối câu để biến câu đó thành câu nghi vấn. Khi trả lời cho câu hỏi dạng này, ta phải bắt đầu bằng các từ はい hoặc いいえ. 例2： A : ハイさん は いしゃですか。 Anh Hải là bác sĩ phải không. B : はい、いしゃです。 Vâng, anh Hải là bác sĩ. 例3： A : やまださん は かいしゃいん ですか。 Anh Yamada là nhân viên công ty phải không B : いいえ、かいしゃいんじゃ ありません。ぎんこういんです Không, anh Yamada không phải là nhân viên công ty. Anh ấy là nhân viên ngân hàng.",
+    "meaning_vi": "N1 は N2 じゃ ありません",
+    "usage_vi": "じゃ ありません là dạng phủ định của です.Đây là cách nói được sử dụng trong giao tiếp hội thoại hàng ngày. Khi viết, người ta sử dụng dạng chính thống của nó là では ありません. 例1： 私わたし は ぎんこういん じゃ （では）ありません。 Tôi không phải là nhân viên ngân hàng. ～は～ ですか ==> ~ là ~ phải không. Trợ từ か được đặt ở cuối câu để biến câu đó thành câu nghi vấn. Khi trả lời cho câu hỏi dạng này, ta phải bắt đầu bằng các từ はい hoặc いいえ. 例2： A : ハイさん は いしゃですか。 Anh Hải là bác sĩ phải không. B : はい、いしゃです。 Vâng, anh Hải là bác sĩ. 例3： A : やまださん は かいしゃいん ですか。 Anh Yamada là nhân viên công ty phải không B : いいえ、かいしゃいんじゃ ありません。ぎんこういんです Không, anh Yamada không phải là nhân viên công ty. Anh ấy là nhân viên ngân hàng.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "私 (わたし) は ぎんこういん じゃ （では）ありません。",
+        "vi": "Tôi không phải là nhân viên ngân hàng."
+      },
+      {
+        "jp": "B : いいえ、かいしゃいんじゃ ありません。ぎんこういんです",
+        "vi": "Không, anh Yamada không phải là nhân viên công ty. Anh ấy là nhân viên ngân hàng."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-1-4",
+    "lesson": 1,
+    "title": "～も～です==> ~ cũng là ~",
+    "pattern": "～も～です",
+    "jpn": "～も～です",
+    "explanation": "も được sử dụng với tiền đề là khi sự việc mà nó chỉ ra giống với sự việc ở mệnh đề trước. 例1： 私わたしは ベトナム人 です。 Tôi là người Việt Nam アンさん も ベトナム人 です。 Bạn An cũng là người Việt Nam.",
+    "meaning_vi": "~ cũng là ~",
+    "usage_vi": "も được sử dụng với tiền đề là khi sự việc mà nó chỉ ra giống với sự việc ở mệnh đề trước. 例1： 私わたしは ベトナム人 です。 Tôi là người Việt Nam アンさん も ベトナム人 です。 Bạn An cũng là người Việt Nam.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "アンさん も ベトナム人 です。",
+        "vi": "Bạn An cũng là người Việt Nam."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-1-5",
+    "lesson": 1,
+    "title": "N1 の N2 です。S は ～さいです ==> S ~ tuổi",
+    "pattern": "N1 の N2 です。S は ～さいです",
+    "jpn": "N1 の N2 です。S は ～さいです",
+    "explanation": "Nối 2 danh từ lại với nhau, danh từ trước xác định cho danh từ sau Trong trường hợp này biểu hiện tính sở thuộc, tức là N2 là một bộ phận của N1, thuộc về N1. 例1： A: 私は なごやだいがくの 学生 です。 Tôi là sinh viên trường đại học Nagoya B: やまださんは FPTの 社員 です。 Anh Yamada là nhân viên công ty FPT. *) Hỏi Tuổi ～は なんさい/ おいくつ ですか ==> Mấy tuổi / Bao nhiêu tuổi. - Dùng khi nói về tuổi tác.おいくつですか là cách hỏi lịch sự hơn của なんさいですか. 例2： はなちゃんは 9さい です。 Bé Hana 9 tuổi. 例3： A: たかひろくんも ９さいですか。 Bé Takahiro cũng 9 tuổi phải không. B: いいえ、たかひろくんは 9さいじゃありません。 Không, bé Takahiro không phải 9 tuổi đâu. A: たかひろくんは なんさいですか。 Takahiro mấy tuổi rồi. B:たかひろくんは ８さいです。 Takahiro 8 tuổi. 例4： はなちゃんは 9さい です。 Bé Hana 9 tuổi.",
+    "meaning_vi": "S ~ tuổi",
+    "usage_vi": "Nối 2 danh từ lại với nhau, danh từ trước xác định cho danh từ sau Trong trường hợp này biểu hiện tính sở thuộc, tức là N2 là một bộ phận của N1, thuộc về N1. 例1： A: 私は なごやだいがくの 学生 です。 Tôi là sinh viên trường đại học Nagoya B: やまださんは FPTの 社員 です。 Anh Yamada là nhân viên công ty FPT. *) Hỏi Tuổi ～は なんさい/ おいくつ ですか ==> Mấy tuổi / Bao nhiêu tuổi. - Dùng khi nói về tuổi tác.おいくつですか là cách hỏi lịch sự hơn của なんさいですか. 例2： はなちゃんは 9さい です。 Bé Hana 9 tuổi. 例3： A: たかひろくんも ９さいですか。 Bé Takahiro cũng 9 tuổi phải không. B: いいえ、たかひろくんは 9さいじゃありません。 Không, bé Takahiro không phải 9 tuổi đâu. A: たかひろくんは なんさいですか。 Takahiro mấy tuổi rồi. B:たかひろくんは ８さいです。 Takahiro 8 tuổi. 例4： はなちゃんは 9さい です。 Bé Hana 9 tuổi.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: やまださんは FPTの 社員 です。",
+        "vi": "Anh Yamada là nhân viên công ty FPT."
+      },
+      {
+        "jp": "はなちゃんは 9さい です。",
+        "vi": "Bé Hana 9 tuổi."
+      }
+    ]
+  }
+]

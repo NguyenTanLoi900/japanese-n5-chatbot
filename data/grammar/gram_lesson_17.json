@@ -1,0 +1,130 @@
+[
+  {
+    "grammar_id": "grammar-17-1",
+    "lesson": 17,
+    "title": "Thể ない",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Ngoài thể て và thể ます đã học phần trước, động từ trong tiếng Nhật còn một dạng biến hóa khác là thể ない. Sau đây là cách tạo thể ない của một động từ từ thể ます của nó. a. Nhóm I: - Các động từ thuộc nhóm này đều có âm cuối của phần thể ます là những âm thuộc hàng い(い、き、し、ち、...). Để tạo thể ない của những động từ nhóm I này, ta chỉ việc thay thế âm đó bằng âm tương ứng ở hàng あ (VD: き => か、し => さ、ち => た、...). Riêng những từ có âm tận cùng của phần thể ます là い thì sẽ được thay bằng âm わ (chứ không phải あ). *) Chi tiết tham khảo bảng phụ lục động từ đã phát ở bài 14. Thể ます Thể ない かき（ます） かか（ない） よみ（ます） よま（ない） とり（ます） とら（ない） はなし（ます） はなさ（ない） いそぎ（ます） いさが（ない） あそび（ます） あそば（ない） まち（ます） また（ない） *) Đặc biệt : すい（ます） すわ（ない） b. Nhóm II: - Thể ない của những động từ nhóm II này giống hệt với thể ます. たべ（ます） => たべ（ない） みせ（ます） => みせ（ない） おき（ます） => おき（ない） やめ（ます）=> やめ（ない） c. Nhóm III: - Thể ない của します và những động từ dạng “N＋します” (かいものします、しょくじします、…) giống hệt thể ます. し (ます) => し(ない) べんきょうし (ます) => べんきょうし (ない) けっこんし (ます) => けっこんし (ない) *) Thể ない của きます là こ (ない).",
+    "meaning_vi": "Thể ない",
+    "usage_vi": "Ngoài thể て và thể ます đã học phần trước, động từ trong tiếng Nhật còn một dạng biến hóa khác là thể ない. Sau đây là cách tạo thể ない của một động từ từ thể ます của nó. a. Nhóm I: - Các động từ thuộc nhóm này đều có âm cuối của phần thể ます là những âm thuộc hàng い(い、き、し、ち、...). Để tạo thể ない của những động từ nhóm I này, ta chỉ việc thay thế âm đó bằng âm tương ứng ở hàng あ (VD: き => か、し => さ、ち => た、...). Riêng những từ có âm tận cùng của phần thể ます là い thì sẽ được thay bằng âm わ (chứ không phải あ). *) Chi tiết tham khảo bảng phụ lục động từ đã phát ở bài 14. Thể ます Thể ない かき（ます） かか（ない） よみ（ます） よま（ない） とり（ます） とら（ない） はなし（ます） はなさ（ない） いそぎ（ます） いさが（ない） あそび（ます） あそば（ない） まち（ます） また（ない） *) Đặc biệt : すい（ます） すわ（ない） b. Nhóm II: - Thể ない của những động từ nhóm II này giống hệt với thể ます. たべ（ます） => たべ（ない） みせ（ます） => みせ（ない） おき（ます） => おき（ない） やめ（ます）=> やめ（ない） c. Nhóm III: - Thể ない của します và những động từ dạng “N＋します” (かいものします、しょくじします、…) giống hệt thể ます. し (ます) => し(ない) べんきょうし (ます) => べんきょうし (ない) けっこんし (ます) => けっこんし (ない) *) Thể ない của きます là こ (ない).",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "Ngoài thể て và thể ます đã học phần trước, động từ trong tiếng Nhật còn một dạng biến hóa khác là thể ない. Sau đây là cách tạo thể ない của một động từ từ thể ます của nó.",
+        "vi": "a. Nhóm I:"
+      },
+      {
+        "jp": "Riêng những từ có âm tận cùng của phần thể ます là い thì sẽ được thay bằng âm わ (chứ không phải あ).",
+        "vi": "*) Chi tiết tham khảo bảng phụ lục động từ đã phát ở bài 14."
+      },
+      {
+        "jp": "すわ（ない）",
+        "vi": "b. Nhóm II:"
+      },
+      {
+        "jp": "おき（ます） => おき（ない） やめ（ます）=> やめ（ない）",
+        "vi": "c. Nhóm III:"
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-17-2",
+    "lesson": 17,
+    "title": "Thể ない + ないで ください",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Mẫu này được dùng để đề nghị, dặn dò ai đó đừng làm một việc nào đó. Cũng giống như Vてください, đây là câu mệnh lệnh nên tránh dùng với người trên. 例1： わたしは げんきですから、しんぱいしないで ください。 Tôi khỏe, vì thế đừng lo lắng. 例2： ここで しゃしんを とらないで ください。 Đừng chụp ảnh ở đây.",
+    "meaning_vi": "Thể ない + ないで ください",
+    "usage_vi": "Mẫu này được dùng để đề nghị, dặn dò ai đó đừng làm một việc nào đó. Cũng giống như Vてください, đây là câu mệnh lệnh nên tránh dùng với người trên. 例1： わたしは げんきですから、しんぱいしないで ください。 Tôi khỏe, vì thế đừng lo lắng. 例2： ここで しゃしんを とらないで ください。 Đừng chụp ảnh ở đây.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "ここで しゃしんを とらないで ください。",
+        "vi": "Đừng chụp ảnh ở đây."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-17-3",
+    "lesson": 17,
+    "title": "Thể ない＋ なくても いいです",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Mẫu này dùng để biểu đạt sự không cần thiết của hành động được diễn tả bằng động từ. 例1： あした こなくても いいですよ。 Ngày mai bạn không cần phải đến đâu. 例2： しけんは かんたんですから、しんぱいしなくても いいです。 Vì bài thi đơn giản nên không cần phải lo lắng.",
+    "meaning_vi": "Thể ない＋ なくても いいです",
+    "usage_vi": "Mẫu này dùng để biểu đạt sự không cần thiết của hành động được diễn tả bằng động từ. 例1： あした こなくても いいですよ。 Ngày mai bạn không cần phải đến đâu. 例2： しけんは かんたんですから、しんぱいしなくても いいです。 Vì bài thi đơn giản nên không cần phải lo lắng.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "しけんは かんたんですから、しんぱいしなくても いいです。",
+        "vi": "Vì bài thi đơn giản nên không cần phải lo lắng."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-17-4",
+    "lesson": 17,
+    "title": "Thể ない＋ なければ なりません",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Mẫu này được dùng để biểu đạt một việc được coi như là nghĩa vụ phải làm, bất chấp người làm có muốn như vậy hay không. 例1： わたしは くすりを のまなければ なりません。 Tôi phải uống thuốc. 例2： はなちゃんは まいにち がっこうへ いかなければ なりません。 Bé Hana phải đến trường mỗi ngày. Để trả lời cho câu hỏi dạng này, ta dùng : 「はい、～なければ なりません」cho câu trả lời khẳng định ( tùy trường hợp có thể sử dụng cả Vてくださいđể trả lời) và 「いいえ、～なくても いいです」cho câu trả lời phủ định. 例3： A : まいにち しゅくだいを しなければなりませんか。 Bạn phải làm bài tập mỗi ngày à? B : はい、毎日 しなければなりません。 Ừ, phải làm mỗi ngày. 例4： A : この DVDは いつまでに かえさなければ なりませんか。 Đĩa DVD này phải trả trước lúc nào? B : らいしゅうの もくようび までに かえしてください。 Hãy trả trước thứ 5 tuần sau. 例5： A : Bさんは にちようびも だいがくへ いかなければ なりませんか。 Chủ Nhật bạn cũng phải đến trường à? B : いいえ、いかなくても いいです。 Không, không cần phải đến.",
+    "meaning_vi": "Thể ない＋ なければ なりません",
+    "usage_vi": "Mẫu này được dùng để biểu đạt một việc được coi như là nghĩa vụ phải làm, bất chấp người làm có muốn như vậy hay không. 例1： わたしは くすりを のまなければ なりません。 Tôi phải uống thuốc. 例2： はなちゃんは まいにち がっこうへ いかなければ なりません。 Bé Hana phải đến trường mỗi ngày. Để trả lời cho câu hỏi dạng này, ta dùng : 「はい、～なければ なりません」cho câu trả lời khẳng định ( tùy trường hợp có thể sử dụng cả Vてくださいđể trả lời) và 「いいえ、～なくても いいです」cho câu trả lời phủ định. 例3： A : まいにち しゅくだいを しなければなりませんか。 Bạn phải làm bài tập mỗi ngày à? B : はい、毎日 しなければなりません。 Ừ, phải làm mỗi ngày. 例4： A : この DVDは いつまでに かえさなければ なりませんか。 Đĩa DVD này phải trả trước lúc nào? B : らいしゅうの もくようび までに かえしてください。 Hãy trả trước thứ 5 tuần sau. 例5： A : Bさんは にちようびも だいがくへ いかなければ なりませんか。 Chủ Nhật bạn cũng phải đến trường à? B : いいえ、いかなくても いいです。 Không, không cần phải đến.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "はなちゃんは まいにち がっこうへ いかなければ なりません。",
+        "vi": "Bé Hana phải đến trường mỗi ngày."
+      },
+      {
+        "jp": "B : いいえ、いかなくても いいです。",
+        "vi": "Không, không cần phải đến."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-17-5",
+    "lesson": 17,
+    "title": "N (đối tượng) は:",
+    "pattern": "N (đối tượng) は",
+    "jpn": "N (đối tượng) は",
+    "explanation": "Trong bài 6, các bạn đã được học về trợ từ を được đính kèm ngay sau đối tượng trực tiếp của các động từ. Trong bài này, chúng ta sẽ học cách đưa các đối tượng đó lên làm chủ đề bằng cách thay thế trợ từを bằng trợ từ は. 例1： ここに にもつを おいて ください。 Hãy để hành lý ở đây. => A : にもつは どこに おきますか。 Hành lý thì để ở đâu? B : にもつは ここに おいて ください。 Hành lý thì hãy để ở đây. Câu đầu tiên chỉ là một mệnh lệnh đơn thuần của người nói. Còn ở đoạn hội thoại tiếp sau thì cả người nói và người nghe đều đặt にもつ lên để làm chủ đề cho câu chuyện của mình. 例2： わたし は かいしゃの しょくどうで ひるごはんを たべます。 Tôi ăn trưa ở nhà ăn của công ty. => A : ひるごはんは どこで たべますか。 Bữa trưa thì bạn ăn ở đâu? B : ひるごはんは かいしゃの しょくどうで たべます。 Bữa trưa thì tôi ăn ở nhà ăn của công ty.",
+    "meaning_vi": "N (đối tượng) は:",
+    "usage_vi": "Trong bài 6, các bạn đã được học về trợ từ を được đính kèm ngay sau đối tượng trực tiếp của các động từ. Trong bài này, chúng ta sẽ học cách đưa các đối tượng đó lên làm chủ đề bằng cách thay thế trợ từを bằng trợ từ は. 例1： ここに にもつを おいて ください。 Hãy để hành lý ở đây. => A : にもつは どこに おきますか。 Hành lý thì để ở đâu? B : にもつは ここに おいて ください。 Hành lý thì hãy để ở đây. Câu đầu tiên chỉ là một mệnh lệnh đơn thuần của người nói. Còn ở đoạn hội thoại tiếp sau thì cả người nói và người nghe đều đặt にもつ lên để làm chủ đề cho câu chuyện của mình. 例2： わたし は かいしゃの しょくどうで ひるごはんを たべます。 Tôi ăn trưa ở nhà ăn của công ty. => A : ひるごはんは どこで たべますか。 Bữa trưa thì bạn ăn ở đâu? B : ひるごはんは かいしゃの しょくどうで たべます。 Bữa trưa thì tôi ăn ở nhà ăn của công ty.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B : にもつは ここに おいて ください。",
+        "vi": "Hành lý thì hãy để ở đây."
+      },
+      {
+        "jp": "B : ひるごはんは かいしゃの しょくどうで たべます。",
+        "vi": "Bữa trưa thì tôi ăn ở nhà ăn của công ty."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-17-6",
+    "lesson": 17,
+    "title": "N (thời gian) までに V",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Thời điểm được biểu thị bằng までに là thời hạn cuối mà một hành động hay một công việc phải được tiến hành. Có nghĩa là, hành động hay công việc phải được tiến hành trước thời hạn được chỉ định bởi までに. 例1： かいぎは 5時までに おわります。 Cuộc họp sẽ kết thúc trước 5 giờ. 例2： どようびまでに ほんを かえさなければ なりません。 Phải trả lại sách trước thứ 7. Lưu ý: Tránh nhầm lẫn まで và までに. 例3： ５じまで はたらきます。 Tôi làm việc đến 5 giờ. - まで chỉ thời điểm chấm dứt một hành động hay một công việc đang được tiến hành.",
+    "meaning_vi": "N (thời gian) までに V",
+    "usage_vi": "Thời điểm được biểu thị bằng までに là thời hạn cuối mà một hành động hay một công việc phải được tiến hành. Có nghĩa là, hành động hay công việc phải được tiến hành trước thời hạn được chỉ định bởi までに. 例1： かいぎは 5時までに おわります。 Cuộc họp sẽ kết thúc trước 5 giờ. 例2： どようびまでに ほんを かえさなければ なりません。 Phải trả lại sách trước thứ 7. Lưu ý: Tránh nhầm lẫn まで và までに. 例3： ５じまで はたらきます。 Tôi làm việc đến 5 giờ. - まで chỉ thời điểm chấm dứt một hành động hay một công việc đang được tiến hành.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "- まで chỉ thời điểm chấm dứt một hành động hay một công việc đang được tiến hành.",
+        "vi": "Tôi làm việc đến 5 giờ."
+      }
+    ]
+  }
+]

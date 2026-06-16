@@ -1,0 +1,27 @@
+{
+  "name": "japanese-n5-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:vectors": "node scripts/build-vectors.js",
+    "build:vectors:resume": "node scripts/build-vectors.js --resume",
+    "build:vectors:faiss": "node scripts/build-vectors.js --faiss-only",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.17.0",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^6.21.0"
+  }
+}

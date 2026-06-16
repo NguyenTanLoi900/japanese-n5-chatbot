@@ -1,0 +1,100 @@
+[
+  {
+    "grammar_id": "grammar-9-1",
+    "lesson": 9,
+    "title": "N が あります/わかります N が すきです/きらいです /じょうずです /へたです",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Trong bài 6 chúng ta đã được học về những động từ chỉ hành động hay động tác có đối tượng của động từ được biểu thị bằng trợ từ を. Tuy vậy, 2 động từ ありますvà わかりますmà ta vừa học không phải là những động từ chỉ động tác. Chúng là những động từ chỉ sự tồn tại hay chỉ khả năng của một ai đó. Vì vậy, đối tượng của 2 động từ này không được biểu thị bằng trợ từを , mà bằng trợ từ が Tương tự, những tính từ như すきです、きらいです、じょうずです、へたです,.. cũng cần có đối tượng của nó và những đối tượng này cũng được biểu thị bằng trợ từ がgiống như 2 động từ あります vàわかります. Những động từ và tính từ mà đối tượng của nó được biểu thị bằng trợ từ が theo mẫu trên là những từ dùng để biểu thị : sở thích ( hay ham muốn), năng lực và sự sở hữu. Cần lưu ý phân biệt cách dùng 2 trợ từ はvà が trong mẫu câu trên ( tham khảo các ví dụ bên dưới). N1は ：N1 là chủ thể của động từ/ tính từ . N2 が : N2 là đối tượng của động từ/tính từ. Khi chuyển các động từ và tính từ trên sang thể quá khứ hoặc phủ định, ta vẫn giữ nguyên cách chuyển như đối với các động từ và tính từ khác. Các trạng từ chỉ mức độ của tính từ あまり・とても cũng dùng như bình thường đối với các tính từ đặc biệt này. 例1： わたしは イタリアりょうりが すきです。 Tôi thích món ăn Ý. わたしlà chủ thể của tính từ「好きです 、「イタリア料理」：là đối tượng của 「好きです」） 例2： わたしは コーヒーが あまり すき じゃ ありません。 Tôi không thích cafe lắm. 例3： わたしは にほんごが わかります。 Tôi hiểu tiếng Nhật. 例4： わたしは えいごが わかりません。 Tôi không hiểu tiếng Anh. 例5： ハイさんは くるまが あります。 Anh Hải có xe oto. 例6： やまださんは ダンスが とても じょうずです。 Anh Yamada khiêu vũ rất giỏi.",
+    "meaning_vi": "N が あります/わかります N が すきです/きらいです /じょうずです /へたです",
+    "usage_vi": "Trong bài 6 chúng ta đã được học về những động từ chỉ hành động hay động tác có đối tượng của động từ được biểu thị bằng trợ từ を. Tuy vậy, 2 động từ ありますvà わかりますmà ta vừa học không phải là những động từ chỉ động tác. Chúng là những động từ chỉ sự tồn tại hay chỉ khả năng của một ai đó. Vì vậy, đối tượng của 2 động từ này không được biểu thị bằng trợ từを , mà bằng trợ từ が Tương tự, những tính từ như すきです、きらいです、じょうずです、へたです,.. cũng cần có đối tượng của nó và những đối tượng này cũng được biểu thị bằng trợ từ がgiống như 2 động từ あります vàわかります. Những động từ và tính từ mà đối tượng của nó được biểu thị bằng trợ từ が theo mẫu trên là những từ dùng để biểu thị : sở thích ( hay ham muốn), năng lực và sự sở hữu. Cần lưu ý phân biệt cách dùng 2 trợ từ はvà が trong mẫu câu trên ( tham khảo các ví dụ bên dưới). N1は ：N1 là chủ thể của động từ/ tính từ . N2 が : N2 là đối tượng của động từ/tính từ. Khi chuyển các động từ và tính từ trên sang thể quá khứ hoặc phủ định, ta vẫn giữ nguyên cách chuyển như đối với các động từ và tính từ khác. Các trạng từ chỉ mức độ của tính từ あまり・とても cũng dùng như bình thường đối với các tính từ đặc biệt này. 例1： わたしは イタリアりょうりが すきです。 Tôi thích món ăn Ý. わたしlà chủ thể của tính từ「好きです 、「イタリア料理」：là đối tượng của 「好きです」） 例2： わたしは コーヒーが あまり すき じゃ ありません。 Tôi không thích cafe lắm. 例3： わたしは にほんごが わかります。 Tôi hiểu tiếng Nhật. 例4： わたしは えいごが わかりません。 Tôi không hiểu tiếng Anh. 例5： ハイさんは くるまが あります。 Anh Hải có xe oto. 例6： やまださんは ダンスが とても じょうずです。 Anh Yamada khiêu vũ rất giỏi.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "やまださんは ダンスが とても じょうずです。",
+        "vi": "Anh Yamada khiêu vũ rất giỏi."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-9-2",
+    "lesson": 9,
+    "title": "どんな + N",
+    "pattern": "どんな +",
+    "jpn": "どんな +",
+    "explanation": "Trong bài trước, chúng ta đã học cách sử dụng “どんな + N” để đề nghị người nghe miêu tả, giảng giải lại cho mình về tính chất, đặc điểm của N. Ngoài ra, どんな + N còn được sử dụng để đề nghị người nghe chọn một việc/ một thứ cụ thể từ một nhóm được người nói đề cập đến trong danh từ N. 例1： A: (Bさんは) どんな スポーツが すきですか。 Bạn thích môn thể thao nào. 例2： B: （わたしは）サッカーが すきです。 Tôi thích bóng đá.",
+    "meaning_vi": "N",
+    "usage_vi": "Trong bài trước, chúng ta đã học cách sử dụng “どんな + N” để đề nghị người nghe miêu tả, giảng giải lại cho mình về tính chất, đặc điểm của N. Ngoài ra, どんな + N còn được sử dụng để đề nghị người nghe chọn một việc/ một thứ cụ thể từ một nhóm được người nói đề cập đến trong danh từ N. 例1： A: (Bさんは) どんな スポーツが すきですか。 Bạn thích môn thể thao nào. 例2： B: （わたしは）サッカーが すきです。 Tôi thích bóng đá.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: （わたしは）サッカーが すきです。",
+        "vi": "Tôi thích bóng đá."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-9-3",
+    "lesson": 9,
+    "title": "よく/だいたい/たくさん/すこし/あまり/ぜんぜん",
+    "pattern": "よく/だいたい/たくさん/すこし/あまり/ぜんぜん",
+    "jpn": "よく/だいたい/たくさん/すこし/あまり/ぜんぜん",
+    "explanation": "Đây là những phó từ chỉ mức độ được đặt ở trước động từ để chỉ mức độ của các động từ đó. Dưới đây là bảng thứ tự cách sử dụng của các phó từ trên : Mức độ Trạng từ + Khẳng định Trạng từ+ Phủ định Cao Thấp よく わかりま Hiểu rõ, rất hiểu だいたい わかりますHiểu gần hết, khá hiểu すこし わかります Hiểu một chút, hơi hiểu あまり わかりません Không hiểu lắm ぜんぜん わかりません Chẳng hiểu gì Số lượng Trạng từ + Khẳng định Trạng từ+ Phủ định Nhiều Ít たくさん あります Có nhiều すこしあります Có một chút あまり ありません Không có mấy ぜんぜん ありません Chẳng có gì 例1： えいごが よく わかります。 Tôi hiểu rõ tiếng Anh. 例2： えいごが すこし わかります。 Tôi hơi hiểu tiếng Anh một chút. 例3： えいごが あまり わかりません。 Tôi không hiểu tiếng Anh lắm. 例4： おかねが たくさん あります。 Tôi có nhiều tiền. 例5： おかねが ぜんぜん ありません。 Tôi chẳng có tí tiền nào. Lưu ý: Trạng từ すこしvàぜんぜん còn có thể sử dụng để bổ nghĩa cho tính từ. 例1： ここは すこし さむいです。 Ở đây hơi lạnh. 例2： あの えいがは ぜんぜん おもしろくないです。 Phim này chẳng hay gì cả..",
+    "meaning_vi": "よく/だいたい/たくさん/すこし/あまり/ぜんぜん",
+    "usage_vi": "Đây là những phó từ chỉ mức độ được đặt ở trước động từ để chỉ mức độ của các động từ đó. Dưới đây là bảng thứ tự cách sử dụng của các phó từ trên : Mức độ Trạng từ + Khẳng định Trạng từ+ Phủ định Cao Thấp よく わかりま Hiểu rõ, rất hiểu だいたい わかりますHiểu gần hết, khá hiểu すこし わかります Hiểu một chút, hơi hiểu あまり わかりません Không hiểu lắm ぜんぜん わかりません Chẳng hiểu gì Số lượng Trạng từ + Khẳng định Trạng từ+ Phủ định Nhiều Ít たくさん あります Có nhiều すこしあります Có một chút あまり ありません Không có mấy ぜんぜん ありません Chẳng có gì 例1： えいごが よく わかります。 Tôi hiểu rõ tiếng Anh. 例2： えいごが すこし わかります。 Tôi hơi hiểu tiếng Anh một chút. 例3： えいごが あまり わかりません。 Tôi không hiểu tiếng Anh lắm. 例4： おかねが たくさん あります。 Tôi có nhiều tiền. 例5： おかねが ぜんぜん ありません。 Tôi chẳng có tí tiền nào. Lưu ý: Trạng từ すこしvàぜんぜん còn có thể sử dụng để bổ nghĩa cho tính từ. 例1： ここは すこし さむいです。 Ở đây hơi lạnh. 例2： あの えいがは ぜんぜん おもしろくないです。 Phim này chẳng hay gì cả..",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "おかねが ぜんぜん ありません。",
+        "vi": "Tôi chẳng có tí tiền nào."
+      },
+      {
+        "jp": "あの えいがは ぜんぜん おもしろくないです。",
+        "vi": "Phim này chẳng hay gì cả.."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-9-4",
+    "lesson": 9,
+    "title": "S1から、S2.",
+    "pattern": "S1から、S2.",
+    "jpn": "S1から、S2.",
+    "explanation": "から được dùng để nói 2 mệnh đề hoặc 2 câu có quan hệ nhân quả với nhau. S1 là lý do của S2 例1： じかんが ありませんから、しんぶんをよみません。 Vì không có thời gian nên tôi không đọc báo. 例2： A: まいあさ しんぶんを よみますか。 Bạn có đọc báo hàng mỗi ngày không? B: いいえ、よみません。じかんが ありませんから。 Không, tôi không đọc. Vì không có thời gian. Như vậy có thể thấy から không nhất thiết lúc nào cũng phải đứng giữa 2 mệnh đề chỉ nguyên nhân và kết quả theo dạng S1から、S2 mà có thể đưa mệnh đề chỉ kết quả S2 lên trước. Sau đó nêu lý do và kết thúc câu chỉ lý do đó bằng từ から.",
+    "meaning_vi": "S1から、S2.",
+    "usage_vi": "から được dùng để nói 2 mệnh đề hoặc 2 câu có quan hệ nhân quả với nhau. S1 là lý do của S2 例1： じかんが ありませんから、しんぶんをよみません。 Vì không có thời gian nên tôi không đọc báo. 例2： A: まいあさ しんぶんを よみますか。 Bạn có đọc báo hàng mỗi ngày không? B: いいえ、よみません。じかんが ありませんから。 Không, tôi không đọc. Vì không có thời gian. Như vậy có thể thấy から không nhất thiết lúc nào cũng phải đứng giữa 2 mệnh đề chỉ nguyên nhân và kết quả theo dạng S1から、S2 mà có thể đưa mệnh đề chỉ kết quả S2 lên trước. Sau đó nêu lý do và kết thúc câu chỉ lý do đó bằng từ から.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: いいえ、よみません。じかんが ありませんから。",
+        "vi": "Không, tôi không đọc. Vì không có thời gian."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-9-5",
+    "lesson": 9,
+    "title": "．どうして",
+    "pattern": "．どうして",
+    "jpn": "．どうして",
+    "explanation": "Từ để hỏi どうして dùng để chỉ lý do. Câu trả lời cho câu hỏi どうして phải kết thúc bằngから 例1： A: どうして あさ しんぶんを よみませんか。 Tại sao buổi sáng bạn không đọc báo? B: じかんが ありませんから。 Vì không có thời gian Câu hỏi どうしてですか còn được dùng để hỏi lý do của một việc mà người khác vừa nói. 例1： A: きょうは はやく かえります。 Hôm nay tôi về sớm. B:どうしてですか。。 Tại sao? A: こどもの たんじょうびですから。 Vì ( hôm nay là) sinh nhật con gái tôi",
+    "meaning_vi": "．どうして",
+    "usage_vi": "Từ để hỏi どうして dùng để chỉ lý do. Câu trả lời cho câu hỏi どうして phải kết thúc bằngから 例1： A: どうして あさ しんぶんを よみませんか。 Tại sao buổi sáng bạn không đọc báo? B: じかんが ありませんから。 Vì không có thời gian Câu hỏi どうしてですか còn được dùng để hỏi lý do của một việc mà người khác vừa nói. 例1： A: きょうは はやく かえります。 Hôm nay tôi về sớm. B:どうしてですか。。 Tại sao? A: こどもの たんじょうびですから。 Vì ( hôm nay là) sinh nhật con gái tôi",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: じかんが ありませんから。",
+        "vi": "Vì không có thời gian"
+      },
+      {
+        "jp": "A: こどもの たんじょうびですから。",
+        "vi": "Vì ( hôm nay là) sinh nhật con gái tôi"
+      }
+    ]
+  }
+]

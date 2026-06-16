@@ -1,0 +1,144 @@
+[
+  {
+    "grammar_id": "grammar-4-1",
+    "lesson": 4,
+    "title": "今(いま) ～時(じ) ～分(ふん)です",
+    "pattern": "今(いま) ～時(じ) ～分(ふん)です",
+    "jpn": "今(いま) ～時(じ) ～分(ふん)です",
+    "explanation": "Trong tiếng Nhật, người ta sử dụng các đơn vị đếm thời gian là 時じ（giờ）và 分ふん（phút）kết hợp với các số đếm để nói về thời gian. Các số đếm sẽ được đặt trước các đơn vị chỉ thời gian. 例1： ８じ１５ふん – 8 giờ 15 phút。 *) Đơn vị đếm phút (分) được đọc khác nhau tùy theo số đếm đi trước nó: - Đọc là ふん khi đứng sau các số đếm : 2,5,7,9 hoặc những số có tận cùng là những chữ số trên. - Đọc là ぷん khi đứng sau các số đếm 1,3,4,6,8 và 10 hoặc những số có tận cùng là những chữ số trên. Đặc biệt, các số đếm 1,6,8,10 khi đọc cùng vớiぷんsẽ bị biến âm thành いっ、ろっ、はっ và じゅっ（じっ.） *) Khi nói về giờ cũng cần lưu ý các cách đọc đặc biệt với các giờ sau : - ４時 （じ） đọc là よじ （không đọc làよんじ） - ７時 （じ） đọc là しちじ（không đọc là ななじ） - ９時 （じ） đọc là くじ （không đọc làきゅうじ） Tham khảo phụ lục đính kèm để hiểu rõ thêm về cách nói giờ và phút. - Từ để hỏi 何なんkhi đi kèm với các đơn vị chỉ số đếm được dùng để hỏi các câu hỏi liên quan tới số lượng hoặc số đếm. Ở đây, từ 何時なんじ( đôi lúc là 何分なんぷん ) được dùng để hỏi về thời gian. 例1： A : 今 何時(なんじ)ですか。 Bây giờ là mấy giờ ? B : ７時(じ)１０分(ぷん)です。 7 giờ 10 *) Lưu ý : Như đã học ở bài 1, trợ từ は cho ta biết chủ đề của một câu. Một từ chỉ địa danh danh cũng có thể được sử dụng như chủ đề của một câu như dưới đây: 例3： A : ニューヨークは いま なんじですか。 New York bây giờ là mấy giờ ? B : ごぜん ４じです。 4 giờ sáng.",
+    "meaning_vi": "今(いま) ～時(じ) ～分(ふん)です",
+    "usage_vi": "Trong tiếng Nhật, người ta sử dụng các đơn vị đếm thời gian là 時じ（giờ）và 分ふん（phút）kết hợp với các số đếm để nói về thời gian. Các số đếm sẽ được đặt trước các đơn vị chỉ thời gian. 例1： ８じ１５ふん – 8 giờ 15 phút。 *) Đơn vị đếm phút (分) được đọc khác nhau tùy theo số đếm đi trước nó: - Đọc là ふん khi đứng sau các số đếm : 2,5,7,9 hoặc những số có tận cùng là những chữ số trên. - Đọc là ぷん khi đứng sau các số đếm 1,3,4,6,8 và 10 hoặc những số có tận cùng là những chữ số trên. Đặc biệt, các số đếm 1,6,8,10 khi đọc cùng vớiぷんsẽ bị biến âm thành いっ、ろっ、はっ và じゅっ（じっ.） *) Khi nói về giờ cũng cần lưu ý các cách đọc đặc biệt với các giờ sau : - ４時 （じ） đọc là よじ （không đọc làよんじ） - ７時 （じ） đọc là しちじ（không đọc là ななじ） - ９時 （じ） đọc là くじ （không đọc làきゅうじ） Tham khảo phụ lục đính kèm để hiểu rõ thêm về cách nói giờ và phút. - Từ để hỏi 何なんkhi đi kèm với các đơn vị chỉ số đếm được dùng để hỏi các câu hỏi liên quan tới số lượng hoặc số đếm. Ở đây, từ 何時なんじ( đôi lúc là 何分なんぷん ) được dùng để hỏi về thời gian. 例1： A : 今 何時(なんじ)ですか。 Bây giờ là mấy giờ ? B : ７時(じ)１０分(ぷん)です。 7 giờ 10 *) Lưu ý : Như đã học ở bài 1, trợ từ は cho ta biết chủ đề của một câu. Một từ chỉ địa danh danh cũng có thể được sử dụng như chủ đề của một câu như dưới đây: 例3： A : ニューヨークは いま なんじですか。 New York bây giờ là mấy giờ ? B : ごぜん ４じです。 4 giờ sáng.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B : ７時 (じ)１０分 (ぷん)です。",
+        "vi": "7 giờ 10"
+      },
+      {
+        "jp": "B : ごぜん ４じです。",
+        "vi": "4 giờ sáng."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-4-2",
+    "lesson": 4,
+    "title": "Vます",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "1) Thể ます là một trong những thể của động từ trong tiếng Nhật. Những động từ kết thúc bằng ますcó chức năng làm vị ngữ của câu. 2 ) Thể ます làm cho câu nghe lịch sự hơn. 例1： わたしは まいにち べんきょうします。 Tôi học mỗi ngày.",
+    "meaning_vi": "Vます",
+    "usage_vi": "1) Thể ます là một trong những thể của động từ trong tiếng Nhật. Những động từ kết thúc bằng ますcó chức năng làm vị ngữ của câu. 2 ) Thể ます làm cho câu nghe lịch sự hơn. 例1： わたしは まいにち べんきょうします。 Tôi học mỗi ngày.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "わたしは まいにち べんきょうします。",
+        "vi": "Tôi học mỗi ngày."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-4-3",
+    "lesson": 4,
+    "title": "Vます/Vません/Vました/Vませんでした",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "1. Thểます được dùng để diễn tả một sự thật khách quan ( VD: nước sôi ở 100 độ, mặt trời mọc từ đằng Đông,..) hoặc một việc đã trở thành thói quen. Có thể gọi ます là thể khẳng định của động từ ở thời không quá khứ ( tức là bao gồm cả hiện tại và tương lai) dạng lịch sự. Thể phủ định và thể quá khứ của ます được biến đổi như bảng dưới đây Không quá khứ (hiện tại/tương lai) Quá khứ Khẳng định (おき)ます (おき）ました Phủ định (おき）ません (おき）ませんでした 例1： まいあさ ６じに おきます。 Hàng ngày tôi thức dậy lúc 6 giờ. 例2： あした ６じに おきます。 Ngày mai tôi sẽ thức dậy lúc 6 giờ. 例3： けさ ６じに おきました。 Sáng nay tôi thức dậy lúc 6 giờ. 2. Dạng câu hỏi của những câu động từ ( tức là những câu kết thúc bằng động từ ) cũng có cấu tạo tương tự như những câu danh từ. Nó có cấu tạo giống câu trần thuật và thêm か vào cuối mỗi câu. Ở dạng câu hỏi này, khi trả lời ta phải nhắc lại động từ. Không được sử dụng các trả lời ngắn gọn そうです hoặcそうじゃありませんnhư đã học trong bài 2. 例4： A :きのう べんきょうしましたか。 Hôm qua bạn có học không? B1：はい、べんきょうしました。 Có, tôi có học. B2 : いいえ、べんきょうしませんでした。 Không, tôi không học. 例5： A : まいあさ なんじに おきますか。 Hàng ngày bạn dậy lúc mấy giờ? B : ６じに おきます。 Tôi dậy lúc 6 giờ.",
+    "meaning_vi": "Vます/Vません/Vました/Vませんでした",
+    "usage_vi": "1. Thểます được dùng để diễn tả một sự thật khách quan ( VD: nước sôi ở 100 độ, mặt trời mọc từ đằng Đông,..) hoặc một việc đã trở thành thói quen. Có thể gọi ます là thể khẳng định của động từ ở thời không quá khứ ( tức là bao gồm cả hiện tại và tương lai) dạng lịch sự. Thể phủ định và thể quá khứ của ます được biến đổi như bảng dưới đây Không quá khứ (hiện tại/tương lai) Quá khứ Khẳng định (おき)ます (おき）ました Phủ định (おき）ません (おき）ませんでした 例1： まいあさ ６じに おきます。 Hàng ngày tôi thức dậy lúc 6 giờ. 例2： あした ６じに おきます。 Ngày mai tôi sẽ thức dậy lúc 6 giờ. 例3： けさ ６じに おきました。 Sáng nay tôi thức dậy lúc 6 giờ. 2. Dạng câu hỏi của những câu động từ ( tức là những câu kết thúc bằng động từ ) cũng có cấu tạo tương tự như những câu danh từ. Nó có cấu tạo giống câu trần thuật và thêm か vào cuối mỗi câu. Ở dạng câu hỏi này, khi trả lời ta phải nhắc lại động từ. Không được sử dụng các trả lời ngắn gọn そうです hoặcそうじゃありませんnhư đã học trong bài 2. 例4： A :きのう べんきょうしましたか。 Hôm qua bạn có học không? B1：はい、べんきょうしました。 Có, tôi có học. B2 : いいえ、べんきょうしませんでした。 Không, tôi không học. 例5： A : まいあさ なんじに おきますか。 Hàng ngày bạn dậy lúc mấy giờ? B : ６じに おきます。 Tôi dậy lúc 6 giờ.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "けさ ６じに おきました。",
+        "vi": "Sáng nay tôi thức dậy lúc 6 giờ."
+      },
+      {
+        "jp": "B : ６じに おきます。",
+        "vi": "Tôi dậy lúc 6 giờ."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-4-4",
+    "lesson": 4,
+    "title": "N (thời gian) に V",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Để chỉ thời điểm tiến hành một động tác, một sự di chuyển, ta thêm trợ từ に ở sau danh từ chỉ thời gian. Tuy nhiên, cần lưu ý là chỉ được thêm trợ từ に vào trước những danh từ đi cùng với số đếm ( Ví dụ: ngày, tháng, năm hoặc giờ,..). Ta cũng có thể thêm trợ từ にvào trước danh từ chỉ các ngày trong tuần mặc dù nó không thật sự cần thiết. Còn lại các danh từ chỉ thời gian không đi cùng với số đếm khác ( ví dụ : sáng nay, hôm qua, mùa hè,..) thì không thêm trợ từ に vào đằng sau. 例1： ６時半じはんに おきます。 Tôi dậy lúc 6 rưỡi. 例2： ７月２日に ハノイへ きました。( Bài 5) Tôi lên Hà Nội vào ngày 2/7. 例3： にちようび[に] ハイフォンへ いきます。(Bài 5) Chủ Nhật tôi sẽ đi Hải Phòng. 例4： きのう べんきょうしました。 Hôm qua tôi học.",
+    "meaning_vi": "N (thời gian) に V",
+    "usage_vi": "Để chỉ thời điểm tiến hành một động tác, một sự di chuyển, ta thêm trợ từ に ở sau danh từ chỉ thời gian. Tuy nhiên, cần lưu ý là chỉ được thêm trợ từ に vào trước những danh từ đi cùng với số đếm ( Ví dụ: ngày, tháng, năm hoặc giờ,..). Ta cũng có thể thêm trợ từ にvào trước danh từ chỉ các ngày trong tuần mặc dù nó không thật sự cần thiết. Còn lại các danh từ chỉ thời gian không đi cùng với số đếm khác ( ví dụ : sáng nay, hôm qua, mùa hè,..) thì không thêm trợ từ に vào đằng sau. 例1： ６時半じはんに おきます。 Tôi dậy lúc 6 rưỡi. 例2： ７月２日に ハノイへ きました。( Bài 5) Tôi lên Hà Nội vào ngày 2/7. 例3： にちようび[に] ハイフォンへ いきます。(Bài 5) Chủ Nhật tôi sẽ đi Hải Phòng. 例4： きのう べんきょうしました。 Hôm qua tôi học.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "きのう べんきょうしました。",
+        "vi": "Hôm qua tôi học."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-4-5",
+    "lesson": 4,
+    "title": "N1 から N2 まで",
+    "pattern": "N1 から N2 まで",
+    "jpn": "N1 から N2 まで",
+    "explanation": "1. からchỉ thời gian hoặc địa điểm bắt đầu một sự việc nào đó, cònまで chỉ thời gian hoặc địa điểm kết thúc một sự việc nào đó. 例1： ごぜん９じから ごご５じまで はたらきます。 Tôi làm việc từ 9 giờ sáng đến 5 giờ chiều. 例2： おおさかから とうきょう まで ３じかん かかります。 Đi từ Osaka đến Tokyo mất 3 tiếng. (ngữ pháp bài 11) 2）から và まで không phải bao giờ cũng đi cùng với nhau 例3： ９じから はたらきます。 Tôi làm việc từ 9 giờ. 3)～から、～まで、～から～まで、đôi lúc được dùng kèm trực tiếp vớiです ở cuối câu: 例4： ぎんこうは ９じから ３じまでです。 Ngân hàng mở cửa từ 9 giờ (sáng) đến 3 giờ ( chiều). 例5： ひるやすみは １２じからです。 Giờ nghỉ trưa bắt đầu từ 12 giờ.",
+    "meaning_vi": "N1 から N2 まで",
+    "usage_vi": "1. からchỉ thời gian hoặc địa điểm bắt đầu một sự việc nào đó, cònまで chỉ thời gian hoặc địa điểm kết thúc một sự việc nào đó. 例1： ごぜん９じから ごご５じまで はたらきます。 Tôi làm việc từ 9 giờ sáng đến 5 giờ chiều. 例2： おおさかから とうきょう まで ３じかん かかります。 Đi từ Osaka đến Tokyo mất 3 tiếng. (ngữ pháp bài 11) 2）から và まで không phải bao giờ cũng đi cùng với nhau 例3： ９じから はたらきます。 Tôi làm việc từ 9 giờ. 3)～から、～まで、～から～まで、đôi lúc được dùng kèm trực tiếp vớiです ở cuối câu: 例4： ぎんこうは ９じから ３じまでです。 Ngân hàng mở cửa từ 9 giờ (sáng) đến 3 giờ ( chiều). 例5： ひるやすみは １２じからです。 Giờ nghỉ trưa bắt đầu từ 12 giờ.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "おおさかから とうきょう まで ３じかん かかります。",
+        "vi": "Đi từ Osaka đến Tokyo mất 3 tiếng. (ngữ pháp bài 11)"
+      },
+      {
+        "jp": "９じから はたらきます。",
+        "vi": "Tôi làm việc từ 9 giờ."
+      },
+      {
+        "jp": "ひるやすみは １２じからです。",
+        "vi": "Giờ nghỉ trưa bắt đầu từ 12 giờ."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-4-6",
+    "lesson": 4,
+    "title": "N1 と N2",
+    "pattern": "N1 と N2",
+    "jpn": "N1 と N2",
+    "explanation": "Trợ từ と được dùng để nối 2 danh từ với nhau. 例1： ぎんこうの やすみは どようびと にちようびです。 Ngân hàng nghỉ(đóng cửa) ngày thứ 7 và Chủ Nhật.",
+    "meaning_vi": "N1 と N2",
+    "usage_vi": "Trợ từ と được dùng để nối 2 danh từ với nhau. 例1： ぎんこうの やすみは どようびと にちようびです。 Ngân hàng nghỉ(đóng cửa) ngày thứ 7 và Chủ Nhật.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "ぎんこうの やすみは どようびと にちようびです。",
+        "vi": "Ngân hàng nghỉ(đóng cửa) ngày thứ 7 và Chủ Nhật."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-4-7",
+    "lesson": 4,
+    "title": "ね",
+    "pattern": "ね",
+    "jpn": "ね",
+    "explanation": "- Trong tiếng Nhật có những từ được gọi là “ từ cuối câu” ( giống như “nhỉ”, “ đấy” ,..của tiếng Việt), chúng được đặt ở cuối mỗi câu để biểu hiện thái độ của người nói. - ね được dùng ở cuối câu để truyền đạt cho người nghe cảm xúc của mình hay thể hiện sự mong muốn người nghe đồng tình với nhũng gì mà mình nói ( ね không được sử dụng khi độc thoại). - ね còn được sử dụng để xác nhận lại một sự việc nào đó. Khi sử dụng các “ từ cuối câu” này phải lưu ý đến ngữ điệu đọc , vì tùy vào cách lên giọng hay xuống giọng mà ý nghĩa câu sẽ khác nhau. 例1： A : まいあさ 9じから 5じまで べんきょうします。 Hàng sáng tôi học từ 9 giờ đến 5 giờ. B :（それは）たいへんですね。 (đọc thấp giọng xuống) (Thế thì) vất vả nhỉ/mệt nhỉ. 例2： A : やまださんの でんわばんごうは ８７１の６８１３です。 Số điện thoại của Yamada là 871-6813. B : ８７１－６８１３ですね。 (đọc cao giọng lên ) 871-6813 hả. Lưu ý: ね không phải bao giờ cũng có nghĩa là “ nhỉ” của Tiếng Việt.",
+    "meaning_vi": "ね",
+    "usage_vi": "- Trong tiếng Nhật có những từ được gọi là “ từ cuối câu” ( giống như “nhỉ”, “ đấy” ,..của tiếng Việt), chúng được đặt ở cuối mỗi câu để biểu hiện thái độ của người nói. - ね được dùng ở cuối câu để truyền đạt cho người nghe cảm xúc của mình hay thể hiện sự mong muốn người nghe đồng tình với nhũng gì mà mình nói ( ね không được sử dụng khi độc thoại). - ね còn được sử dụng để xác nhận lại một sự việc nào đó. Khi sử dụng các “ từ cuối câu” này phải lưu ý đến ngữ điệu đọc , vì tùy vào cách lên giọng hay xuống giọng mà ý nghĩa câu sẽ khác nhau. 例1： A : まいあさ 9じから 5じまで べんきょうします。 Hàng sáng tôi học từ 9 giờ đến 5 giờ. B :（それは）たいへんですね。 (đọc thấp giọng xuống) (Thế thì) vất vả nhỉ/mệt nhỉ. 例2： A : やまださんの でんわばんごうは ８７１の６８１３です。 Số điện thoại của Yamada là 871-6813. B : ８７１－６８１３ですね。 (đọc cao giọng lên ) 871-6813 hả. Lưu ý: ね không phải bao giờ cũng có nghĩa là “ nhỉ” của Tiếng Việt.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B : ８７１－６８１３ですね。 (đọc cao giọng lên )",
+        "vi": "871-6813 hả."
+      }
+    ]
+  }
+]

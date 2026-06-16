@@ -1,0 +1,168 @@
+[
+  {
+    "grammar_id": "grammar-6-1",
+    "lesson": 6,
+    "title": "N を V",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Trợ từ を được dùng để chỉ đối tượng trực tiếp của động từ. Động từ trong mẫu này là những động từ mà những tác động của nó gây ảnh hưởng lên một khách thể khác ( VD: làm mất đi, làm biến dạng, ...) .をcó cách phát âm giống với お nhưng nó chỉ được sử dụng khi viết trợ từ. 例１ : わたしは ジュースを のみます。 Tôi uống nước ngọt 例２ : ごはんを たべました。 Tôi đã ăn cơm 例３ : やまださんは テレビをみます。 Anh Yamada xem TV. *)Lưu ý: Khác với tiếng Việt, thứ tự câu văn tiếng Nhật là chủ từ ( chủ thể của động từ)- đối tượng của động từ- động từ. Trợ từ を đứng trước động từ và sau đối tượng của động từ.",
+    "meaning_vi": "N を V",
+    "usage_vi": "Trợ từ を được dùng để chỉ đối tượng trực tiếp của động từ. Động từ trong mẫu này là những động từ mà những tác động của nó gây ảnh hưởng lên một khách thể khác ( VD: làm mất đi, làm biến dạng, ...) .をcó cách phát âm giống với お nhưng nó chỉ được sử dụng khi viết trợ từ. 例１ : わたしは ジュースを のみます。 Tôi uống nước ngọt 例２ : ごはんを たべました。 Tôi đã ăn cơm 例３ : やまださんは テレビをみます。 Anh Yamada xem TV. *)Lưu ý: Khác với tiếng Việt, thứ tự câu văn tiếng Nhật là chủ từ ( chủ thể của động từ)- đối tượng của động từ- động từ. Trợ từ を đứng trước động từ và sau đối tượng của động từ.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "やまださんは テレビをみます。",
+        "vi": "Anh Yamada xem TV."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-6-2",
+    "lesson": 6,
+    "title": "Nをします",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Có rất nhiều danh từ được dùng để chỉ đối tượng của động từ します。しますdùng để chỉ việc một thực hiện một hành động được miêu tả bởi danh từ N.Hãy xem một vài ví dụ dưới đây: Chơi một môn thể thao hay một trò chơi nào đó サッカーを します Chơi bóng đá テニスを します Chơi tennis ゲームを します Chơi games Tổ chức, tiến hành một hội nghị, buổi tiệc nào đó パーティーを します Tổ chức tiệc かいぎを します Họp Làm một cái gì đó しゅくだいを します Làm bài tập しごとを します Làm việc",
+    "meaning_vi": "Nをします",
+    "usage_vi": "Có rất nhiều danh từ được dùng để chỉ đối tượng của động từ します。しますdùng để chỉ việc một thực hiện một hành động được miêu tả bởi danh từ N.Hãy xem một vài ví dụ dưới đây: Chơi một môn thể thao hay một trò chơi nào đó サッカーを します Chơi bóng đá テニスを します Chơi tennis ゲームを します Chơi games Tổ chức, tiến hành một hội nghị, buổi tiệc nào đó パーティーを します Tổ chức tiệc かいぎを します Họp Làm một cái gì đó しゅくだいを します Làm bài tập しごとを します Làm việc",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "Có rất nhiều danh từ được dùng để chỉ đối tượng của động từ します。しますdùng để chỉ việc một thực hiện một hành động được miêu tả bởi danh từ N.Hãy xem một vài ví dụ dưới đây:",
+        "vi": "Chơi một môn thể thao hay một trò chơi nào đó"
+      },
+      {
+        "jp": "します",
+        "vi": "Chơi bóng đá"
+      },
+      {
+        "jp": "します",
+        "vi": "Chơi tennis"
+      },
+      {
+        "jp": "します",
+        "vi": "Chơi games"
+      },
+      {
+        "jp": "します",
+        "vi": "Tổ chức tiệc"
+      },
+      {
+        "jp": "します",
+        "vi": "Họp"
+      },
+      {
+        "jp": "します",
+        "vi": "Làm bài tập"
+      },
+      {
+        "jp": "します",
+        "vi": "Làm việc"
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-6-3",
+    "lesson": 6,
+    "title": "なにを しますか",
+    "pattern": "なにを しますか",
+    "jpn": "なにを しますか",
+    "explanation": "Mẫu câu trên dùng để hỏi ai đó làm gì? 例１ : A: げつようび なにを しますか。 Bạn làm gì vào thứ 2 B: ホーチミンしへ いきます。 Tôi đi thành phố Hồ Chí Minh 例２ : A: きのう なにをしましたか。 Bạn làm gì hôm qua? B: サッカーをしました。 Tôi chơi đá bóng *)Lưu ý: Bạn cũng có thể đặt trợ từ は vào sau trạng từ chỉ thời gian để đưa nó lên làm chủ đề của câu. 例３ : A: げつようびは なにを しますか。 Thứ 2 bạn sẽ làm gì. B: きょうとへ いきます。 Tôi sẽ đi Kyoto",
+    "meaning_vi": "なにを しますか",
+    "usage_vi": "Mẫu câu trên dùng để hỏi ai đó làm gì? 例１ : A: げつようび なにを しますか。 Bạn làm gì vào thứ 2 B: ホーチミンしへ いきます。 Tôi đi thành phố Hồ Chí Minh 例２ : A: きのう なにをしましたか。 Bạn làm gì hôm qua? B: サッカーをしました。 Tôi chơi đá bóng *)Lưu ý: Bạn cũng có thể đặt trợ từ は vào sau trạng từ chỉ thời gian để đưa nó lên làm chủ đề của câu. 例３ : A: げつようびは なにを しますか。 Thứ 2 bạn sẽ làm gì. B: きょうとへ いきます。 Tôi sẽ đi Kyoto",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: サッカーをしました。",
+        "vi": "Tôi chơi đá bóng"
+      },
+      {
+        "jp": "B: きょうとへ いきます。",
+        "vi": "Tôi sẽ đi Kyoto"
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-6-4",
+    "lesson": 6,
+    "title": "なん và なに",
+    "pattern": "なん",
+    "jpn": "なん",
+    "explanation": "Cả 2 từ trên đều có nghĩa là “ Cái gì” ( viết chung một chữ Hán) .Dùng なん hay なに là căn cứ vào từ đứng đằng sau nó. なん được sử dụng trong các trường hợp sau - Khi nó đứng trước một từ bắt đầu bằng các chữ cái thuộc các hàng た、だ、な trong bảng chữ cái. 例1： それは なんですか。 例2： なんの ほんですか。 例3： なんと いいますすか。 - Khi đứng sau nó là các tiếp vĩ ngữ chỉ cách đếm ：なんさい、なんばん、なんようび、なんじ、... Các trường hợp còn lại thì dùng なに",
+    "meaning_vi": "và なに",
+    "usage_vi": "Cả 2 từ trên đều có nghĩa là “ Cái gì” ( viết chung một chữ Hán) .Dùng なん hay なに là căn cứ vào từ đứng đằng sau nó. なん được sử dụng trong các trường hợp sau - Khi nó đứng trước một từ bắt đầu bằng các chữ cái thuộc các hàng た、だ、な trong bảng chữ cái. 例1： それは なんですか。 例2： なんの ほんですか。 例3： なんと いいますすか。 - Khi đứng sau nó là các tiếp vĩ ngữ chỉ cách đếm ：なんさい、なんばん、なんようび、なんじ、... Các trường hợp còn lại thì dùng なに",
+    "keywords": [],
+    "level": "N5",
+    "example": []
+  },
+  {
+    "grammar_id": "grammar-6-5",
+    "lesson": 6,
+    "title": "N（ địa điểm ）で V",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Trong bài trước chúng ta đã học trợ từ へ đi sau danh từ chỉ địa điểm và kết hợp với các động từ chỉ sự di chuyển （いきます、きます、かえります）để chỉ phương hướng, đích đến của di chuyển đó. Trong bài này, chúng ta sẽ học thêm một trợ từ nữa cùng được đặt sau danh từ chỉ địa điểm nhưng lại mang ý nghĩa khác. Trợ từ で đứng sau danh từ chỉ địa điểm và trước động từ (không phải động từ chỉ sự di chuyển) để biểu thị nơi diễn ra hành động, sự việc đó. 例１ : えきで しんぶんを かいます。 Tôi mua báo ở ga. 例２ :きょうしつで にほんごを べんきょうします。 Tôi học tiếng Nhật trong phòng học.",
+    "meaning_vi": "N（ địa điểm ）で V",
+    "usage_vi": "Trong bài trước chúng ta đã học trợ từ へ đi sau danh từ chỉ địa điểm và kết hợp với các động từ chỉ sự di chuyển （いきます、きます、かえります）để chỉ phương hướng, đích đến của di chuyển đó. Trong bài này, chúng ta sẽ học thêm một trợ từ nữa cùng được đặt sau danh từ chỉ địa điểm nhưng lại mang ý nghĩa khác. Trợ từ で đứng sau danh từ chỉ địa điểm và trước động từ (không phải động từ chỉ sự di chuyển) để biểu thị nơi diễn ra hành động, sự việc đó. 例１ : えきで しんぶんを かいます。 Tôi mua báo ở ga. 例２ :きょうしつで にほんごを べんきょうします。 Tôi học tiếng Nhật trong phòng học.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "えきで しんぶんを かいます。",
+        "vi": "Tôi học tiếng Nhật trong phòng học."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-6-6",
+    "lesson": 6,
+    "title": "Vませんか",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Tuy có か ở cuối câu nhưng đây không phải là một câu hỏi mà nó được sử dụng khi bạn muốn rủ ( mời) ai đó làm việc gì đó. 例１ : A: いっしょに チャン・ティエンプラザ へ いきませんか。 Chúng ta cùng đi tới Trang Tien Plaza đi. B: ええ、いいですね。 Ừ, hay đấy. .",
+    "meaning_vi": "Vませんか",
+    "usage_vi": "Tuy có か ở cuối câu nhưng đây không phải là một câu hỏi mà nó được sử dụng khi bạn muốn rủ ( mời) ai đó làm việc gì đó. 例１ : A: いっしょに チャン・ティエンプラザ へ いきませんか。 Chúng ta cùng đi tới Trang Tien Plaza đi. B: ええ、いいですね。 Ừ, hay đấy. .",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: ええ、いいですね。",
+        "vi": "Ừ, hay đấy."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-6-7",
+    "lesson": 6,
+    "title": "Vましょう",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Mẫu này dùng khi người nói muốn tích cực rủ người nghe làm chung một việc gì. Nó cũng được sử dụng khi tích cực đáp ứng lời mời, sự rủ rê đó. 例１ : ちょっと やすみましょう。 Chúng ta nghỉ một chút đi. 例２ : A: いっしょに ひるごはんを たべませんか。 Cùng ăn trưa nhé. B: ええ、たべましょう。 Ừ, ăn nào. Lưu ý: Sử dụng mẫu ませんか để mời thì tế nhị với người được mời hơn là sử dụng mẫuましょう",
+    "meaning_vi": "Vましょう",
+    "usage_vi": "Mẫu này dùng khi người nói muốn tích cực rủ người nghe làm chung một việc gì. Nó cũng được sử dụng khi tích cực đáp ứng lời mời, sự rủ rê đó. 例１ : ちょっと やすみましょう。 Chúng ta nghỉ một chút đi. 例２ : A: いっしょに ひるごはんを たべませんか。 Cùng ăn trưa nhé. B: ええ、たべましょう。 Ừ, ăn nào. Lưu ý: Sử dụng mẫu ませんか để mời thì tế nhị với người được mời hơn là sử dụng mẫuましょう",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: ええ、たべましょう。",
+        "vi": "Ừ, ăn nào."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-6-8",
+    "lesson": 6,
+    "title": "お～",
+    "pattern": "お～",
+    "jpn": "お～",
+    "explanation": "Như đã học trong bài 3, tiếp đầu ngữ お được đặt trước một từ nào đó có liên quan tới người nghe hoặc người thứ 3 để thể hiện sự tôn trọng ( VD : おくに). Ngoài ra, nó còn được đặt trước rất nhiều từ khác nữa khi người nói muốn nói một cách lịch sự ( VD : [ お] さけ、[お]はなみ,..) Có rất nhiều từ thường được đi kèm với お nhưng không phải thể hiện sự tôn trọng hoặc lịch sự mà đơn thuần chỉ là thói quen của người Nhật ( VD: おちゃ、おかね,..)",
+    "meaning_vi": "お～",
+    "usage_vi": "Như đã học trong bài 3, tiếp đầu ngữ お được đặt trước một từ nào đó có liên quan tới người nghe hoặc người thứ 3 để thể hiện sự tôn trọng ( VD : おくに). Ngoài ra, nó còn được đặt trước rất nhiều từ khác nữa khi người nói muốn nói một cách lịch sự ( VD : [ お] さけ、[お]はなみ,..) Có rất nhiều từ thường được đi kèm với お nhưng không phải thể hiện sự tôn trọng hoặc lịch sự mà đơn thuần chỉ là thói quen của người Nhật ( VD: おちゃ、おかね,..)",
+    "keywords": [],
+    "level": "N5",
+    "example": []
+  }
+]

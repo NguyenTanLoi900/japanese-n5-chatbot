@@ -1,0 +1,118 @@
+[
+  {
+    "grammar_id": "grammar-5-1",
+    "lesson": 5,
+    "title": "N ( địa điểm) へ いきます/ きます/ かえります",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Khi động từ biểu thị sự di chuyển đến một nơi nào đó, như động từ いきます、きます、かえります,v.v.. thì người ta thêm vào sau danh từ chỉ địa điểm trợ từ へ để biểu thị phương hướng di chuyển. Lưu ý: Trong trường hợp này, trợ từ へ được đọc là “ e” 例1 : ホーチミンしへ いきます。 Tôi sẽ đi thành phố Hồ Chí Minh. 例2 : やまださんは ハノイへ きました。 Anh Yamada đã đến Hà Nội. 例3 : ６じに うちへ かえります。 Tôi về nhà lúc 6 giờ.",
+    "meaning_vi": "N ( địa điểm) へ いきます/ きます/ かえります",
+    "usage_vi": "Khi động từ biểu thị sự di chuyển đến một nơi nào đó, như động từ いきます、きます、かえります,v.v.. thì người ta thêm vào sau danh từ chỉ địa điểm trợ từ へ để biểu thị phương hướng di chuyển. Lưu ý: Trong trường hợp này, trợ từ へ được đọc là “ e” 例1 : ホーチミンしへ いきます。 Tôi sẽ đi thành phố Hồ Chí Minh. 例2 : やまださんは ハノイへ きました。 Anh Yamada đã đến Hà Nội. 例3 : ６じに うちへ かえります。 Tôi về nhà lúc 6 giờ.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "６じに うちへ かえります。",
+        "vi": "Tôi về nhà lúc 6 giờ."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-5-2",
+    "lesson": 5,
+    "title": "( Từ để hỏi ) + [ trợ từ ]+ [ も ]+ [ phủ định ]",
+    "pattern": "(",
+    "jpn": "(",
+    "explanation": "Khi trợ từもđứng ngay sau từ để hỏi（VD:なん、だれ、どこ、..） trong câu phủ định thì tất cả những gì trong phạm trù bị từ để hỏi nêu ra đều bị phủ nhận. 例1 : きのう どこ[へ]も いきませんでした。 Hôm qua tôi không đi đâu cả. 例2 : なにも たべません。 Tôi không ăn gì cả. (Tham khảo bài 6)",
+    "meaning_vi": "Từ để hỏi ) + [ trợ từ ]+ [ も ]+ [ phủ định ]",
+    "usage_vi": "Khi trợ từもđứng ngay sau từ để hỏi（VD:なん、だれ、どこ、..） trong câu phủ định thì tất cả những gì trong phạm trù bị từ để hỏi nêu ra đều bị phủ nhận. 例1 : きのう どこ[へ]も いきませんでした。 Hôm qua tôi không đi đâu cả. 例2 : なにも たべません。 Tôi không ăn gì cả. (Tham khảo bài 6)",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "なにも たべません。",
+        "vi": "Tôi không ăn gì cả. (Tham khảo bài 6)"
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-5-3",
+    "lesson": 5,
+    "title": "N (phương tiện giao thông ) で いきます/きます/かえります",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Trợ từ で được dùng để chỉ phương tiện hay cách thức. Khi động từ biểu thị sự di chuyển（例：いきます、きます、かえります,…）được sử dụng với trợ từ で thì で chỉ phương tiện di chuyển di chuyển. Danh từ đứng trướcで là một danh từ chỉ phương tiện di chuyển （例：バス、でんしゃ、しんかんせん,..） 例１： バスで だいがくへ きます。 Tôi đi học bằng xe bus. 例２： じてんしゃで スーパーへ いきます。 Tôi đi xe đạp đến siêu thị. 例３ : でんしゃで ハイフォンへ かえります。 Tôi đi tàu về Hải Phòng ( Tôi về Hải Phòng bằng tàu) Trong trường hợp muốn diễn tả việc đi bộ đến/tới đâu đó thì chúng ta sử dụng cụm từあるいて(xuất phát từ động từ gốc あるきます biến thể thành). Trong trường hợp này ta không sử dụng trợ từ で. 例４ : えきから あるいて かえりました。 Tôi đi bộ từ ga về.",
+    "meaning_vi": "N (phương tiện giao thông ) で いきます/きます/かえります",
+    "usage_vi": "Trợ từ で được dùng để chỉ phương tiện hay cách thức. Khi động từ biểu thị sự di chuyển（例：いきます、きます、かえります,…）được sử dụng với trợ từ で thì で chỉ phương tiện di chuyển di chuyển. Danh từ đứng trướcで là một danh từ chỉ phương tiện di chuyển （例：バス、でんしゃ、しんかんせん,..） 例１： バスで だいがくへ きます。 Tôi đi học bằng xe bus. 例２： じてんしゃで スーパーへ いきます。 Tôi đi xe đạp đến siêu thị. 例３ : でんしゃで ハイフォンへ かえります。 Tôi đi tàu về Hải Phòng ( Tôi về Hải Phòng bằng tàu) Trong trường hợp muốn diễn tả việc đi bộ đến/tới đâu đó thì chúng ta sử dụng cụm từあるいて(xuất phát từ động từ gốc あるきます biến thể thành). Trong trường hợp này ta không sử dụng trợ từ で. 例４ : えきから あるいて かえりました。 Tôi đi bộ từ ga về.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "でんしゃで ハイフォンへ かえります。",
+        "vi": "Tôi đi tàu về Hải Phòng ( Tôi về Hải Phòng bằng tàu)"
+      },
+      {
+        "jp": "えきから あるいて かえりました。",
+        "vi": "Tôi đi bộ từ ga về."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-5-4",
+    "lesson": 5,
+    "title": "N (người/ con vật) と V",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Khi bạn ( hoặc người khác) làm việc gì đó cùng với người khác ( hoặc với một con vật) thì ta thêm trợ từ と vào sau danh từ chỉ người ( con vật) đó để chỉ mối liên hệ. 例1 : かぞくと ベトナムへ きました。 Tôi đã tới Việt Nam cùng cả nhà ( cùng với gia đình). Khi muốn diễn tả việc mình làm gì đó một mình thì ta sử dụng cụm từ ひとりで. Trong trường hợp này, ta không sử dụng trợ từ と. 例2 : ひとりで とうきょうへ いきます。 Tôi đi một mình tới Tokyo.",
+    "meaning_vi": "N (người/ con vật) と V",
+    "usage_vi": "Khi bạn ( hoặc người khác) làm việc gì đó cùng với người khác ( hoặc với một con vật) thì ta thêm trợ từ と vào sau danh từ chỉ người ( con vật) đó để chỉ mối liên hệ. 例1 : かぞくと ベトナムへ きました。 Tôi đã tới Việt Nam cùng cả nhà ( cùng với gia đình). Khi muốn diễn tả việc mình làm gì đó một mình thì ta sử dụng cụm từ ひとりで. Trong trường hợp này, ta không sử dụng trợ từ と. 例2 : ひとりで とうきょうへ いきます。 Tôi đi một mình tới Tokyo.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "かぞくと ベトナムへ きました。",
+        "vi": "Tôi đã tới Việt Nam cùng cả nhà ( cùng với gia đình)."
+      },
+      {
+        "jp": "ひとりで とうきょうへ いきます。",
+        "vi": "Tôi đi một mình tới Tokyo."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-5-5",
+    "lesson": 5,
+    "title": "いつ",
+    "pattern": "いつ",
+    "jpn": "いつ",
+    "explanation": "Để hỏi về thời gian ,người ta thường sử dụng từ để hỏi なんnhưなんじ、なんようび、なんがつなんにち. Ngoài những từ này, người ta còn dùng từ để hỏi いつ ( khi nào, bao giờ) để hỏi về thời điểm đã/ sẽ xảy ra một việc gì đó. Từ để hỏi いつ không bao giờ đi cùng với trợ từ に. 例１: A: いつ ハノイへ きましたか。 (không nói : いつに ハノイへ きましたか) （X） Bạn tới Hà Nội khi nào? B: ９月３日に きました。 Tôi tới hôm 3/9 例２: A:いつ ちゅうごくへ いきますか。 Bao giờ bạn đi Trung Quốc. B: らいしゅう いきます。 Tuần sau tôi đi.",
+    "meaning_vi": "いつ",
+    "usage_vi": "Để hỏi về thời gian ,người ta thường sử dụng từ để hỏi なんnhưなんじ、なんようび、なんがつなんにち. Ngoài những từ này, người ta còn dùng từ để hỏi いつ ( khi nào, bao giờ) để hỏi về thời điểm đã/ sẽ xảy ra một việc gì đó. Từ để hỏi いつ không bao giờ đi cùng với trợ từ に. 例１: A: いつ ハノイへ きましたか。 (không nói : いつに ハノイへ きましたか) （X） Bạn tới Hà Nội khi nào? B: ９月３日に きました。 Tôi tới hôm 3/9 例２: A:いつ ちゅうごくへ いきますか。 Bao giờ bạn đi Trung Quốc. B: らいしゅう いきます。 Tuần sau tôi đi.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B: らいしゅう いきます。",
+        "vi": "Tuần sau tôi đi."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-5-6",
+    "lesson": 5,
+    "title": "Sよ",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Trợ từ cuối câu “よ” được đặt ở cuối câu để diễn tả về một việc mà người nghe chưa biết hoặc để biểu lộ ý kiến của mình. Phát âm mạnh chữ よsẽ gieo cho người nghe có ấn tượng như là bị ép buộc, vì vậy nên phát âm một cách nhẹ nhàng. 例１： A: このでんしゃは こうしえんへ いきますか。 Chuyến tàu này đến Koshien phải không? B: いいえ、いきません。つぎの ふつうですよ。 Không phải. Chuyến tàu thường tiếp theo cơ. ( ý 1) 例２ ： むりな ダイエットは からだに よくないですよ。 Ăn kiêng không điều độ không tốt cho cơ thể đâu ( ý 2) ( tham khảo bài 19)",
+    "meaning_vi": "Sよ",
+    "usage_vi": "Trợ từ cuối câu “よ” được đặt ở cuối câu để diễn tả về một việc mà người nghe chưa biết hoặc để biểu lộ ý kiến của mình. Phát âm mạnh chữ よsẽ gieo cho người nghe có ấn tượng như là bị ép buộc, vì vậy nên phát âm một cách nhẹ nhàng. 例１： A: このでんしゃは こうしえんへ いきますか。 Chuyến tàu này đến Koshien phải không? B: いいえ、いきません。つぎの ふつうですよ。 Không phải. Chuyến tàu thường tiếp theo cơ. ( ý 1) 例２ ： むりな ダイエットは からだに よくないですよ。 Ăn kiêng không điều độ không tốt cho cơ thể đâu ( ý 2) ( tham khảo bài 19)",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "むりな ダイエットは からだに よくないですよ。",
+        "vi": "Ăn kiêng không điều độ không tốt cho cơ thể đâu ( ý 2) ( tham khảo bài 19)"
+      }
+    ]
+  }
+]

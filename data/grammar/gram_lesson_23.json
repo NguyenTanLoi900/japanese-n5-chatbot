@@ -1,0 +1,164 @@
+[
+  {
+    "grammar_id": "grammar-23-1",
+    "lesson": 23,
+    "title": "Động từ, tính từ đuôi い ở とき、～ : Mệnh đề trạng",
+    "pattern": "Động từ, tính từ đuôi い ở とき、～",
+    "jpn": "Động từ, tính từ đuôi い ở とき、～",
+    "explanation": "とき nối 2 mệnh đề của câu. Mệnh đề có chứa ときlà mệnh đề trạng ngữ chỉ thời điểm khi xảy ra hành động hay tình trạng được đề cập đến ở mệnh đề chính. Như đã trình bày ở trên, các động từ, tính từ đuôi い,tính từ đuôi な,danh từ khi kết hợp với とき thì theo các nguyên tắc giống như khi chúng kết hợp để bổ nghĩa cho danh từ( bài 22, vì とき cũng là một danh từ). 例1： としょかんで 本を かりる とき、カードが いります。 Khi mượn sách ở thư viện, cần có thẻ. 例2： つかいかたが わからない とき、わたしに きいてくだい。 Khi không hiểu cách sử dụng, hãy hỏi tôi. 例3： からだの ちょうしが わるいとき、「げんきちゃ」を のみます。 Khi cơ thể không được khỏe, tôi uống “ Genki-cha” 例4： わかいとき、あまり べんきょうしませんでした。 Lúc trẻ, tôi không học mấy. 例5： ひまな とき、うちへ あそびに きませんか。 Lúc rỗi rãi đến nhà tôi chơi không? 例6： つまが びょうきの とき、かいしゃを やすみます。 Khi vợ tội bị ốm thì ,tôi nghỉ làm. 例7： こどもの とき、よく かわで およぎました。 Lúc nhỏ, tôi rất hay bơi ở song.",
+    "meaning_vi": "Mệnh đề trạng",
+    "usage_vi": "とき nối 2 mệnh đề của câu. Mệnh đề có chứa ときlà mệnh đề trạng ngữ chỉ thời điểm khi xảy ra hành động hay tình trạng được đề cập đến ở mệnh đề chính. Như đã trình bày ở trên, các động từ, tính từ đuôi い,tính từ đuôi な,danh từ khi kết hợp với とき thì theo các nguyên tắc giống như khi chúng kết hợp để bổ nghĩa cho danh từ( bài 22, vì とき cũng là một danh từ). 例1： としょかんで 本を かりる とき、カードが いります。 Khi mượn sách ở thư viện, cần có thẻ. 例2： つかいかたが わからない とき、わたしに きいてくだい。 Khi không hiểu cách sử dụng, hãy hỏi tôi. 例3： からだの ちょうしが わるいとき、「げんきちゃ」を のみます。 Khi cơ thể không được khỏe, tôi uống “ Genki-cha” 例4： わかいとき、あまり べんきょうしませんでした。 Lúc trẻ, tôi không học mấy. 例5： ひまな とき、うちへ あそびに きませんか。 Lúc rỗi rãi đến nhà tôi chơi không? 例6： つまが びょうきの とき、かいしゃを やすみます。 Khi vợ tội bị ốm thì ,tôi nghỉ làm. 例7： こどもの とき、よく かわで およぎました。 Lúc nhỏ, tôi rất hay bơi ở song.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "としょかんで 本を かりる とき、カードが いります。",
+        "vi": "Khi mượn sách ở thư viện, cần có thẻ."
+      },
+      {
+        "jp": "つかいかたが わからない とき、わたしに きいてくだい。",
+        "vi": "Khi không hiểu cách sử dụng, hãy hỏi tôi."
+      },
+      {
+        "jp": "からだの ちょうしが わるいとき、「げんきちゃ」を のみます。",
+        "vi": "Khi cơ thể không được khỏe, tôi uống “ Genki-cha”"
+      },
+      {
+        "jp": "わかいとき、あまり べんきょうしませんでした。",
+        "vi": "Lúc trẻ, tôi không học mấy."
+      },
+      {
+        "jp": "ひまな とき、うちへ あそびに きませんか。",
+        "vi": "Lúc rỗi rãi đến nhà tôi chơi không?"
+      },
+      {
+        "jp": "つまが びょうきの とき、かいしゃを やすみます。",
+        "vi": "Khi vợ tội bị ốm thì ,tôi nghỉ làm."
+      },
+      {
+        "jp": "こどもの とき、よく かわで およぎました。",
+        "vi": "Lúc nhỏ, tôi rất hay bơi ở song."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-23-2",
+    "lesson": 23,
+    "title": "Thể từ điển（Vる) , Thể た（Vた）",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "例1： くにへ かえる とき、かばんを かいました。 Tôi đã mua cặp sách lúc ( chuẩn bị/trên đường) về nước. 例2： くにへ かえったとき、 かばんを かいました。 Tôi đã mua cặp sách (sau) khi về nước. ü Khi một động từ ở thể từ điển（Vる）được đặt trước とき thì nó có nghĩa là mệnh đề trạng ngữ ～とき đó sẽ chỉ thời điểm trước khi hành động V được hoàn tất. ü Còn khi một động từ ở thể た（Vた）được đặt trước とき thì nó có nghĩa là mệnh đề trạng ngữ ～とき đó sẽ chỉ thời điểm sau khi hành động V đã xảy ra. Xét một bối cảnh như sau : Có 1 lưu học sinh tên A đã về nước. Anh ta bay về trên chuyến bay từ Nagoya về đến Hà Nội vào ngày 24/12/2007. Ngày hôm nay là ngày 28/12/2007. Khi đó, nếu anh A nói câu ở VD 1, ta có: 例3： くにへ かえる とき、このかばんを かいました。 Tớ đã mua cái cặp này lúc về nước. Động từ かえる ở thể từ điển nên khi hành động かいました ở mệnh đề chính diễn ra thì hành động về nước vẫn chưa hoàn tất, tức là ở thời điểm người nói mua cặp thì anh ta vẫn chưa về đến Việt Nam. Như vậy, câu này có nghĩa là, anh A đã mua cặp trước khi anh ta về đến VN có thể là vào ngày 22/12/2007 khi anh ta còn ở Nhật. Nhưng nếu anh A lại nói câu như ở VD2, ta có: 例4： くにへ かえる とき、このかばんを かいました。Tớ đã mua cái cặp này lúc về nước. Động từ かえった ở thể た, nên khi hành động かいました ở mệnh đề chính diễn ra thì hành động về nước đã hoàn tất xong, tức là ở thời điểm người nói mua cặp thì anh ta đã về đến Việt Nam rồi ( mua ở Việt Nam) Như vậy, câu này có nghĩa là anh A đã mua cặp sau khi về đến VN. Như vậy, có thể thấy, chỉ cần thay đổi thể của động từ ở mệnh đề trạng ngữ từ thể từ điển sang thể た hoặc ngược lại thì ý nghĩa của câu nói đã hoàn toàn thay đổi.",
+    "meaning_vi": "Thể từ điển（Vる) , Thể た（Vた）",
+    "usage_vi": "例1： くにへ かえる とき、かばんを かいました。 Tôi đã mua cặp sách lúc ( chuẩn bị/trên đường) về nước. 例2： くにへ かえったとき、 かばんを かいました。 Tôi đã mua cặp sách (sau) khi về nước. ü Khi một động từ ở thể từ điển（Vる）được đặt trước とき thì nó có nghĩa là mệnh đề trạng ngữ ～とき đó sẽ chỉ thời điểm trước khi hành động V được hoàn tất. ü Còn khi một động từ ở thể た（Vた）được đặt trước とき thì nó có nghĩa là mệnh đề trạng ngữ ～とき đó sẽ chỉ thời điểm sau khi hành động V đã xảy ra. Xét một bối cảnh như sau : Có 1 lưu học sinh tên A đã về nước. Anh ta bay về trên chuyến bay từ Nagoya về đến Hà Nội vào ngày 24/12/2007. Ngày hôm nay là ngày 28/12/2007. Khi đó, nếu anh A nói câu ở VD 1, ta có: 例3： くにへ かえる とき、このかばんを かいました。 Tớ đã mua cái cặp này lúc về nước. Động từ かえる ở thể từ điển nên khi hành động かいました ở mệnh đề chính diễn ra thì hành động về nước vẫn chưa hoàn tất, tức là ở thời điểm người nói mua cặp thì anh ta vẫn chưa về đến Việt Nam. Như vậy, câu này có nghĩa là, anh A đã mua cặp trước khi anh ta về đến VN có thể là vào ngày 22/12/2007 khi anh ta còn ở Nhật. Nhưng nếu anh A lại nói câu như ở VD2, ta có: 例4： くにへ かえる とき、このかばんを かいました。Tớ đã mua cái cặp này lúc về nước. Động từ かえった ở thể た, nên khi hành động かいました ở mệnh đề chính diễn ra thì hành động về nước đã hoàn tất xong, tức là ở thời điểm người nói mua cặp thì anh ta đã về đến Việt Nam rồi ( mua ở Việt Nam) Như vậy, câu này có nghĩa là anh A đã mua cặp sau khi về đến VN. Như vậy, có thể thấy, chỉ cần thay đổi thể của động từ ở mệnh đề trạng ngữ từ thể từ điển sang thể た hoặc ngược lại thì ý nghĩa của câu nói đã hoàn toàn thay đổi.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "くにへ かえる とき、かばんを かいました。",
+        "vi": "Tôi đã mua cặp sách lúc ( chuẩn bị/trên đường) về nước."
+      },
+      {
+        "jp": "くにへ かえったとき、 かばんを かいました。",
+        "vi": "Tôi đã mua cặp sách (sau) khi về nước."
+      },
+      {
+        "jp": "ü Còn khi một động từ ở thể た（Vた）được đặt trước とき thì nó có nghĩa là mệnh đề trạng ngữ ～とき đó sẽ chỉ thời điểm sau khi hành động V đã xảy ra.",
+        "vi": "Xét một bối cảnh như sau :"
+      },
+      {
+        "jp": "くにへ かえる とき、このかばんを かいました。",
+        "vi": "Tớ đã mua cái cặp này lúc về nước."
+      },
+      {
+        "jp": "Động từ かえる ở thể từ điển nên khi hành động かいました ở mệnh đề chính diễn ra thì hành động về nước vẫn chưa hoàn tất, tức là ở thời điểm người nói mua cặp thì anh ta vẫn chưa về đến Việt Nam.",
+        "vi": "Như vậy, câu này có nghĩa là, anh A đã mua cặp trước khi anh ta về đến VN có thể là vào ngày 22/12/2007 khi anh ta còn ở Nhật."
+      },
+      {
+        "jp": "Động từ かえった ở thể た, nên khi hành động かいました ở mệnh đề chính diễn ra thì hành động về nước đã hoàn tất xong, tức là ở thời điểm người nói mua cặp thì anh ta đã về đến Việt Nam rồi ( mua ở Việt Nam)",
+        "vi": "Như vậy, câu này có nghĩa là anh A đã mua cặp sau khi về đến VN."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-23-3",
+    "lesson": 23,
+    "title": "Thể từ điển＋と",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Khi muốn diễn tả rằng một sự việc hay một hành động xảy ra sẽ kéo theo kết quả tất yếu là một sự việc hay một hành động khác cũng phải xảy ra theo thì người ta sẽ dùng とđể nối các mệnh đề đó với nhau. 例1： ふゆに なると、さむくなります。 Cứ sang mùa đông là trời trở lạnh. 例2： この ボタンを おすと、おつりが できます。 Ấn cái nút này thì tiền trả lại sẽ tuôn ra. 例3： これを まわすと、おとが 大きく なります。 Xoay cái này thì tiếng sẽ to lên. 例4： みぎへ まがると、ゆうびんきょくが あります Rẽ phải thì sẽ thấy bưu điện. *) Lưu ý: Mệnh đề sau ～と không thể sử dụng để biểu đạt ý chí, mong muốn, lời mời hay đề nghị của một ai đó( tức là không liên quan tới ý chí của người nói) mà chỉ dùng để miêu tả một sự thật :",
+    "meaning_vi": "Thể từ điển＋と",
+    "usage_vi": "Khi muốn diễn tả rằng một sự việc hay một hành động xảy ra sẽ kéo theo kết quả tất yếu là một sự việc hay một hành động khác cũng phải xảy ra theo thì người ta sẽ dùng とđể nối các mệnh đề đó với nhau. 例1： ふゆに なると、さむくなります。 Cứ sang mùa đông là trời trở lạnh. 例2： この ボタンを おすと、おつりが できます。 Ấn cái nút này thì tiền trả lại sẽ tuôn ra. 例3： これを まわすと、おとが 大きく なります。 Xoay cái này thì tiếng sẽ to lên. 例4： みぎへ まがると、ゆうびんきょくが あります Rẽ phải thì sẽ thấy bưu điện. *) Lưu ý: Mệnh đề sau ～と không thể sử dụng để biểu đạt ý chí, mong muốn, lời mời hay đề nghị của một ai đó( tức là không liên quan tới ý chí của người nói) mà chỉ dùng để miêu tả một sự thật :",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "ふゆに なると、さむくなります。",
+        "vi": "Cứ sang mùa đông là trời trở lạnh."
+      },
+      {
+        "jp": "この ボタンを おすと、おつりが できます。",
+        "vi": "Ấn cái nút này thì tiền trả lại sẽ tuôn ra."
+      },
+      {
+        "jp": "これを まわすと、おとが 大きく なります。",
+        "vi": "Xoay cái này thì tiếng sẽ to lên."
+      },
+      {
+        "jp": "みぎへ まがると、ゆうびんきょくが あります",
+        "vi": "Rẽ phải thì sẽ thấy bưu điện."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-23-4",
+    "lesson": 23,
+    "title": "N が tính từ/ động từ:",
+    "pattern": "N が tính từ/ động từ",
+    "jpn": "N が tính từ/ động từ",
+    "explanation": "Khi miêu tả một tình trạng hoặc một cảnh tượng nào đó như nó vốn có thì chủ thể cũng được biểu thị bằng trợ từ が： 例1： おとが ちいさいです。 Âm thanh bé. 例2： でんきが あかるく なりました。 Đèn trở nên sáng. 例3： この ボタンを おすと、きっぷが でます。 Ấn nút này thì vé sẽ chui ra.",
+    "meaning_vi": "N が tính từ/ động từ:",
+    "usage_vi": "Khi miêu tả một tình trạng hoặc một cảnh tượng nào đó như nó vốn có thì chủ thể cũng được biểu thị bằng trợ từ が： 例1： おとが ちいさいです。 Âm thanh bé. 例2： でんきが あかるく なりました。 Đèn trở nên sáng. 例3： この ボタンを おすと、きっぷが でます。 Ấn nút này thì vé sẽ chui ra.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "おとが ちいさいです。",
+        "vi": "Âm thanh bé."
+      },
+      {
+        "jp": "でんきが あかるく なりました。",
+        "vi": "Đèn trở nên sáng."
+      },
+      {
+        "jp": "この ボタンを おすと、きっぷが でます。",
+        "vi": "Ấn nút này thì vé sẽ chui ra."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-23-5",
+    "lesson": 23,
+    "title": "N ( địa điểm) を V ( động từ miêu tả sự di chuyển)",
+    "pattern": "",
+    "jpn": "",
+    "explanation": "Trợ từ được sử dụng để biểu thị khu vực mà một người hoặc một vật nào đó chuyển động trong đó. Những động từ được sử dụng trong mẫu này là các động từ miêu tả sự di chuyển như : さんぽします、わたります、あるきます,... 例1： こうえんを さんぽします。 Tôi đi dạo công viên. 例2： みちを わたります。 Tôi sang đường. 例3： こうさてんを みぎへ まがります。 Tôi rẽ phải ở ngã tư.",
+    "meaning_vi": "N ( địa điểm) を V ( động từ miêu tả sự di chuyển)",
+    "usage_vi": "Trợ từ được sử dụng để biểu thị khu vực mà một người hoặc một vật nào đó chuyển động trong đó. Những động từ được sử dụng trong mẫu này là các động từ miêu tả sự di chuyển như : さんぽします、わたります、あるきます,... 例1： こうえんを さんぽします。 Tôi đi dạo công viên. 例2： みちを わたります。 Tôi sang đường. 例3： こうさてんを みぎへ まがります。 Tôi rẽ phải ở ngã tư.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "こうえんを さんぽします。",
+        "vi": "Tôi đi dạo công viên."
+      },
+      {
+        "jp": "みちを わたります。",
+        "vi": "Tôi sang đường."
+      },
+      {
+        "jp": "こうさてんを みぎへ まがります。",
+        "vi": "Tôi rẽ phải ở ngã tư."
+      }
+    ]
+  }
+]

@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Japanese N5 Chatbot</title>
+    <style>
+      :root { color-scheme: light dark; --primary: #3b82f6; --success: #22c55e; --danger: #ef4444; --sidebar-w: 260px; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      .app { display: flex; min-height: 100vh; max-width: 1100px; margin: 0 auto; }
+      .sidebar { width: var(--sidebar-w); flex-shrink: 0; border-right: 1px solid rgba(127,127,127,.25); display: flex; flex-direction: column; background: rgba(127,127,127,.04); }
+      .sidebar-head { padding: 14px 12px; border-bottom: 1px solid rgba(127,127,127,.2); }
+      .sidebar-head h2 { font-size: 14px; margin: 0 0 8px; font-weight: 600; }
+      .storage-badge { font-size: 10px; opacity: .7; margin-bottom: 8px; line-height: 1.4; }
+      .btn-new { width: 100%; padding: 9px 12px; font-size: 13px; }
+      .conv-list { flex: 1; overflow-y: auto; padding: 8px; }
+      .conv-row { display: flex; align-items: stretch; gap: 4px; margin-bottom: 4px; }
+      .conv-item { flex: 1; min-width: 0; text-align: left; padding: 10px 10px; border: none; border-radius: 8px; background: transparent; color: inherit; cursor: pointer; font-size: 13px; line-height: 1.35; }
+      .conv-item:hover { background: rgba(127,127,127,.12); }
+      .conv-item.active { background: rgba(56,139,253,.18); }
+      .conv-title { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .conv-meta { font-size: 11px; opacity: .65; margin-top: 2px; }
+      .conv-del { flex-shrink: 0; width: 32px; border: none; border-radius: 8px; background: transparent; color: inherit; cursor: pointer; font-size: 16px; opacity: .45; line-height: 1; }
+      .conv-del:hover { opacity: 1; background: rgba(239,68,68,.15); color: var(--danger); }
+      .header-actions { display: flex; gap: 8px; align-items: center; }
+      .btn-del-chat { padding: 6px 10px; font-size: 12px; }
+      .conv-empty { padding: 16px 12px; font-size: 12px; opacity: .6; text-align: center; }
+
+      .main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+      .card { flex: 1; display: flex; flex-direction: column; border-left: none; }
+      header { padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid rgba(127,127,127,.25); }
+      header h1 { font-size: 17px; margin: 0; font-weight: 600; }
+      header .meta { font-size: 12px; opacity: .8; }
+
+      .chat-area { padding: 16px; flex: 1; display: flex; flex-direction: column; min-height: 0; }
+      #log { flex: 1; min-height: 50vh; max-height: calc(100vh - 200px); overflow: auto; margin-bottom: 12px; background: rgba(127,127,127,.06); border-radius: 8px; padding: 14px; }
+      .msg { margin: 10px 0; padding: 10px 12px; border-radius: 10px; line-height: 1.45; word-break: break-word; }
+      .msg.user { background: rgba(56, 139, 253, .18); margin-left: 40px; white-space: pre-wrap; }
+      .msg.bot { background: rgba(34, 197, 94, .14); margin-right: 40px; }
+      .msg.bot.text-only { white-space: pre-wrap; }
+      .msg-label { font-size: 11px; opacity: .65; margin-bottom: 4px; }
+      .widget-intro { margin-bottom: 12px; font-weight: 500; }
+
+      .row { display: flex; gap: 10px; }
+      #input { flex: 1; padding: 10px 12px; border-radius: 8px; border: 1px solid rgba(127,127,127,.35); background: transparent; font-size: 14px; }
+      button { padding: 10px 14px; border-radius: 8px; border: 1px solid var(--primary); background: var(--primary); color: white; cursor: pointer; font-size: 14px; transition: opacity 0.2s; }
+      button:hover { opacity: 0.9; }
+      button:disabled { opacity: 0.6; cursor: not-allowed; }
+      button.secondary { background: transparent; color: inherit; border-color: rgba(127,127,127,.35); }
+      button.danger { border-color: var(--danger); color: var(--danger); background: transparent; font-size: 12px; padding: 4px 8px; }
+
+      .items-grid { display: grid; gap: 8px; max-height: 320px; overflow-y: auto; }
+      .item { padding: 10px; border: 1px solid rgba(127,127,127,.2); border-radius: 8px; background: rgba(127,127,127,.04); font-size: 13px; }
+      .item-title { font-weight: 600; margin-bottom: 4px; color: var(--primary); }
+      .item-example { padding: 6px; margin-top: 6px; background: rgba(127,127,127,.1); border-radius: 6px; font-size: 12px; }
+
+      .quiz-progress { text-align: center; font-size: 13px; opacity: 0.8; margin-bottom: 12px; }
+      .question-text { font-weight: 600; margin-bottom: 10px; }
+      .options { display: flex; flex-direction: column; gap: 6px; }
+      .option { padding: 9px 11px; border: 1px solid rgba(127,127,127,.25); border-radius: 6px; cursor: pointer; font-size: 14px; }
+      .option:hover { background: rgba(56, 139, 253, .1); }
+      .option.selected { background: rgba(56, 139, 253, .2); border-color: var(--primary); }
+      .quiz-nav { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+      .quiz-result { padding: 14px; border-radius: 8px; background: rgba(34, 197, 94, .1); text-align: center; margin-top: 8px; }
+      .score-big { font-size: 26px; font-weight: bold; color: var(--success); }
+
+      .card-container { display: flex; justify-content: center; }
+      .flashcard { width: 100%; max-width: 400px; min-height: 200px; border: 2px solid var(--primary); border-radius: 12px; padding: 28px 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; cursor: pointer; background: linear-gradient(135deg, rgba(56,139,253,.05), rgba(56,139,253,.1)); margin: 0 auto; }
+      .flashcard.flipped { background: linear-gradient(135deg, rgba(34,197,94,.05), rgba(34,197,94,.1)); }
+      .card-front, .card-back { width: 100%; }
+      .card-back { display: none; }
+      .flashcard.flipped .card-front { display: none; }
+      .flashcard.flipped .card-back { display: block; }
+      .card-word { font-size: 26px; font-weight: 600; color: var(--primary); margin-bottom: 8px; }
+      .card-romaji { font-size: 14px; opacity: 0.75; margin-bottom: 6px; }
+      .card-meaning { font-size: 20px; color: var(--success); margin-bottom: 12px; }
+      .card-hint { font-size: 11px; opacity: 0.6; margin-top: 12px; }
+      .card-nav { display: flex; gap: 8px; justify-content: center; margin-top: 14px; flex-wrap: wrap; }
+      .card-nav button { padding: 7px 12px; font-size: 13px; }
+      .card-counter { text-align: center; font-size: 13px; opacity: 0.75; margin-top: 10px; }
+
+      .hint { padding: 10px 0 0; font-size: 12px; opacity: .8; line-height: 1.6; }
+      a { color: var(--primary); text-decoration: none; }
+      .error-inline { color: var(--danger); padding: 8px; background: rgba(239,68,68,.1); border-radius: 6px; }
+
+      @media (max-width: 700px) {
+        .app { flex-direction: column; }
+        .sidebar { width: 100%; max-height: 140px; border-right: none; border-bottom: 1px solid rgba(127,127,127,.25); }
+        .conv-list { display: flex; gap: 6px; overflow-x: auto; flex-direction: row; padding: 8px; }
+        .conv-item { min-width: 140px; margin-bottom: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="sidebar-head">
+          <h2>💬 Lịch sử chat</h2>
+          <div class="storage-badge" id="storage-badge"></div>
+          <button type="button" class="btn-new" id="btn-new-chat">+ Cuộc trò chuyện mới</button>
+        </div>
+        <div class="conv-list" id="conv-list">
+          <div class="conv-empty">Đang tải...</div>
+        </div>
+      </aside>
+
+      <div class="main">
+        <div class="card">
+          <header>
+            <div>
+              <h1>🇯🇵 Japanese N5 Chatbot</h1>
+              <div class="meta" id="chat-title">Học qua chat — quiz, flashcards, bài học</div>
+            </div>
+          <div class="header-actions meta">
+            <button type="button" class="secondary btn-del-chat" id="btn-del-chat" title="Xóa cuộc trò chuyện này" hidden>🗑 Xóa</button>
+            <a href="http://localhost:5000/api/health" target="_blank">health</a>
+          </div>
+          </header>
+
+          <div class="chat-area">
+            <div id="log" aria-live="polite"></div>
+            <div class="row">
+              <input id="input" placeholder='VD: "ngữ pháp bài 15", "quiz bài 1"...' autocomplete="off" />
+              <button id="send">Gửi</button>
+            </div>
+            <div class="hint">
+              💡 Bộ nhớ hội thoại được lưu tự động. Hỏi đúng bài: <strong>ngữ pháp bài 15</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /** API phải trỏ tới Node server (port 5000). Live Preview / port khác → 404 HTML */
+      function getApiBase() {
+        const port = window.location.port;
+        const host = window.location.hostname || '127.0.0.1';
+        if (window.location.protocol === 'file:') {
+          return 'http://127.0.0.1:5000/api';
+        }
+        if (port === '5000' || port === '') {
+          return '/api';
+        }
+        return 'http://' + host + ':5000/api';
+      }
+      const API_BASE = getApiBase();
+      const STORAGE_KEY = 'n5-active-conversation';
+      const log = document.getElementById('log');
+      const input = document.getElementById('input');
+      const sendBtn = document.getElementById('send');
+      const convListEl = document.getElementById('conv-list');
+      const chatTitleEl = document.getElementById('chat-title');
+
+      let conversationId = localStorage.getItem(STORAGE_KEY) || null;
+      let widgetId = 0;
+      const widgets = new Map();
+
+      function esc(s) {
+        const d = document.createElement('div');
+        d.textContent = s == null ? '' : String(s);
+        return d.innerHTML;
+      }
+
+      function scrollLog() { log.scrollTop = log.scrollHeight; }
+
+      function setConversationId(id) {
+        conversationId = id;
+        if (id) localStorage.setItem(STORAGE_KEY, id);
+        else localStorage.removeItem(STORAGE_KEY);
+      }
+
+      function clearLog() {
+        log.innerHTML = '';
+        widgets.clear();
+        widgetId = 0;
+      }
+
+      function addUserMsg(text) {
+        const div = document.createElement('div');
+        div.className = 'msg user';
+        div.innerHTML = '<div class="msg-label">Bạn</div>' + esc(text);
+        log.appendChild(div);
+        scrollLog();
+      }
+
+      function addBotText(text) {
+        const div = document.createElement('div');
+        div.className = 'msg bot text-only';
+        div.innerHTML = '<div class="msg-label">Bot</div>' + esc(text);
+        log.appendChild(div);
+        scrollLog();
+      }
+
+      function addBotWidget(intro, renderFn) {
+        const id = ++widgetId;
+        const div = document.createElement('div');
+        div.className = 'msg bot';
+        let html = '<div class="msg-label">Bot</div>';
+        if (intro) html += '<div class="widget-intro">' + esc(intro) + '</div>';
+        html += '<div class="widget-body" data-widget-body></div>';
+        div.innerHTML = html;
+        log.appendChild(div);
+        renderFn(id, div.querySelector('[data-widget-body]'));
+        scrollLog();
+        return id;
+      }
+
+      function handleResponse(data, skipPersist) {
+        if (!data || !data.type) {
+          addBotText(data.response || data.text || 'Không có phản hồi.');
+          return;
+        }
+        switch (data.type) {
+          case 'text': addBotText(data.text); break;
+          case 'error': addBotText('⚠️ ' + (data.message || 'Có lỗi.')); break;
+          case 'quiz': renderQuizWidget(data.intro, data.data); break;
+          case 'flashcard': renderFlashcardWidget(data.intro, data.data, data.category); break;
+          case 'lesson': renderLessonWidget(data.intro, data.data, data.category); break;
+          default: addBotText(JSON.stringify(data));
+        }
+      }
+
+      function replayMessage(msg) {
+        if (msg.role === 'user') {
+          addUserMsg(msg.content);
+          return;
+        }
+        if (msg.type === 'text' || !msg.type) {
+          addBotText(msg.content);
+        } else if (msg.type === 'error') {
+          addBotText('⚠️ ' + msg.content);
+        } else if (msg.type === 'quiz') {
+          renderQuizWidget(msg.content, msg.data);
+        } else if (msg.type === 'flashcard') {
+          renderFlashcardWidget(msg.content, msg.data, msg.category);
+        } else if (msg.type === 'lesson') {
+          renderLessonWidget(msg.content, msg.data, msg.category);
+        }
+      }
+
+      // ——— Quiz ———
+      function renderQuizWidget(intro, quiz) {
+        addBotWidget(intro, (id, body) => {
+          widgets.set(id, { quiz, answers: {}, questionIndex: 0, body, done: false });
+          paintQuiz(id);
+        });
+      }
+
+      function paintQuiz(id) {
+        const w = widgets.get(id);
+        if (!w || w.done) return;
+        const qs = w.quiz.questions || [];
+        const total = w.quiz.totalQuestions || qs.length;
+        if (w.questionIndex >= qs.length) { submitQuiz(id); return; }
+        const q = qs[w.questionIndex];
+        const selected = w.answers[w.questionIndex];
+        let html = '<div class="quiz-progress">Câu ' + (w.questionIndex + 1) + '/' + total + '</div>';
+        html += '<div class="question-text">' + esc(q.question) + '</div><div class="options">';
+        q.options.forEach(opt => {
+          let cls = 'option' + (selected === opt.id ? ' selected' : '');
+          html += '<div class="' + cls + '" data-action="quiz-answer" data-wid="' + id + '" data-qidx="' + w.questionIndex + '" data-oid="' + esc(opt.id) + '">' +
+            esc(opt.id.toUpperCase() + ') ' + opt.text) + '</div>';
+        });
+        html += '</div><div class="quiz-nav">';
+        if (w.questionIndex > 0) html += '<button type="button" class="secondary" data-action="quiz-prev" data-wid="' + id + '">← Quay lại</button>';
+        if (w.questionIndex < qs.length - 1) html += '<button type="button" data-action="quiz-next" data-wid="' + id + '">Tiếp →</button>';
+        else html += '<button type="button" data-action="quiz-submit" data-wid="' + id + '">Nộp bài ✓</button>';
+        html += '</div>';
+        w.body.innerHTML = html;
+        scrollLog();
+      }
+
+      async function submitQuiz(id) {
+        const w = widgets.get(id);
+        if (!w) return;
+        const qs = w.quiz.questions || [];
+        const answersArr = qs.map((q, i) => ({
+          questionId: i + 1,
+          selectedAnswer: w.answers[i] || '',
+          correctAnswer: q.correctAnswer
+        })).filter(a => a.selectedAnswer);
+        if (!answersArr.length) {
+          w.body.innerHTML = '<div class="error-inline">Bạn chưa trả lời câu nào!</div>';
+          return;
+        }
+        w.body.innerHTML = '<div style="opacity:.7">Đang chấm...</div>';
+        try {
+          const res = await fetch(API_BASE + '/quiz/check', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ answers: answersArr })
+          });
+          const result = await res.json();
+          w.done = true;
+          w.body.innerHTML = '<div class="quiz-result"><div>✅ Kết quả</div><div class="score-big">' + esc(String(result.score)) + '%</div><div>' +
+            esc(String(result.correctAnswers)) + '/' + esc(String(result.totalQuestions)) + ' câu đúng</div></div>';
+          scrollLog();
+        } catch (e) {
+          w.body.innerHTML = '<div class="error-inline">Lỗi: ' + esc(e.message) + '</div>';
+        }
+      }
+
+      // ——— Flashcards ———
+      function renderFlashcardWidget(intro, deck, category) {
+        addBotWidget(intro, (id, body) => {
+          const cards = (deck.cards || []).map(c => ({ ...c, flipped: false }));
+          widgets.set(id, { deck: { ...deck, cards }, category: category || deck.type, index: 0, body });
+          paintFlashcard(id);
+        });
+      }
+
+      function paintFlashcard(id) {
+        const w = widgets.get(id);
+        if (!w) return;
+        const cards = w.deck.cards || [];
+        if (!cards.length) { w.body.innerHTML = '<div class="error-inline">Không có thẻ.</div>'; return; }
+        const card = cards[w.index];
+        const front = card.front || {};
+        const back = card.back || {};
+        const type = w.category || w.deck.type;
+        let frontHtml = '', backHtml = '';
+        if (type === 'grammar') {
+          frontHtml = '<div class="card-word">' + esc(front.grammar || front.title) + '</div><div class="card-romaji">' + esc(front.title) + '</div><div class="card-hint">👆 Bấm để lật</div>';
+          backHtml = '<div class="card-meaning">' + esc(back.meaning) + '</div>';
+          if (back.example && back.example.length) {
+            back.example.forEach(ex => { backHtml += '<div class="item-example"><div>' + esc(ex.jp) + '</div><div>→ ' + esc(ex.vi) + '</div></div>'; });
+          }
+        } else {
+          frontHtml = '<div class="card-word">' + esc(front.word) + '</div><div class="card-romaji">' + esc(front.hiragana) + '</div><div class="card-romaji">' + esc(front.romaji) + '</div><div class="card-hint">👆 Bấm để lật</div>';
+          backHtml = '<div class="card-meaning">' + esc(back.meaning) + '</div><div class="card-romaji">[' + esc(back.pos) + ']</div>';
+          if (back.example) backHtml += '<div class="item-example"><div>' + esc(back.example.furigana || back.example.jp) + '</div><div>→ ' + esc(back.example.vi) + '</div></div>';
+        }
+        let nav = '<div class="card-nav">';
+        if (w.index > 0) nav += '<button type="button" class="secondary" data-action="card-prev" data-wid="' + id + '">← Trước</button>';
+        if (w.index < cards.length - 1) nav += '<button type="button" data-action="card-next" data-wid="' + id + '">Sau →</button>';
+        else nav += '<button type="button" class="secondary" data-action="card-reset" data-wid="' + id + '">🔄 Từ đầu</button>';
+        nav += '</div>';
+        w.body.innerHTML = '<div class="card-container"><div class="flashcard' + (card.flipped ? ' flipped' : '') + '" data-action="card-flip" data-wid="' + id + '">' +
+          '<div class="card-front">' + frontHtml + '</div><div class="card-back">' + backHtml + '</div></div></div>' +
+          '<div class="card-counter">Thẻ ' + (w.index + 1) + '/' + cards.length + '</div>' + nav;
+        scrollLog();
+      }
+
+      // ——— Lesson list ———
+      function renderLessonWidget(intro, lessonData, category) {
+        addBotWidget(intro, (id, body) => {
+          const items = lessonData.items || [];
+          if (!items.length) { body.innerHTML = '<div class="error-inline">Không có dữ liệu.</div>'; return; }
+          let html = '<div class="items-grid">';
+          items.forEach(item => {
+            html += '<div class="item">';
+            if (category === 'grammar') {
+              html += '<div class="item-title">' + esc(item.grammar || item.title) + '</div><div>' + esc(item.meaning_vi) + '</div>';
+              if (item.example && item.example.length) {
+                item.example.slice(0, 2).forEach(ex => {
+                  html += '<div class="item-example"><div>' + esc(ex.jp) + '</div><div>→ ' + esc(ex.vi) + '</div></div>';
+                });
+              }
+            } else {
+              html += '<div class="item-title">' + esc(item.word) + ' (' + esc(item.hiragana) + ')</div>';
+              html += '<div>' + esc(item.meaning) + ' · ' + esc(item.romaji) + '</div>';
+              if (item.example) html += '<div class="item-example"><div>' + esc(item.example.jp) + '</div><div>→ ' + esc(item.example.vi) + '</div></div>';
+            }
+            html += '</div>';
+          });
+          html += '</div>';
+          body.innerHTML = html;
+          scrollLog();
+        });
+      }
+
+      log.addEventListener('click', (e) => {
+        const el = e.target.closest('[data-action]');
+        if (!el) return;
+        const action = el.dataset.action;
+        const id = parseInt(el.dataset.wid, 10);
+        const w = widgets.get(id);
+        if (!w) return;
+        if (action === 'quiz-answer') { w.answers[parseInt(el.dataset.qidx, 10)] = el.dataset.oid; paintQuiz(id); }
+        else if (action === 'quiz-prev') { w.questionIndex = Math.max(0, w.questionIndex - 1); paintQuiz(id); }
+        else if (action === 'quiz-next') { w.questionIndex = Math.min((w.quiz.questions || []).length - 1, w.questionIndex + 1); paintQuiz(id); }
+        else if (action === 'quiz-submit') submitQuiz(id);
+        else if (action === 'card-flip') { w.deck.cards[w.index].flipped = !w.deck.cards[w.index].flipped; paintFlashcard(id); }
+        else if (action === 'card-prev') { w.index = Math.max(0, w.index - 1); paintFlashcard(id); }
+        else if (action === 'card-next') { w.index = Math.min(w.deck.cards.length - 1, w.index + 1); paintFlashcard(id); }
+        else if (action === 'card-reset') { w.index = 0; w.deck.cards.forEach(c => { c.flipped = false; }); paintFlashcard(id); }
+      });
+
+      // ——— Conversations ———
+      function formatDate(iso) {
+        if (!iso) return '';
+        const d = new Date(iso);
+        const now = new Date();
+        if (d.toDateString() === now.toDateString()) {
+          return d.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+        }
+        return d.toLocaleDateString('vi-VN', { day: 'numeric', month: 'short' });
+      }
+
+      async function loadSystemStatus() {
+        const badge = document.getElementById('storage-badge');
+        try {
+          const res = await fetch(API_BASE + '/health', { cache: 'no-store' });
+          const text = await res.text();
+          let h;
+          try { h = JSON.parse(text); } catch {
+            badge.textContent = '⚠️ Mở http://localhost:5000 (không phải Live Preview)';
+            return;
+          }
+          const parts = [];
+          parts.push(h.mongo ? 'MongoDB ✓' : 'Lưu file cục bộ');
+          parts.push(h.faiss ? 'FAISS ✓' : 'FAISS chưa build');
+          if (h.conversations != null) parts.push(h.conversations + ' cuộc');
+          badge.textContent = parts.join(' · ');
+        } catch {
+          badge.textContent = '⚠️ Server chưa chạy — npm start';
+        }
+      }
+
+      async function loadConversationList() {
+        try {
+          const res = await fetch(API_BASE + '/conversations', { cache: 'no-store' });
+          const raw = await res.text();
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          let list;
+          try { list = JSON.parse(raw); } catch {
+            throw new Error('Server trả HTML — hãy mở http://localhost:5000');
+          }
+          if (!Array.isArray(list)) list = [];
+          if (!list.length) {
+            convListEl.innerHTML = '<div class="conv-empty">Chưa có hội thoại.<br>Gửi tin nhắn hoặc bấm + mới.</div>';
+            return list;
+          }
+          convListEl.innerHTML = '';
+          list.forEach(c => {
+            const row = document.createElement('div');
+            row.className = 'conv-row';
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'conv-item' + (c.id === conversationId ? ' active' : '');
+            btn.dataset.id = c.id;
+            btn.innerHTML = '<div class="conv-title">' + esc(c.title) + '</div><div class="conv-meta">' + formatDate(c.updatedAt) + ' · ' + (c.messageCount || 0) + ' tin</div>';
+            btn.addEventListener('click', () => openConversation(c.id));
+            const del = document.createElement('button');
+            del.type = 'button';
+            del.className = 'conv-del';
+            del.title = 'Xóa cuộc trò chuyện';
+            del.textContent = '×';
+            del.addEventListener('click', (e) => {
+              e.stopPropagation();
+              deleteConversation(c.id, c.title);
+            });
+            row.appendChild(btn);
+            row.appendChild(del);
+            convListEl.appendChild(row);
+          });
+          updateDeleteButtonVisibility();
+          return list;
+        } catch (e) {
+          convListEl.innerHTML = '<div class="conv-empty">Không tải được lịch sử.<br>' + esc(e.message) + '</div>';
+          return [];
+        }
+      }
+
+      function updateDeleteButtonVisibility() {
+        const btn = document.getElementById('btn-del-chat');
+        if (btn) btn.hidden = !conversationId;
+      }
+
+      async function deleteConversation(id, title) {
+        const label = title ? '"' + title + '"' : 'cuộc này';
+        if (!confirm('Xóa ' + label + '?\nKhông thể hoàn tác.')) return;
+        try {
+          const res = await fetch(API_BASE + '/conversations/' + id, { method: 'DELETE' });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          if (conversationId === id) {
+            setConversationId(null);
+            clearLog();
+            chatTitleEl.textContent = 'Cuộc trò chuyện';
+          }
+          const list = await loadConversationList();
+          await loadSystemStatus();
+          if (conversationId === id || !conversationId) {
+            if (list.length) await openConversation(list[0].id);
+            else await startNewChat();
+          }
+        } catch (e) {
+          alert('Không xóa được: ' + e.message);
+        }
+      }
+
+      async function openConversation(id) {
+        setConversationId(id);
+        updateDeleteButtonVisibility();
+        clearLog();
+        chatTitleEl.textContent = 'Đang tải...';
+        try {
+          const res = await fetch(API_BASE + '/conversations/' + id);
+          if (!res.ok) throw new Error('Not found');
+          const conv = await res.json();
+          chatTitleEl.textContent = conv.title || 'Cuộc trò chuyện';
+          if (!conv.messages || !conv.messages.length) {
+            showWelcome();
+          } else {
+            conv.messages.forEach(replayMessage);
+          }
+          await loadConversationList();
+        } catch (e) {
+          setConversationId(null);
+          showWelcome();
+          await loadConversationList();
+        }
+        input.focus();
+      }
+
+      function showWelcome() {
+        addBotText(
+          'Chào bạn! 👋\n\n' +
+          'Mình nhớ ngữ cảnh trong cuộc trò chuyện này.\n' +
+          '• Hỏi: "ngữ pháp bài 15" — chỉ dùng dữ liệu Bài 15\n' +
+          '• "tạo quiz bài 1" · "flashcard bài 5"\n' +
+          '• Bấm + Cuộc trò chuyện mới để bắt đầu chủ đề khác'
+        );
+      }
+
+      document.getElementById('btn-del-chat').addEventListener('click', () => {
+        if (conversationId) deleteConversation(conversationId, chatTitleEl.textContent);
+      });
+
+      async function startNewChat() {
+        try {
+          const res = await fetch(API_BASE + '/conversations', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ title: 'Cuộc trò chuyện mới' })
+          });
+          const conv = await res.json();
+          if (!res.ok) throw new Error(conv.error || 'Tạo cuộc trò chuyện thất bại');
+          setConversationId(conv.id);
+          updateDeleteButtonVisibility();
+          clearLog();
+          chatTitleEl.textContent = conv.title || 'Cuộc trò chuyện mới';
+          showWelcome();
+          await loadConversationList();
+          await loadSystemStatus();
+        } catch (e) {
+          setConversationId(null);
+          updateDeleteButtonVisibility();
+          clearLog();
+          chatTitleEl.textContent = 'Cuộc trò chuyện mới';
+          showWelcome();
+          addBotText('⚠️ Không tạo được cuộc mới: ' + e.message);
+        }
+        input.focus();
+      }
+
+      document.getElementById('btn-new-chat').addEventListener('click', () => startNewChat());
+
+      // ——— Send ———
+      async function send() {
+        const message = input.value.trim();
+        if (!message) return;
+        input.value = '';
+        addUserMsg(message);
+        sendBtn.disabled = true;
+        input.disabled = true;
+        try {
+          const res = await fetch(API_BASE + '/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message, conversationId })
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.details ? data.error + '\n' + data.details : (data.error || 'Lỗi'));
+          if (data.conversationId) {
+            setConversationId(data.conversationId);
+            updateDeleteButtonVisibility();
+            if (chatTitleEl.textContent === 'Cuộc trò chuyện mới') {
+              chatTitleEl.textContent = message.slice(0, 40) + (message.length > 40 ? '…' : '');
+            }
+          }
+          handleResponse(data);
+          await loadConversationList();
+          await loadSystemStatus();
+        } catch (e) {
+          addBotText('Lỗi: ' + (e && e.message ? e.message : String(e)));
+        } finally {
+          sendBtn.disabled = false;
+          input.disabled = false;
+          input.focus();
+        }
+      }
+
+      sendBtn.addEventListener('click', send);
+      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') send(); });
+
+      (async function init() {
+        await loadSystemStatus();
+        const list = await loadConversationList();
+        if (conversationId && list.some(c => c.id === conversationId)) {
+          await openConversation(conversationId);
+        } else if (list.length > 0) {
+          await openConversation(list[0].id);
+        } else {
+          await startNewChat();
+        }
+      })();
+    </script>
+  </body>
+</html>

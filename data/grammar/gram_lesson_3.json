@@ -1,0 +1,113 @@
+[
+  {
+    "grammar_id": "grammar-3-1",
+    "lesson": 3,
+    "title": "ここ/そこ/あそこ/こちら/そちら/あちら",
+    "pattern": "ここ/そこ/あそこ/こちら/そちら/あちら",
+    "jpn": "ここ/そこ/あそこ/こちら/そちら/あちら",
+    "explanation": "Bài 2, chúng ta đã học những danh từ chỉ vật như これ、それ、あれ .Trong bài này, chúng ta sẽ học về những danh từ chỉ nơi chốn là ここ、そこ、あそこ . - ここ dùng để chỉ chỗ mà người nói đứng. Nó cũng được dùng để chỉ nơi mà người nói và người nghe cùng đứng. - そこ dùng để chỉ chỗ mà người nghe đứng hoặc một địa điểm cách cả người nói và người nghe 1 chút. - あそこ dùng để chỉ một địa điểm ở cách xa cả người nói và người nghe. a) こちら、そちら、あちら là những danh từ chỉ phương hướng. Ngoài ra, những từ này cũng được dùng để chỉ địa điểm, và trong trường hợp này thì nó biểu hiện sự lịch sự, lễ phép hơn các từ ここ、そこ、あそこ. 例1： ここ は きょうしつです。 Đây là phòng học. 例2： そこ は じむしょです。 Đó là văn phòng. 例3： あそこ は しょくどうです。 Kia là nhà ăn.",
+    "meaning_vi": "ここ/そこ/あそこ/こちら/そちら/あちら",
+    "usage_vi": "Bài 2, chúng ta đã học những danh từ chỉ vật như これ、それ、あれ .Trong bài này, chúng ta sẽ học về những danh từ chỉ nơi chốn là ここ、そこ、あそこ . - ここ dùng để chỉ chỗ mà người nói đứng. Nó cũng được dùng để chỉ nơi mà người nói và người nghe cùng đứng. - そこ dùng để chỉ chỗ mà người nghe đứng hoặc một địa điểm cách cả người nói và người nghe 1 chút. - あそこ dùng để chỉ một địa điểm ở cách xa cả người nói và người nghe. a) こちら、そちら、あちら là những danh từ chỉ phương hướng. Ngoài ra, những từ này cũng được dùng để chỉ địa điểm, và trong trường hợp này thì nó biểu hiện sự lịch sự, lễ phép hơn các từ ここ、そこ、あそこ. 例1： ここ は きょうしつです。 Đây là phòng học. 例2： そこ は じむしょです。 Đó là văn phòng. 例3： あそこ は しょくどうです。 Kia là nhà ăn.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "あそこ は しょくどうです。",
+        "vi": "Kia là nhà ăn."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-3-2",
+    "lesson": 3,
+    "title": "N1は N2（địa điểm）です",
+    "pattern": "N1は N2（đị",
+    "jpn": "N1は N2（đị",
+    "explanation": "Mẫu này dùng để diễn tả về vị trí của một địa điểm, một vật hoặc một người nào đó. 例1： おてあらいは あそこです。 Nhà vệ sinh ở kia. 例2： でんわは ２階です。 Điện thoại ở tầng 2. 例3： やまださんは じむしょです。 Anh Yamada ở văn phòng. - どこ、どちら còn được sử dụng khi muốn hỏi tên nước, tên công ty, tên trường,…của một ai đó. Trong trường hợp này, không được sử dụng từ để hỏi なん. Dùng どちら lịch sự hơn どこ . đó. 例4： A : がっこうは どこですか。（O） Trường bạn là trường nào ? B : がっこうは なんですか。（X) --> Không được dùng. 例2： A : Bさんの かいしゃは どちらですか。 Bạn làm ở công ty nào( Công ty của bạn là công ty nào)? B : FPTです。 FPT.",
+    "meaning_vi": "a điểm）です",
+    "usage_vi": "Mẫu này dùng để diễn tả về vị trí của một địa điểm, một vật hoặc một người nào đó. 例1： おてあらいは あそこです。 Nhà vệ sinh ở kia. 例2： でんわは ２階です。 Điện thoại ở tầng 2. 例3： やまださんは じむしょです。 Anh Yamada ở văn phòng. - どこ、どちら còn được sử dụng khi muốn hỏi tên nước, tên công ty, tên trường,…của một ai đó. Trong trường hợp này, không được sử dụng từ để hỏi なん. Dùng どちら lịch sự hơn どこ . đó. 例4： A : がっこうは どこですか。（O） Trường bạn là trường nào ? B : がっこうは なんですか。（X) --> Không được dùng. 例2： A : Bさんの かいしゃは どちらですか。 Bạn làm ở công ty nào( Công ty của bạn là công ty nào)? B : FPTです。 FPT.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "やまださんは じむしょです。",
+        "vi": "Anh Yamada ở văn phòng."
+      },
+      {
+        "jp": "B : FPTです。",
+        "vi": "FPT."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-3-3",
+    "lesson": 3,
+    "title": "どこ/どちら",
+    "pattern": "どこ/どちら",
+    "jpn": "どこ/どちら",
+    "explanation": "a, どこ có nghĩ là “ ở đâu”, cònどちら có nghĩa là ở hướng nào, ở đằng nào.どちら cũng có thể được dùng với nghĩa là “ ở đâu” , và trong trường hợp này thì nó có sắc thái lịch sự hơn, lễ phép hơn là どこ. 例1： A : わたしの うちは ハノイです。Bさんの うちは どこですか。 Nhà tôi ở Hà Nội. Nhà anh B ở đâu? B : わたしの うちは こうべです。 Nhà tôi ở Kobe. 例2： A：エレベーターは どちらですか。 Thang máy ở đâu? B : あちらです。 Ở đằng kia ( ở kia). b, どこ、どちら còn được sử dụng khi muốn hỏi tên nước, tên công ty, tên trường,… của một ai đó. Trong trường hợp này, không được sử dụng từ để hỏi なん. Dùng どちら lịch sự hơnどこ . 例3： がっこうは どこですか。（O） Trường bạn là trường nào ? がっこうは なんですか。（X）→ Không được dùng. 例4： A : Bさんの かいしゃは どちらですか。 Bạn làm ở công ty nào( Công ty của bạn là công ty nào)? B : FPTです。 FPT. 例5： A : Bさんの おくには どちらですか。 Nước của bạn là nước nào? B : かんこくです。 Hàn Quốc.",
+    "meaning_vi": "どこ/どちら",
+    "usage_vi": "a, どこ có nghĩ là “ ở đâu”, cònどちら có nghĩa là ở hướng nào, ở đằng nào.どちら cũng có thể được dùng với nghĩa là “ ở đâu” , và trong trường hợp này thì nó có sắc thái lịch sự hơn, lễ phép hơn là どこ. 例1： A : わたしの うちは ハノイです。Bさんの うちは どこですか。 Nhà tôi ở Hà Nội. Nhà anh B ở đâu? B : わたしの うちは こうべです。 Nhà tôi ở Kobe. 例2： A：エレベーターは どちらですか。 Thang máy ở đâu? B : あちらです。 Ở đằng kia ( ở kia). b, どこ、どちら còn được sử dụng khi muốn hỏi tên nước, tên công ty, tên trường,… của một ai đó. Trong trường hợp này, không được sử dụng từ để hỏi なん. Dùng どちら lịch sự hơnどこ . 例3： がっこうは どこですか。（O） Trường bạn là trường nào ? がっこうは なんですか。（X）→ Không được dùng. 例4： A : Bさんの かいしゃは どちらですか。 Bạn làm ở công ty nào( Công ty của bạn là công ty nào)? B : FPTです。 FPT. 例5： A : Bさんの おくには どちらですか。 Nước của bạn là nước nào? B : かんこくです。 Hàn Quốc.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B : あちらです。",
+        "vi": "Ở đằng kia ( ở kia)."
+      },
+      {
+        "jp": "B : かんこくです。",
+        "vi": "Hàn Quốc."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-3-4",
+    "lesson": 3,
+    "title": "N1のN2",
+    "pattern": "N1のN2",
+    "jpn": "N1のN2",
+    "explanation": "Khi N1 là tên nước/ tên địa phương/tên công ty và N2 là một sản phẩm, thì mẫu này có nghĩa là N2 được sản xuất tại nước đó/ tại địa phương đó/bởi công ty đó. Trong mẫu này thì từ để hỏi どこ được dùng để hỏi nơi/ công ty đã sản xuất ra sản phẩm N2. 例1： これは トヨタの じどうしゃです。 Đây là xe hơi của công ty Toyota. 例2： A : これは どこの ワインですか。 Đây là rượu vang của nước nào? B : フランスの ワインです。 Rượu vang của Pháp.",
+    "meaning_vi": "N1のN2",
+    "usage_vi": "Khi N1 là tên nước/ tên địa phương/tên công ty và N2 là một sản phẩm, thì mẫu này có nghĩa là N2 được sản xuất tại nước đó/ tại địa phương đó/bởi công ty đó. Trong mẫu này thì từ để hỏi どこ được dùng để hỏi nơi/ công ty đã sản xuất ra sản phẩm N2. 例1： これは トヨタの じどうしゃです。 Đây là xe hơi của công ty Toyota. 例2： A : これは どこの ワインですか。 Đây là rượu vang của nước nào? B : フランスの ワインです。 Rượu vang của Pháp.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B : フランスの ワインです。",
+        "vi": "Rượu vang của Pháp."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-3-5",
+    "lesson": 3,
+    "title": "～は いくらですか ―＞ ～は～円です。",
+    "pattern": "～は いくらですか ―＞ ～は～円です。",
+    "jpn": "～は いくらですか ―＞ ～は～円です。",
+    "explanation": "Mẫu này được dùng để hỏi và trả lời về giá tiền của một đồ vật nào đó. 例1： このネクタイは １５００円です。 Cái cà vạt này giá 1500 yên. 例2： A : これは いくらですか。 Cái này bao nhiêu tiền? B : 8400円です。 8400 yên.",
+    "meaning_vi": "～は いくらですか ―＞ ～は～円です。",
+    "usage_vi": "Mẫu này được dùng để hỏi và trả lời về giá tiền của một đồ vật nào đó. 例1： このネクタイは １５００円です。 Cái cà vạt này giá 1500 yên. 例2： A : これは いくらですか。 Cái này bao nhiêu tiền? B : 8400円です。 8400 yên.",
+    "keywords": [],
+    "level": "N5",
+    "example": [
+      {
+        "jp": "B : 8400円です。",
+        "vi": "8400 yên."
+      }
+    ]
+  },
+  {
+    "grammar_id": "grammar-3-6",
+    "lesson": 3,
+    "title": "こ/そ/あ/ど",
+    "pattern": "こ/そ/あ/ど",
+    "jpn": "こ/そ/あ/ど",
+    "explanation": "こ そ あ ど Vật これ それ あれ どれ Người,vật このN そのN あのN どのN Địa điểm ここ そこ あそこ どこ Phương hướng, Địa điểm ( lịch sự) こちら そちら あちら どちら",
+    "meaning_vi": "こ/そ/あ/ど",
+    "usage_vi": "こ そ あ ど Vật これ それ あれ どれ Người,vật このN そのN あのN どのN Địa điểm ここ そこ あそこ どこ Phương hướng, Địa điểm ( lịch sự) こちら そちら あちら どちら",
+    "keywords": [],
+    "level": "N5",
+    "example": []
+  }
+]
