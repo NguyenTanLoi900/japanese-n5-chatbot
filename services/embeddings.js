@@ -1,78 +1,42 @@
-const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-const DEFAULT_MODEL = 'gemini-embedding-001';
+const axios = require('axios');
 
-let activeModel = process.env.GEMINI_EMBED_MODEL || DEFAULT_MODEL;
 
-function getEmbedModel(modelName) {
-  if (!process.env.GEMINI_API_KEY) {
-    throw new Error('GEMINI_API_KEY required for embeddings');
-  }
-  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-  return genAI.getGenerativeModel({ model: modelName || activeModel });
-}
+const OLLAMA_URL = process.env.OLLAMA_BASE_URL || 'http://localhost:11434';
+const MODEL = process.env.OLLAMA_EMBED_MODEL || 'bge-m3';
 
-function extractValues(result) {
-  const emb = result?.embedding;
-  if (emb?.values?.length) return emb.values;
-  if (Array.isArray(emb) && emb[0]?.values) return emb[0].values;
-  if (result?.embeddings?.[0]?.values) return result.embeddings[0].values;
-  return null;
-}
-
-function parseRetrySeconds(err) {
-  const msg = String(err?.message || err || '');
-  const m = msg.match(/retry in ([\d.]+)s/i);
-  if (m) return Math.ceil(parseFloat(m[1])) + 2;
-  if (err?.status === 429) return 30;
-  return null;
-}
-
-function isQuotaError(err) {
-  return err?.status === 429 || /quota|rate limit|too many requests/i.test(String(err?.message || err));
-}
-
-async function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
 
 async function embedText(text, options = {}) {
-  const input = String(text || '').trim().slice(0, 8000);
-  if (!input) throw new Error('Empty text for embedding');
+  const input = String(text || '').trim();
+  
+  try {
+    const response = await axios.post(`${OLLAMA_URL}/api/embed`, {
+      model: options.model || MODEL,
+      input: input
+    }, { timeout: 60000 });
 
-  const modelName = options.model || activeModel;
-  const maxRetries = options.maxRetries ?? parseInt(process.env.EMBED_MAX_RETRIES || '8', 10);
-  let lastError;
+    const data = response.data;
+    const embedding = data.embedding || (data.embeddings && data.embeddings[0]);
 
-  for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    try {
-      const model = getEmbedModel(modelName);
-      const result = await model.embedContent(input);
-      const values = extractValues(result);
-      if (!values?.length) throw new Error('Empty embedding vector');
-      activeModel = modelName;
-      return values;
-    } catch (e) {
-      lastError = e;
-      if (isQuotaError(e) && attempt < maxRetries) {
-        const waitSec = parseRetrySeconds(e) || 30;
-        process.stdout.write(`\n⏳ Quota/rate limit — chờ ${waitSec}s rồi thử lại (${attempt + 1}/${maxRetries})...\n`);
-        await sleep(waitSec * 1000);
-        continue;
-      }
-      throw e;
+    if (!embedding || !Array.isArray(embedding)) {
+      console.error("Dữ liệu phản hồi từ Ollama không hợp lệ:", data);
+      throw new Error('Empty or invalid embedding vector from Ollama');
     }
+
+    return embedding;
+  } catch (error) {
+    console.error("Lỗi khi kết nối Ollama:", error.message);
+    throw error;
   }
-  throw lastError;
 }
 
-async function embedBatch(texts, delayMs = 200) {
+
+async function embedBatch(texts, delayMs = 50) {
   const vectors = [];
-  for (let i = 0; i < texts.length; i++) {
-    vectors.push(await embedText(texts[i]));
-    if (delayMs && i < texts.length - 1) {
-      await sleep(delayMs);
-    }
+  for (const text of texts) {
+    vectors.push(await embedText(text));
+    // Ollama chạy local rất nhanh, không cần delay nhiều như Gemini
+    if (delayMs > 0) await new Promise(r => setTimeout(r, delayMs));
   }
   return vectors;
 }
@@ -80,7 +44,5 @@ async function embedBatch(texts, delayMs = 200) {
 module.exports = {
   embedText,
   embedBatch,
-  MODEL: activeModel,
-  isQuotaError,
-  parseRetrySeconds
+  MODEL
 };
