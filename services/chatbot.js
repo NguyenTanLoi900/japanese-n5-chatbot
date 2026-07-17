@@ -224,6 +224,14 @@ class ChatbotService {
     return m ? m[1] : null;
   }
 
+  parseLessonRange(text) {
+    const input = String(text || '');
+    const range = input.match(/(?:bài|lesson)\s*(\d{1,2})\s*(?:đến|tới|-|–)\s*(?:(?:bài|lesson)\s*)?(\d{1,2})\b/i);
+    if (range) return { from: parseInt(range[1], 10), to: parseInt(range[2], 10) };
+    const lesson = this.parseLessonFromText(input);
+    return lesson ? { from: parseInt(lesson, 10), to: parseInt(lesson, 10) } : null;
+  }
+
   findLessonInHistory(messages) {
     if (!Array.isArray(messages)) return null;
     for (let i = messages.length - 1; i >= 0; i--) {
@@ -237,8 +245,12 @@ class ChatbotService {
 
   detectRequestType(message, conversationMessages = []) {
     const msg = this.normalizeMessage(message);
-    let lesson = this.parseLessonFromText(msg);
-    if (!lesson) lesson = this.findLessonInHistory(conversationMessages);
+    let lessonRange = this.parseLessonRange(msg);
+    if (!lessonRange) {
+      const historyLesson = this.findLessonInHistory(conversationMessages);
+      if (historyLesson) lessonRange = { from: parseInt(historyLesson, 10), to: parseInt(historyLesson, 10) };
+    }
+    const lesson = lessonRange ? String(lessonRange.from) : null;
 
     const isGrammar = /ngữ pháp|grammar|文法/.test(msg);
     const isVocab = /từ vựng|từ mới|vocab|単語/.test(msg);
@@ -266,7 +278,13 @@ class ChatbotService {
       return { type: 'need_lesson', intent: 'flashcard', category };
     }
 
-    if (wantsQuiz && lesson) return { type: 'quiz', category, lesson };
+    if (wantsQuiz && lesson) return {
+      type: 'quiz',
+      category,
+      lesson,
+      lessonFrom: lessonRange.from,
+      lessonTo: lessonRange.to
+    };
     if (wantsFlashcard && lesson) return { type: 'flashcard', category, lesson };
     if (wantsLesson && lesson) return { type: 'lesson', category, lesson };
 
@@ -275,10 +293,12 @@ class ChatbotService {
 
   buildIntroForRequest(req) {
     const cat = req.category === 'vocabulary' ? 'từ vựng' : 'ngữ pháp';
-    const n = req.lesson;
-    if (req.type === 'quiz') return `📝 Quiz ${cat} Bài ${n} — chọn đáp án đúng cho từng câu nhé!`;
-    if (req.type === 'flashcard') return `🎴 Flashcards ${cat} Bài ${n} — bấm thẻ để lật xem nghĩa.`;
-    if (req.type === 'lesson') return `📚 Danh sách ${cat} Bài ${n}:`;
+    const n = req.lessonFrom && req.lessonTo && req.lessonFrom !== req.lessonTo
+      ? `Bài ${req.lessonFrom}–${req.lessonTo}`
+      : `Bài ${req.lesson}`;
+    if (req.type === 'quiz') return `📝 Quiz ${cat} ${n} — chọn đáp án đúng cho từng câu nhé!`;
+    if (req.type === 'flashcard') return `🎴 Flashcards ${cat} ${n} — bấm thẻ để lật xem nghĩa.`;
+    if (req.type === 'lesson') return `📚 Danh sách ${cat} ${n}:`;
     return '';
   }
 
@@ -289,10 +309,12 @@ class ChatbotService {
       }
 
       if (requestType.type === 'quiz') {
-        const count = requestType.category === 'vocabulary' ? 10 : 8;
+        if (requestType.category === 'grammar' && requestType.lessonFrom !== requestType.lessonTo) {
+          return { type: 'error', message: 'Quiz theo khoảng bài hiện hỗ trợ từ vựng. Quiz ngữ pháp vui lòng chọn một bài.' };
+        }
         return requestType.category === 'vocabulary'
-          ? learningService.generateVocabularyQuiz(requestType.lesson, count)
-          : learningService.generateGrammarQuiz(requestType.lesson, count);
+          ? learningService.generateVocabularyQuizRange(requestType.lessonFrom, requestType.lessonTo)
+          : learningService.generateGrammarQuiz(requestType.lesson, 8);
       }
 
       if (requestType.type === 'flashcard') {

@@ -1,6 +1,15 @@
 const { store } = require('./dataStore');
 
 class LearningService {
+  shuffle(items) {
+    const result = [...items];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  }
+
   /**
    * Get vocabulary list for a specific lesson
    */
@@ -58,52 +67,55 @@ class LearningService {
    * @param count - number of questions (default 10)
    */
   generateVocabularyQuiz(lesson, count = 10) {
-    const lessonKey = `Minna ${lesson}`;
-    const vocab = store.vocabulary.filter(v => v.lesson === lessonKey);
-    
-    if (vocab.length === 0) {
-      throw new Error(`Không tìm thấy từ vựng cho bài ${lesson}`);
+    return this.generateVocabularyQuizRange(lesson, lesson, count);
+  }
+
+  /** Generate a vocabulary quiz from one lesson or an inclusive lesson range. */
+  generateVocabularyQuizRange(lessonFrom, lessonTo = lessonFrom, count = null) {
+    const from = parseInt(lessonFrom, 10);
+    const to = parseInt(lessonTo, 10);
+    if (!Number.isInteger(from) || !Number.isInteger(to) || from < 1 || to > 25 || from > to) {
+      throw new Error('Khoảng bài phải hợp lệ và nằm trong Bài 1–25');
     }
-    
-    // Ensure count doesn't exceed available vocab
-    const actualCount = Math.min(count, vocab.length);
-    const questions = [];
-    const usedIndices = new Set();
 
-    for (let i = 0; i < actualCount; i++) {
-      let randomIdx;
-      do {
-        randomIdx = Math.floor(Math.random() * vocab.length);
-      } while (usedIndices.has(randomIdx));
-      usedIndices.add(randomIdx);
+    const vocab = store.vocabulary.filter((v) => {
+      const lesson = parseInt(String(v.lesson || '').replace(/^Minna\s*/i, ''), 10);
+      return lesson >= from && lesson <= to;
+    });
 
-      const correctWord = vocab[randomIdx];
-      const otherWords = vocab.filter((_, idx) => !usedIndices.has(idx)).slice(0, 3);
+    if (vocab.length === 0) {
+      throw new Error(from === to
+        ? `Không tìm thấy từ vựng cho bài ${from}`
+        : `Không tìm thấy từ vựng từ bài ${from} đến bài ${to}`);
+    }
 
-      const options = [
-        { id: 'a', text: correctWord.meaning },
-        ...otherWords.map((w, idx) => ({ 
-          id: String.fromCharCode(98 + idx), 
-          text: w.meaning 
-        }))
-      ];
+    // count=null means all vocabulary in the selected lesson range.
+    const requestedCount = count == null ? vocab.length : Math.max(parseInt(count, 10) || 0, 0);
+    const targets = this.shuffle(vocab).slice(0, Math.min(requestedCount, vocab.length));
+    const questions = targets.map((correctWord, index) => {
+      const distractors = this.shuffle(
+        vocab.filter((word) => word.id !== correctWord.id && word.meaning !== correctWord.meaning)
+      ).slice(0, 3);
+      const shuffledOptions = this.shuffle([correctWord, ...distractors]).map((word, optionIndex) => ({
+        id: String.fromCharCode(97 + optionIndex),
+        text: word.meaning
+      }));
+      const correctId = shuffledOptions.find((option) => option.text === correctWord.meaning).id;
 
-      // Shuffle options
-      const shuffledOptions = options.sort(() => Math.random() - 0.5);
-      const correctId = shuffledOptions.find(o => o.text === correctWord.meaning).id;
-
-      questions.push({
-        questionId: i + 1,
+      return {
+        questionId: index + 1,
         question: `${correctWord.word} (${correctWord.hiragana}) có nghĩa là gì?`,
         options: shuffledOptions,
         correctAnswer: correctId,
         romaji: correctWord.romaji
-      });
-    }
+      };
+    });
 
     return {
       type: 'vocabulary',
-      lesson,
+      lesson: from === to ? from : `${from}-${to}`,
+      lessonFrom: from,
+      lessonTo: to,
       totalQuestions: questions.length,
       questions
     };

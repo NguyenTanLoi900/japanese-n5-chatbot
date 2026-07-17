@@ -83,7 +83,10 @@ async function main() {
       const docs = batch.map((c, j) => ({
         ...c,
         embedding: vectors[j],
-        updatedAt: new Date().toISOString()
+        metadata: {
+          ...c.metadata,
+          updatedAt: new Date().toISOString()
+        }
       }));
 
       await col.insertMany(docs);

@@ -1,5 +1,23 @@
 const { store } = require('./dataStore');
 
+const DATASET_NAME = 'minna-no-nihongo-n5';
+const EMBEDDING_MODEL = process.env.OLLAMA_EMBED_MODEL || 'bge-m3';
+
+function buildMetadata(item) {
+  return {
+    schemaVersion: 1,
+    dataset: DATASET_NAME,
+    source: 'local-json',
+    sourceFile: item.sourceFile || null,
+    jlptLevel: item.jlpt_level || item.level || 'N5',
+    language: {
+      term: 'ja',
+      meaning: 'vi'
+    },
+    embeddingModel: EMBEDDING_MODEL
+  };
+}
+
 function parseVocabLesson(lessonStr) {
   if (!lessonStr) return null;
   const m = String(lessonStr).match(/(\d+)/);
@@ -38,12 +56,7 @@ function buildChunksFromStore() {
       pattern: g.pattern,
       explanation: g.explanation || g.meaning_vi || '',
       examples: (g.examples || []).map(ex => `${ex.jp} → ${ex.vi || ex.en || ''}`),
-      meta: {
-        pattern: g.pattern,
-        title: g.title,
-        jpn: g.jpn,
-        explanation: g.explanation
-      }
+      metadata: buildMetadata(g)
     });
   }
 
@@ -77,13 +90,7 @@ function buildChunksFromStore() {
       kanji: kanji,
       meaning: v.meaning || '',
       example: ex,
-      meta: {
-        word: v.word,
-        hiragana: v.hiragana,
-        romaji: v.romaji,
-        meaning: v.meaning,
-        pos: v.pos
-      }
+      metadata: buildMetadata(v)
     });
   }
 

@@ -15,7 +15,7 @@ function listLessonFiles(dirPath, prefix) {
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
 }
 
-function normalizeGrammarItem(item) {
+function normalizeGrammarItem(item, sourceFile) {
   const examples = Array.isArray(item.example)
     ? item.example.map((ex) => ({
         jp: ex.jp || '',
@@ -42,11 +42,12 @@ function normalizeGrammarItem(item) {
     keywords: item.keywords || [],
     jlpt_level: item.jlpt_level || item.level || 'N5',
     examples,
+    sourceFile,
     raw: item,
   };
 }
 
-function normalizeVocabItem(item) {
+function normalizeVocabItem(item, sourceFile) {
   const example = item.example
     ? {
         jp: item.example.jp || '',
@@ -66,6 +67,7 @@ function normalizeVocabItem(item) {
     pos: item.pos || item.partOfSpeech || '',
     level: item.level || item.jlpt_level || 'N5',
     example,
+    sourceFile,
     raw: item,
   };
 }
@@ -77,13 +79,13 @@ function loadAllData() {
   const grammarFiles = listLessonFiles(grammarDir, 'gram_lesson');
   const vocabFiles = listLessonFiles(vocabDir, 'vocab_lesson');
 
-  const grammar = grammarFiles
-    .flatMap((filePath) => safeReadJson(filePath))
-    .map(normalizeGrammarItem);
+  const grammar = grammarFiles.flatMap((filePath) =>
+    safeReadJson(filePath).map((item) => normalizeGrammarItem(item, path.basename(filePath)))
+  );
 
-  const vocabulary = vocabFiles
-    .flatMap((filePath) => safeReadJson(filePath))
-    .map(normalizeVocabItem);
+  const vocabulary = vocabFiles.flatMap((filePath) =>
+    safeReadJson(filePath).map((item) => normalizeVocabItem(item, path.basename(filePath)))
+  );
 
   return {
     grammar,
