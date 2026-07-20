@@ -196,6 +196,8 @@ class LearningService {
       totalCards: vocab.length,
       cards: vocab.map((v, idx) => ({
         cardId: idx + 1,
+        itemId: v.id || `vocabulary-${lesson}-${idx + 1}`,
+        lesson: parseInt(lesson, 10),
         front: {
           word: v.word,
           hiragana: v.hiragana,
@@ -226,6 +228,8 @@ class LearningService {
       totalCards: gram.length,
       cards: gram.map((g, idx) => ({
         cardId: idx + 1,
+        itemId: g.grammar_id || `grammar-${lesson}-${idx + 1}`,
+        lesson: parseInt(lesson, 10),
         front: {
           grammar: g.grammar,
           title: g.title

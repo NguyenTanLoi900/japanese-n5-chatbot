@@ -22,9 +22,9 @@ Khi người dùng hỏi về:
 Luôn luôn:
 1. Khuyến khích và hỗ trợ người học
 2. Sử dụng tiếng Nhật và tiếng Việt trong các phản hồi của bạn khi thích hợp
-3. Cung cấp giải thích rõ ràng với nhiều ví dụ
+3. Cung cấp giải thích rõ ràng, mặc định chỉ 1 ví dụ
 4. Hướng dẫn phát âm bằng hiragana, romaji hoặc kanji nếu cần
-5. Đặt các câu hỏi tiếp theo để giúp người học tốt hơn
+5. Không tự đặt câu hỏi tiếp theo nếu người dùng không yêu cầu
 6. Tập trung vào nội dung N5 (tiếng Nhật sơ cấp)
 7. Tham chiếu tài liệu bài học khi liên quan
 8. Mừng rỡ tiến bộ của người học
@@ -35,10 +35,13 @@ QUAN TRỌNG về ngữ cảnh bài học:
 - Nếu không chắc, hãy nói rõ và hỏi lại bài học.
 
 Định dạng phản hồi:
-- Bắt đầu với một giải thích ngắn gọn bằng tiếng Việt
-- Cung cấp ví dụ tiếng Nhật với hiragana/furigana
-- Bao gồm bản dịch tiếng Việt
-- Kết thúc bằng một lời khuyến khích hoặc câu hỏi
+- Mặc định trả lời ngắn trong 3-6 dòng
+- Đi thẳng vào đáp án, không mở đầu xã giao
+- Với từ vựng: từ, cách đọc, nghĩa và tối đa 1 ví dụ
+- Với ngữ pháp: cấu trúc, nghĩa và tối đa 1 ví dụ
+- Chỉ giải thích dài hoặc đưa nhiều ví dụ khi người dùng yêu cầu
+- Không lặp lại câu hỏi của người dùng và không thêm lời kết sáo rỗng
+- Chỉ trả văn bản thuần; không dùng ký hiệu Markdown để in đậm, tiêu đề, mã hoặc bảng
 
 Nếu câu hỏi có liên quan một bài cụ thể, hãy nhắc "Bài X" trong câu trả lời.
 `;
@@ -224,6 +227,15 @@ class ChatbotService {
     return m ? m[1] : null;
   }
 
+  cleanResponseText(text) {
+    return String(text || '')
+      .replace(/\*\*/g, '')
+      .replace(/^#{1,6}\s+/gm, '')
+      .replace(/`([^`]+)`/g, '$1')
+      .replace(/^\s*[-*]\s+/gm, '• ')
+      .trim();
+  }
+
   parseLessonRange(text) {
     const input = String(text || '');
     const range = input.match(/(?:bài|lesson)\s*(\d{1,2})\s*(?:đến|tới|-|–)\s*(?:(?:bài|lesson)\s*)?(\d{1,2})\b/i);
@@ -342,13 +354,44 @@ class ChatbotService {
     return conversationStore.create(title);
   }
 
+  buildConversationTitle(message, requestType = null) {
+    if (requestType && requestType.type !== 'need_lesson') {
+      const labels = {
+        quiz: 'Quiz',
+        flashcard: 'Flashcard',
+        lesson: 'Bài học'
+      };
+      const categories = {
+        vocabulary: 'từ vựng',
+        grammar: 'ngữ pháp'
+      };
+      const label = labels[requestType.type] || 'Học tiếng Nhật';
+      const category = categories[requestType.category] || '';
+      const lesson = requestType.lessonFrom && requestType.lessonTo && requestType.lessonFrom !== requestType.lessonTo
+        ? ` - Bài ${requestType.lessonFrom}–${requestType.lessonTo}`
+        : requestType.lesson ? ` - Bài ${requestType.lesson}` : '';
+      return `${label}${category ? ` ${category}` : ''}${lesson}`.slice(0, 80);
+    }
+
+    const cleaned = String(message || '')
+      .replace(/\s+/g, ' ')
+      .replace(/[?!.]+$/g, '')
+      .trim();
+    if (!cleaned) return 'Cuộc trò chuyện mới';
+    return cleaned.slice(0, 48) + (cleaned.length > 48 ? '…' : '');
+  }
+
   async chat(userMessage, conversationId = null) {
     const conv = await this.getOrCreateConversation(conversationId, userMessage);
     const convId = conv.id;
+    const isFirstUserMessage = !(conv.messages || []).some((message) => message.role === 'user');
 
     await conversationStore.addMessage(convId, { role: 'user', type: 'text', content: userMessage });
 
     const special = this.detectRequestType(userMessage, conv.messages);
+    if (isFirstUserMessage) {
+      await conversationStore.updateTitle(convId, this.buildConversationTitle(userMessage, special));
+    }
     if (special?.type === 'need_lesson') {
       const hint =
         special.intent === 'quiz'
@@ -398,7 +441,7 @@ class ChatbotService {
       ];
 
       const response = await this.model.generateContent({ contents });
-      const assistantMessage = response.response.text();
+      const assistantMessage = this.cleanResponseText(response.response.text());
 
       history.push(
         { role: 'user', parts: [{ text: userMessage }] },
@@ -414,16 +457,53 @@ class ChatbotService {
         lesson: lessonNum
       });
 
-      const fresh = await conversationStore.get(convId);
-      if (fresh && fresh.messages.filter((m) => m.role === 'user').length === 1) {
-        const title = userMessage.slice(0, 48) + (userMessage.length > 48 ? '…' : '');
-        await conversationStore.updateTitle(convId, title);
-      }
-
       return { type: 'text', text: assistantMessage, conversationId: convId };
     } catch (error) {
       throw new Error('Failed to generate response: ' + error.message);
     }
+  }
+
+  async chatWithImage(userMessage, image, conversationId = null) {
+    const prompt = String(userMessage || '').trim() ||
+      'Hãy đọc chữ tiếng Nhật trong ảnh, cho biết cách đọc, romaji, nghĩa tiếng Việt và giải thích ở trình độ N5.';
+    const conv = await this.getOrCreateConversation(conversationId, prompt);
+    const convId = conv.id;
+    const isFirstUserMessage = !(conv.messages || []).some((message) => message.role === 'user');
+
+    await conversationStore.addMessage(convId, {
+      role: 'user',
+      type: 'image',
+      content: prompt,
+      attachment: { mimeType: image.mimeType, name: image.name }
+    });
+    if (isFirstUserMessage) {
+      await conversationStore.updateTitle(convId, this.buildConversationTitle(`Hỏi ảnh: ${prompt}`));
+    }
+
+    const contents = [{
+      role: 'user',
+      parts: [
+        {
+          inlineData: {
+            mimeType: image.mimeType,
+            data: image.data
+          }
+        },
+        {
+          text: `${SYSTEM_PROMPT}\n\nYêu cầu về ảnh: ${prompt}\n
+Hãy chỉ mô tả nội dung nhìn thấy rõ. Nếu nhận ra chữ tiếng Nhật, trả cách đọc, romaji, nghĩa tiếng Việt và ví dụ N5. Nếu không chắc, nói rõ mức độ không chắc.`
+        }
+      ]
+    }];
+
+    const response = await this.model.generateContent({ contents });
+    const assistantMessage = this.cleanResponseText(response.response.text());
+    await conversationStore.addMessage(convId, {
+      role: 'assistant',
+      type: 'text',
+      content: assistantMessage
+    });
+    return { type: 'text', text: assistantMessage, conversationId: convId };
   }
 
   getGrammarExplanation(pattern) {

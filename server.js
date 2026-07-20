@@ -26,7 +26,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '8mb' }));
 const DEBUG_HTTP_LOG = process.env.DEBUG_HTTP_LOG === '1';
 
 app.use((req, res, next) => {
@@ -70,6 +70,37 @@ app.post('/api/chat', async (req, res) => {
       error: 'Lỗi máy chủ (Internal Server Error)', 
       details: error.message 
     });
+  }
+});
+
+app.post('/api/chat/image', async (req, res) => {
+  if (!process.env.GEMINI_API_KEY) {
+    return res.status(500).json({ error: 'Thiếu cấu hình GEMINI_API_KEY' });
+  }
+
+  try {
+    const { message, conversationId, image } = req.body || {};
+    const allowedTypes = new Set(['image/jpeg', 'image/png', 'image/webp']);
+    if (!image || !allowedTypes.has(image.mimeType) || typeof image.data !== 'string') {
+      return res.status(400).json({ error: 'Chỉ hỗ trợ ảnh JPEG, PNG hoặc WebP' });
+    }
+    if (!/^[A-Za-z0-9+/]+={0,2}$/.test(image.data)) {
+      return res.status(400).json({ error: 'Dữ liệu ảnh không hợp lệ' });
+    }
+    const byteLength = Buffer.byteLength(image.data, 'base64');
+    if (byteLength === 0 || byteLength > 5 * 1024 * 1024) {
+      return res.status(400).json({ error: 'Ảnh phải nhỏ hơn hoặc bằng 5 MB' });
+    }
+
+    const response = await chatbotService.chatWithImage(message, {
+      data: image.data,
+      mimeType: image.mimeType,
+      name: String(image.name || 'image').slice(0, 120)
+    }, conversationId || null);
+    res.json(response);
+  } catch (error) {
+    logError('IMAGE ERROR: ' + error.message);
+    res.status(500).json({ error: 'Không thể phân tích ảnh', details: error.message });
   }
 });
 
