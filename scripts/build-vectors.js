@@ -88,6 +88,7 @@ async function main() {
           updatedAt: new Date().toISOString()
         }
       }));
++
 
       await col.insertMany(docs);
       done += batch.length;

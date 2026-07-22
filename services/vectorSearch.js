@@ -57,8 +57,8 @@ async function search(query, options = {}) {
 
   const vector = await embedText(query);
   const raw = await runPythonSearch(vector, Math.min(topK * 3, 20));
-  let ids = raw.ids || [];
-
+  const ids = raw.ids || [];
+  const scoreById = new Map(ids.map((id, index) => [id, Number(raw.scores?.[index] ?? 0)]));
   let chunks = await fetchChunksByIds(ids);
 
   if (lesson != null) {
@@ -75,7 +75,37 @@ async function search(query, options = {}) {
     if (filtered.length) chunks = filtered;
   }
 
-  return { chunks, source: 'faiss+mongo', scores: raw.scores };
+  // Lightweight reranking: semantic similarity remains dominant, while exact
+  // query terms and requested metadata make lesson/type-specific answers stable.
+  const terms = String(query || '').toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
+  const uniqueTerms = [...new Set(terms.filter((term) => term.length > 1))];
+  const reranked = chunks.map((chunk) => {
+    const vectorScore = Math.max(0, Math.min(1, (scoreById.get(chunk.chunkId) + 1) / 2));
+    const haystack = String(chunk.text || '').toLowerCase();
+    const lexicalScore = uniqueTerms.length
+      ? uniqueTerms.filter((term) => haystack.includes(term)).length / uniqueTerms.length
+      : 0;
+    const lessonMatch = lesson != null && chunk.lesson === parseInt(lesson, 10) ? 1 : 0;
+    const typeMatch = type && chunk.type === type ? 1 : 0;
+    const bestScore = 0.70 * vectorScore + 0.20 * lexicalScore + 0.07 * lessonMatch + 0.03 * typeMatch;
+    return {
+      ...chunk,
+      retrieval: {
+        vectorScore: Number(vectorScore.toFixed(6)),
+        lexicalScore: Number(lexicalScore.toFixed(6)),
+        lessonMatch,
+        typeMatch,
+        bestScore: Number(bestScore.toFixed(6))
+      }
+    };
+  }).sort((a, b) => b.retrieval.bestScore - a.retrieval.bestScore).slice(0, topK);
+
+  return {
+    chunks: reranked,
+    source: 'faiss+mongo+weighted-rerank',
+    scores: reranked.map((chunk) => chunk.retrieval.bestScore),
+    bestScore: reranked[0]?.retrieval.bestScore ?? null
+  };
 }
 
 function formatChunksForRAG(chunks) {

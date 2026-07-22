@@ -30,6 +30,7 @@ app.use(express.json({ limit: '8mb' }));
 const DEBUG_HTTP_LOG = process.env.DEBUG_HTTP_LOG === '1';
 
 app.use((req, res, next) => {
+  const startedAt = Date.now();
   if (DEBUG_HTTP_LOG) {
     fs.appendFileSync(
       path.join(__dirname, 'all-requests.log'),
@@ -38,6 +39,10 @@ app.use((req, res, next) => {
   }
   if (req.url.startsWith('/api')) {
     process.stdout.write(`${req.method} ${req.url}\n`);
+    res.on('finish', () => {
+      const ok = res.statusCode >= 200 && res.statusCode < 400;
+      process.stdout.write(`[API ${ok ? 'OK' : 'FAIL'}] ${req.method} ${req.url} -> ${res.statusCode} (${Date.now() - startedAt} ms)\n`);
+    });
   }
   next();
 });

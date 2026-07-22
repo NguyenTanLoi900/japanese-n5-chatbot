@@ -516,6 +516,31 @@
         color: var(--text-main);
         outline: none;
         padding: 8px 0;
+        min-height: 40px;
+        max-height: 180px;
+        line-height: 1.45;
+        resize: vertical;
+      }
+
+      .voice-button {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        border-radius: 50%;
+        flex-shrink: 0;
+        background: transparent;
+        color: var(--primary);
+      }
+
+      .voice-button.listening {
+        color: white;
+        background: var(--danger);
+        border-color: var(--danger);
+        animation: voice-pulse 1.2s infinite;
+      }
+
+      @keyframes voice-pulse {
+        50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.16); }
       }
 
       #send {
@@ -1029,7 +1054,8 @@
             <div class="input-wrapper">
               <input id="file-input" type="file" accept="image/jpeg,image/png,image/webp" capture="environment" hidden />
               <button id="attach" type="button" class="attach-button" aria-label="Chọn hoặc chụp ảnh">📎</button>
-              <input id="input" placeholder='VD: "ngữ pháp bài 15", "quiz bài 1"...' autocomplete="off" />
+              <textarea id="input" rows="1" placeholder='VD: "ngữ pháp bài 15", "quiz bài 1"...' autocomplete="off" aria-label="Nội dung tin nhắn; kéo cạnh dưới để thay đổi chiều cao"></textarea>
+              <button id="voice" type="button" class="voice-button" aria-label="Nhập bằng giọng nói" title="Nhập bằng giọng nói">🎙️</button>
               <button id="send" aria-label="Gửi tin nhắn">➔</button>
             </div>
             <div class="hint">
@@ -1060,6 +1086,7 @@
       const log = document.getElementById('log');
       const input = document.getElementById('input');
       const sendBtn = document.getElementById('send');
+      const voiceBtn = document.getElementById('voice');
       const attachBtn = document.getElementById('attach');
       const fileInput = document.getElementById('file-input');
       const attachmentPreview = document.getElementById('attachment-preview');
@@ -1074,6 +1101,7 @@
 
       let conversationId = localStorage.getItem(STORAGE_KEY) || null;
       let selectedImage = null;
+      let speechRecognition = null;
       let widgetId = 0;
       const widgets = new Map();
 
@@ -1087,6 +1115,37 @@
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
       });
+
+      // Voice input uses the browser Web Speech API when available.
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (SpeechRecognition) {
+        speechRecognition = new SpeechRecognition();
+        speechRecognition.lang = 'vi-VN';
+        speechRecognition.interimResults = true;
+        speechRecognition.continuous = false;
+        speechRecognition.onstart = () => {
+          voiceBtn.classList.add('listening');
+          voiceBtn.textContent = '■';
+          voiceBtn.title = 'Dừng ghi âm';
+        };
+        speechRecognition.onresult = (event) => {
+          input.value = Array.from(event.results).map((result) => result[0].transcript).join('');
+        };
+        speechRecognition.onend = () => {
+          voiceBtn.classList.remove('listening');
+          voiceBtn.textContent = '🎙️';
+          voiceBtn.title = 'Nhập bằng giọng nói';
+          input.focus();
+        };
+        speechRecognition.onerror = (event) => addBotText('Không nhận được giọng nói: ' + event.error);
+        voiceBtn.addEventListener('click', () => {
+          if (voiceBtn.classList.contains('listening')) speechRecognition.stop();
+          else speechRecognition.start();
+        });
+      } else {
+        voiceBtn.disabled = true;
+        voiceBtn.title = 'Trình duyệt chưa hỗ trợ nhập bằng giọng nói';
+      }
 
       // Health Check button click event
       document.getElementById('btn-health-check').addEventListener('click', () => {
@@ -1631,7 +1690,9 @@
           } else {
             conv.messages.forEach(replayMessage);
           }
-          await loadConversationList();
+          const conversations = await loadConversationList();
+          const activeConversation = conversations.find((item) => item.id === conversationId);
+          if (activeConversation) chatTitleEl.textContent = activeConversation.title;
         } catch (e) {
           setConversationId(null);
           showWelcome();
@@ -1695,7 +1756,9 @@
           clearLog();
           chatTitleEl.textContent = conv.title || 'Cuộc trò chuyện mới';
           showWelcome();
-          await loadConversationList();
+          const conversations = await loadConversationList();
+          const activeConversation = conversations.find((item) => item.id === conversationId);
+          if (activeConversation) chatTitleEl.textContent = activeConversation.title;
           await loadSystemStatus();
         } catch (e) {
           setConversationId(null);
@@ -1741,7 +1804,9 @@
             }
           }
           handleResponse(data);
-          await loadConversationList();
+          const conversations = await loadConversationList();
+          const activeConversation = conversations.find((item) => item.id === conversationId);
+          if (activeConversation) chatTitleEl.textContent = activeConversation.title;
           await loadSystemStatus();
         } catch (e) {
           addBotText('Lỗi: ' + (e && e.message ? e.message : String(e)));
@@ -1753,7 +1818,12 @@
       }
 
       sendBtn.addEventListener('click', send);
-      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') send(); });
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          send();
+        }
+      });
 
       (async function init() {
         await loadSystemStatus();

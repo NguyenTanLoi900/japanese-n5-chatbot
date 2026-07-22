@@ -9,6 +9,7 @@
     "build:vectors": "node scripts/build-vectors.js",
     "build:vectors:resume": "node scripts/build-vectors.js --resume",
     "build:vectors:faiss": "node scripts/build-vectors.js --faiss-only",
+    "export:chunks": "node scripts/export-chunks.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
